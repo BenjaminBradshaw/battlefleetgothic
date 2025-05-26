@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="685b-88d9-54e8-6ef7" name="Battlefleet Heresy  Galaxy Aflame" gameSystemId="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" gameSystemRevision="46" revision="1" battleScribeVersion="2.03" publicationId="137d-dbad-5653-19f2" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication name="Battlefleet Heresy: Galaxy Aflame" id="177f-36f7-517e-af3f" hidden="false" shortName="BH:GA" publisher="Battlefleet Heresy: Galaxy Aflame 0.97.42" publicationDate="15/03/2025"/>
+  </publications>
+  <selectionEntries>
+    <selectionEntry type="model" import="true" name="Desolator Class Battleship" hidden="false" id="4dec-718b-ac42-e9a9" publicationId="11f0-17d1-e4d2-1018" page="118" collective="false">
+      <modifiers>
+        <modifier type="set-primary" value="9624-17a2-bfd7-6420" field="category">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="cdc1-e60c-6456-c57a" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Desolator Profile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="0c66-6e65-5426-ad75" publicationId="11f0-17d1-e4d2-1018" page="118">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Battleship</characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">12</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">25cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">45°</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">4</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Desolator Port Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="e415-3661-6dbc-d36d">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">4</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Desolator Starboard Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="3389-3a44-d71e-38a6">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">4</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Desolator Dorsal Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="c3c6-6d70-102a-d784">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left/Front/Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Desolator Prow Torpedos" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="76e6-5ea7-e786-377f">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">9</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Torpedoes" id="51dd-7494-f5d2-ad29" hidden="false" targetId="8103-25d2-5412-2542" type="rule"/>
+        <infoLink name="May not use the &quot;come to new heading&quot; special order" id="5d0c-8cad-32a7-02a4" hidden="false" targetId="b1a1-aead-ea5a-d8d3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Battleship" hidden="false" id="1e5e-64dc-6fc1-2070" targetId="4361706974616c20536869707323232344415441232323" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Leadership" hidden="false" id="117f-7e1e-2dec-fe1d" collective="false" targetId="72b9-2803-264f-57f0" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="310"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Dominus Class Battle Barge" hidden="false" id="23a8-f55d-b8a2-bd37" publicationId="177f-36f7-517e-af3f" page="91" collective="false">
+      <profiles>
+        <profile name="Dominus Class Battle Barge" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="8607-b1c8-f23c-40de" publicationId="177f-36f7-517e-af3f" page="91">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Battleship</characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">12</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">20cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">45°</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">4</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Port Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="ed06-0c1e-2687-7ba3">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Fury Fighters: 30cm Starhawk Bombers: 20cm Shark assault boats: 30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">3</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Starboard Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="90f5-5331-ca50-9c1b">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Fury Fighters: 30cm Starhawk Bombers: 20cm Shark assault boats: 30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">3</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Prow Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="a8d0-1de1-1b0c-dabc">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Fury Fighters: 30cm Starhawk Bombers: 20cm Shark assault boats: 30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Dorsal Lances" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="6f04-be5a-2abd-781b">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">3</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left/Front/Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Prow Lances" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="63d5-bfad-925f-f110">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">4</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="May not use the &quot;come to new heading&quot; special order" id="33dd-1a54-251d-4c5f" hidden="false" targetId="b1a1-aead-ea5a-d8d3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="598e-1ce0-5926-6f14" id="fb54-cf61-a744-ba9a" primary="true" name="Battle Barges"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Leadership" hidden="false" id="0291-b410-b150-3f4c" collective="false" targetId="72b9-2803-264f-57f0" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="395"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>

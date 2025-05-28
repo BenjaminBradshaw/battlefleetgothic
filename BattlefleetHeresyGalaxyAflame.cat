@@ -809,6 +809,13 @@ Starhawks: 20cm</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
           </characteristics>
         </profile>
+        <profile name="Starboard Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="0b13-62f1-e635-78cd">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">4</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
+          </characteristics>
+        </profile>
         <profile name="Port Launch Bay" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="0b96-dc6a-ecec-9b25">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Furies: 30cm 
@@ -852,13 +859,6 @@ Starhawks: 20cm</characteristic>
               </conditions>
             </modifier>
           </modifiers>
-        </profile>
-        <profile name="Starboard Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="0b13-62f1-e635-78cd">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">4</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
-          </characteristics>
         </profile>
         <profile name="Dorsal Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="cd4f-b026-d71a-0e16">
           <characteristics>
@@ -919,10 +919,10 @@ Starhawks: 20cm</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
           </characteristics>
         </profile>
-        <profile name="Starboard Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="28eb-d836-b284-3d5c">
+        <profile name="Starboard Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="1689-b315-6b7d-1c85">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">12</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
           </characteristics>
         </profile>
@@ -933,13 +933,6 @@ Starhawks: 20cm</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left/Front/Right</characteristic>
           </characteristics>
         </profile>
-        <profile name="Prow Torpedos" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="b198-3331-79c0-ef20">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">9</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Port Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="fbda-51bb-0b64-7770">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
@@ -947,11 +940,18 @@ Starhawks: 20cm</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
           </characteristics>
         </profile>
-        <profile name="Starboard Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="1689-b315-6b7d-1c85">
+        <profile name="Starboard Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="28eb-d836-b284-3d5c">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">12</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Prow Torpedos" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="b198-3331-79c0-ef20">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">9</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
           </characteristics>
         </profile>
         <profile name="Improved Thrusters" typeId="5a49-6569-78e9-a35c" typeName="Special Rule" hidden="false" id="638e-dc09-fa87-762f">

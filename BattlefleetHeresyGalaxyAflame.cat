@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="685b-88d9-54e8-6ef7" name="Battlefleet Heresy  Galaxy Aflame" gameSystemId="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" gameSystemRevision="46" revision="1" battleScribeVersion="2.03" publicationId="137d-dbad-5653-19f2" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="685b-88d9-54e8-6ef7" name="Battlefleet Heresy  Galaxy Aflame" gameSystemId="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" gameSystemRevision="46" revision="2" battleScribeVersion="2.03" publicationId="137d-dbad-5653-19f2" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication name="Battlefleet Heresy: Galaxy Aflame" id="177f-36f7-517e-af3f" hidden="false" shortName="BH:GA" publisher="Battlefleet Heresy: Galaxy Aflame 0.97.42" publicationDate="15/03/2025"/>
   </publications>
@@ -293,7 +293,7 @@ gunships cannot purchase this upgrade</characteristic>
             <characteristic name="Turrets" typeId="5.475727265747323e+33">5</characteristic>
           </characteristics>
         </profile>
-        <profile name="Oberon Port Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="37bd-7212-d77c-eda8">
+        <profile name="Port Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="37bd-7212-d77c-eda8">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Furies: 30cm Starhawks: 20cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2 Squadrons</characteristic>
@@ -312,7 +312,7 @@ gunships cannot purchase this upgrade</characteristic>
             </modifier>
           </modifiers>
         </profile>
-        <profile name="Oberon Starboard Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="70b2-5238-2201-ec01">
+        <profile name="Starboard Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="70b2-5238-2201-ec01">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Furies: 30cm Starhawks: 20cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2 Squadrons</characteristic>
@@ -331,42 +331,42 @@ gunships cannot purchase this upgrade</characteristic>
             </modifier>
           </modifiers>
         </profile>
-        <profile name="Oberon Port Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="d09c-7efd-bc9c-f9f5">
+        <profile name="Port Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="d09c-7efd-bc9c-f9f5">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35"/>
           </characteristics>
         </profile>
-        <profile name="Oberon Starboard Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="76fa-47c3-8560-967b">
+        <profile name="Starboard Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="76fa-47c3-8560-967b">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35"/>
           </characteristics>
         </profile>
-        <profile name="Oberon Port Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="6df7-15c1-9911-79d9">
+        <profile name="Port Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="6df7-15c1-9911-79d9">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35"/>
           </characteristics>
         </profile>
-        <profile name="Oberon Starboard Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="97f2-f822-cb4c-c0ce">
+        <profile name="Starboard Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="97f2-f822-cb4c-c0ce">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35"/>
           </characteristics>
         </profile>
-        <profile name="Oberon Dorsal Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="b7eb-5054-4d30-3aae">
+        <profile name="Dorsal Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="b7eb-5054-4d30-3aae">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">5</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35"/>
           </characteristics>
         </profile>
-        <profile name="Oberon Prow Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="6f42-3705-3806-20ed">
+        <profile name="Prow Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="6f42-3705-3806-20ed">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">5</characteristic>
@@ -462,7 +462,7 @@ gunships cannot purchase this upgrade</characteristic>
         <cost name="pts" typeId="points" value="350"/>
       </costs>
       <rules>
-        <rule name="Overloaded Power Relays:" id="a0ab-1059-736b-adc6" hidden="false" publicationId="177f-36f7-517e-af3f" page="70">
+        <rule name="Overloaded Power Relays" id="a0ab-1059-736b-adc6" hidden="false" publicationId="177f-36f7-517e-af3f" page="70">
           <description>The Apocalypse class battleship’s lance weapons are insufficiently powered for their capability; if an Apocalypse class battleship fires its lances farther than 30cm at any point during its turn, place a blast marker in contact with the rear arc of its base at the end of the shooting phase.</description>
         </rule>
       </rules>
@@ -487,35 +487,35 @@ gunships cannot purchase this upgrade</characteristic>
             </modifier>
           </modifiers>
         </profile>
-        <profile name="Emperor Port Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="91bd-5e61-9090-4625">
+        <profile name="Port Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="91bd-5e61-9090-4625">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
           </characteristics>
         </profile>
-        <profile name="Emperor Starboard Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="801d-2615-6bb4-79d1">
+        <profile name="Starboard Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="801d-2615-6bb4-79d1" noindex="false">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35"/>
           </characteristics>
         </profile>
-        <profile name="Emperor Dorsal Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="b6ed-c444-c5da-7595">
+        <profile name="Dorsal Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="b6ed-c444-c5da-7595">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">5</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
           </characteristics>
         </profile>
-        <profile name="Emperor Prow Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="c633-a59a-bae1-e085">
+        <profile name="Prow Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="c633-a59a-bae1-e085">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">5</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
           </characteristics>
         </profile>
-        <profile name="Emperor Port Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="a479-9b19-ded8-9c3e">
+        <profile name="Port Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="a479-9b19-ded8-9c3e">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Furies: 30cm
 Starhawks: 20cm</characteristic>
@@ -535,7 +535,7 @@ Starhawks: 20cm</characteristic>
             </modifier>
           </modifiers>
         </profile>
-        <profile name="Emperor Starboard Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="5a0c-f63d-0be1-d45f">
+        <profile name="Starboard Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="5a0c-f63d-0be1-d45f">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Furies: 30cm
 Starhawks: 20cm</characteristic>
@@ -604,21 +604,21 @@ Starhawks: 20cm</characteristic>
             <characteristic name="Turrets" typeId="5.475727265747323e+33">4</characteristic>
           </characteristics>
         </profile>
-        <profile name="Retribution Port Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="c406-a327-4a95-3a71">
+        <profile name="Port Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="c406-a327-4a95-3a71">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">12</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
           </characteristics>
         </profile>
-        <profile name="Retribution Starboard Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="a6a7-b523-1597-ea33">
+        <profile name="Starboard Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="a6a7-b523-1597-ea33">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">12</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
           </characteristics>
         </profile>
-        <profile name="Retribution Dorsal Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="68ee-fab3-81e4-2f20">
+        <profile name="Dorsal Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="68ee-fab3-81e4-2f20">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">3</characteristic>
@@ -674,7 +674,7 @@ Starhawks: 20cm</characteristic>
         <profile name="Dorsal Weapons battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="41ee-feab-7034-ef26">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">3</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35"/>
           </characteristics>
         </profile>
@@ -1106,7 +1106,7 @@ Shark assault boats: 30cm</characteristic>
         <profile name="Dorsal Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="5fbb-002f-a515-0d1d">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">9</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
           </characteristics>
         </profile>
@@ -1157,7 +1157,7 @@ Shark assault boats: 30cm</characteristic>
         <profile name="Port Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="74bd-474e-1eb9-58a7">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">12</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
           </characteristics>
         </profile>
@@ -1166,13 +1166,6 @@ Shark assault boats: 30cm</characteristic>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Dorsal Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="ec87-195f-4db1-cd5c">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left/Front/Right</characteristic>
           </characteristics>
         </profile>
         <profile name="Prow Torpedos" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="e47e-87c1-10d0-d5ca">
@@ -1191,8 +1184,8 @@ Shark assault boats: 30cm</characteristic>
         </profile>
         <profile name="Starboard Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="0a45-ac39-b52d-b3e9">
           <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">12</characteristic>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
           </characteristics>
         </profile>
@@ -1265,14 +1258,14 @@ Shark assault boats: 30cm</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
           </characteristics>
         </profile>
-        <profile name="Port Bombardment Cannon" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="1b8b-b97e-208b-7d45">
+        <profile name="Port Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="1b8b-b97e-208b-7d45">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">10</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
           </characteristics>
         </profile>
-        <profile name="Starboard Bombardment Cannon" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="0e03-babf-6373-996b">
+        <profile name="Starboard Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="0e03-babf-6373-996b">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">10</characteristic>
@@ -1315,7 +1308,7 @@ Shark assault boats: 30cm</characteristic>
         </profile>
         <profile name="Starboard Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="ff29-c28c-7b54-c7dd">
           <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
           </characteristics>
@@ -1343,7 +1336,7 @@ Shark assault boats: 30cm</characteristic>
         </profile>
         <profile name="Starboard Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="6d7e-f70a-08f9-cb2d">
           <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">12</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
           </characteristics>
@@ -1577,7 +1570,7 @@ Starhawks: 20cm</characteristic>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Adamanticlad Class Battleship" hidden="false" id="d270-2d08-4cca-443b" publicationId="177f-36f7-517e-af3f" page="85" collective="false">
       <profiles>
-        <profile name="AdamanticladProfile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="4a4f-dc24-a9fb-5fab" page="">
+        <profile name="AdamanticladProfile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="4a4f-dc24-a9fb-5fab">
           <characteristics>
             <characteristic name="Type" typeId="5.479706523232345e+27">Battleship</characteristic>
             <characteristic name="Hits" typeId="4.869747323232344e+27">15</characteristic>
@@ -1590,7 +1583,7 @@ Starhawks: 20cm</characteristic>
         </profile>
         <profile name="Starboard Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="0227-655c-7493-706b">
           <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">3</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
           </characteristics>
@@ -1616,13 +1609,6 @@ Starhawks: 20cm</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
           </characteristics>
         </profile>
-        <profile name="Starboard Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="8b80-5fc5-d0f7-af6f">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">12</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink name="Battleship" hidden="false" id="13a6-0e0f-fd42-6ccf" targetId="4361706974616c20536869707323232344415441232323" primary="true"/>
@@ -1635,13 +1621,13 @@ Starhawks: 20cm</characteristic>
       </costs>
       <rules>
         <rule name="Lumbering Behemoth:" id="dd65-6b28-3cd1-ada5" hidden="false">
-          <description> Adamanticlad class battleships are ponderous and cannot use Burn Retros or Come to New Heading special orders, and will only add +2D6cm to its speed while on All Ahead Full special orders.</description>
+          <description>Adamanticlad class battleships are ponderous and cannot use Burn Retros or Come to New Heading special orders, and will only add +2D6cm to its speed while on All Ahead Full special orders.</description>
         </rule>
         <rule name="Poor Maneuverability" id="96ac-496c-4347-7661" hidden="false">
           <description>An Adamanticlad class may turn up to 45° and only in every second movement phase</description>
         </rule>
         <rule name="Reinforced Hull" id="9964-7d91-28c2-8831" hidden="false">
-          <description> Adamanticlad class battleships have the Reinforced Hull refit, this has already been factored into their points
+          <description>Adamanticlad class battleships have the Reinforced Hull refit, this has already been factored into their points
 cost and movement speed</description>
         </rule>
       </rules>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" name="Battlefleet Gothic" revision="46" battleScribeVersion="2.03" authorName="BSData" authorContact="@BSData @Mont_Fox dndtonight.com" authorUrl="https://github.com/BSData/battlefleetgothic#battlefleet-gothic" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" name="Battlefleet Gothic" revision="47" battleScribeVersion="2.03" authorName="BSData" authorContact="@BSData @Mont_Fox dndtonight.com" authorUrl="https://github.com/BSData/battlefleetgothic#battlefleet-gothic" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <readme>Join us on the battlefleet gothic reddit to discuss more gothic.
 Bug report : https://tinyurl.com/gothicbug</readme>
   <publications>
@@ -125,6 +125,12 @@ The additional ships compendium cites it&apos;s sources so site those instead of
         </modifier>
       </modifiers>
     </categoryEntry>
+    <categoryEntry id="c3b1-2361-847c-65d0" name="Strike Cruiser" publicationId="177f-36f7-517e-af3f" hidden="false">
+      <comment>cruisers are cruisers and CV&apos;s to differentiate them from battle cruisers which are both cruisers and battlecruisers. They can&apos;t count for themselves</comment>
+      <infoLinks>
+        <infoLink id="2678-75f7-2702-4fe4" name="*DAMAGE" hidden="false" targetId="b75c-180f-abe0-73bd" type="profile"/>
+      </infoLinks>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="7529-da04-0225-31de" name="Unbound" publicationId="137d-dbad-5653-19f2" hidden="false">
@@ -147,9 +153,31 @@ The additional ships compendium cites it&apos;s sources so site those instead of
     </forceEntry>
     <forceEntry id="bce4-8c26-7bca-e8a6" name="Expeditionary Fleet" publicationId="137d-dbad-5653-19f2" hidden="false">
       <categoryLinks>
-        <categoryLink id="1e7e-3379-a688-3338" name="Heavy Cruiser" hidden="false" targetId="cf79-82ee-ebe9-7ea3" primary="false"/>
-        <categoryLink id="9632-a335-61c7-124d" name="Battleship" hidden="false" targetId="4361706974616c20536869707323232344415441232323" primary="false"/>
-        <categoryLink id="c5a1-a3a5-c79a-6e4a" name="Cruiser" hidden="false" targetId="1042-e458-4e02-a537" primary="false"/>
+        <categoryLink id="1e7e-3379-a688-3338" name="Heavy Cruiser" hidden="false" targetId="cf79-82ee-ebe9-7ea3" primary="false">
+          <constraints>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="0a5a-7c78-d250-93fa"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="0a5a-7c78-d250-93fa">
+              <conditions>
+                <condition type="atLeast" value="2" field="selections" scope="force" childId="1042-e458-4e02-a537" shared="true" includeChildSelections="false"/>
+              </conditions>
+              <repeats>
+                <repeat value="2" repeats="1" field="selections" scope="force" childId="1042-e458-4e02-a537" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink id="9632-a335-61c7-124d" name="Battleship" hidden="false" targetId="4361706974616c20536869707323232344415441232323" primary="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec6e-ffeb-c9af-7828"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="c5a1-a3a5-c79a-6e4a" name="Cruiser" hidden="false" targetId="1042-e458-4e02-a537" primary="false">
+          <constraints>
+            <constraint type="max" value="12" field="selections" scope="parent" shared="true" id="769f-76f3-7240-5ef8"/>
+          </constraints>
+        </categoryLink>
         <categoryLink id="4abe-d903-1fc4-4963" name="Escort" hidden="false" targetId="4573636f72747323232344415441232323" primary="false"/>
         <categoryLink id="37ee-1f0e-18c6-94e4" name="Fleet Commander" hidden="false" targetId="466c65657420436f6d6d616e6465727323232344415441232323" primary="false">
           <constraints>
@@ -162,6 +190,11 @@ The additional ships compendium cites it&apos;s sources so site those instead of
         <categoryLink id="c124-8e33-253d-a43a" name="Special" hidden="false" targetId="5370656369616c23232344415441232323" primary="false"/>
         <categoryLink id="a039-196c-1735-c347" name="Reserves" hidden="false" targetId="9624-17a2-bfd7-6420" primary="false"/>
         <categoryLink name="Battle Barges" hidden="false" id="5dbd-056d-789f-4999" publicationId="177f-36f7-517e-af3f" targetId="598e-1ce0-5926-6f14"/>
+        <categoryLink name="Strike Cruiser" hidden="false" id="8fb3-a6f8-c6be-ed5b" targetId="c3b1-2361-847c-65d0" type="categoryEntry">
+          <constraints>
+            <constraint type="max" value="12" field="selections" scope="force" shared="true" id="d6c5-b8f5-845a-1b16" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
   </forceEntries>

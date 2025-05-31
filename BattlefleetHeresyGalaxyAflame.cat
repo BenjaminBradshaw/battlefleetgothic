@@ -279,6 +279,9 @@ gunships cannot purchase this upgrade</characteristic>
       <costs>
         <cost name="pts" typeId="points" value="395"/>
       </costs>
+      <rules>
+        <rule name="Astartes Only" id="bf50-590b-b7a0-4b49" hidden="false"/>
+      </rules>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Oberon Class Battleship" hidden="false" id="bb0e-1ef2-6da0-12d3" publicationId="177f-36f7-517e-af3f" page="69" collective="false">
       <profiles>
@@ -1630,6 +1633,505 @@ Starhawks: 20cm</characteristic>
           <description>Adamanticlad class battleships have the Reinforced Hull refit, this has already been factored into their points
 cost and movement speed</description>
         </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Consul Class Battle Barge" hidden="false" id="0ce1-8c79-9012-b872" publicationId="177f-36f7-517e-af3f" page="88" collective="false">
+      <profiles>
+        <profile name="Consul Class Battle Barge" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="e39e-a0ab-77aa-2411" publicationId="177f-36f7-517e-af3f" page="87">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Battleship</characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">12</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">20cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">45°</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">3</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">6+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Dorsal Bombardment Cannon" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="cf56-a5bf-1708-6dab">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">8</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left/Front/Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Prow Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="cb05-0ccb-94e8-8560">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Thunderhawks: 20cm </characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">3</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Prow Torpedo Tubes" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="a989-4716-037c-968f">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Port Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="7c4d-9802-09db-0ccc">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">12</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Starboard Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="0778-e0d4-3aa0-2c2c">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">12</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="May not use the &quot;come to new heading&quot; special order" id="99a2-39a1-fc3d-32d2" hidden="false" targetId="b1a1-aead-ea5a-d8d3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="598e-1ce0-5926-6f14" id="52fa-84fe-310f-5d8e" primary="true" name="Battle Barges"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Torpedo options" id="7950-ca8e-a562-a8b5" hidden="false" publicationId="177f-36f7-517e-af3f" page="91" defaultSelectionEntryId="12a3-98c3-8c68-9ae7">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Boarding Torpedoes" hidden="false" id="07c5-e963-644f-844e">
+              <profiles>
+                <profile name="Boarding Torpedoes" typeId="5a49-6569-78e9-a35c" typeName="Special Rule" hidden="false" id="0794-5eb2-7b69-089c" publicationId="11f0-17d1-e4d2-1018" page="28">
+                  <characteristics>
+                    <characteristic name="Effects" typeId="fe13-6bab-c5cb-4f1d">These torpedoes are manned, so they can turn up to 45° at the start of the ordnance phase. They cannot turn 45° in the turn they have launched. They may elect to ignore hulks but must attack the first enemy ship they contact.
+Boarding torpedoes attack if they come into contact with an enemy ship&apos;s base. COnduct a Hit-and-run raid against the ship immediately.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Short burn Torpedoes" hidden="false" id="035a-75b5-9869-c48b">
+              <costs>
+                <cost name="pts" typeId="points" value="5"/>
+              </costs>
+              <profiles>
+                <profile name="Short Burn Torpedoes" typeId="5a49-6569-78e9-a35c" typeName="Special Rule" hidden="false" id="1f38-4598-6c56-a3ca" publicationId="1bc8-5968-21c3-0f27" page="157">
+                  <characteristics>
+                    <characteristic name="Effects" typeId="fe13-6bab-c5cb-4f1d">Short burn torpedoes have an increased speed of 40cm. However, to represent the chance of them burning out, roll a D6 for each salvo of short burn torpedoes after they have moved and made any attacks – on a roll of 6 the torpedoes run out of fuel and are replaced with a blast marker.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Barrage bomb" hidden="false" id="d4a3-6329-4413-3c38">
+              <costs>
+                <cost name="pts" typeId="points" value="10"/>
+              </costs>
+              <profiles>
+                <profile name="Barrage Bombs" typeId="5a49-6569-78e9-a35c" typeName="Special Rule" hidden="false" id="55bb-3abb-b75c-5273" publicationId="1bc8-5968-21c3-0f27" page="157">
+                  <characteristics>
+                    <characteristic name="Effects" typeId="fe13-6bab-c5cb-4f1d">Barrage bombs can be launched while a ship is in low orbit, where they will move just like ordinary torpedoes in deep space (they are unaffected by the gravitic pull of the planet). Barrage bombs may also be launched in space, like ordinary torpedoes. Each salvo of  arrage bombs which strikes a planet during a planetary assault scenario earns 1 assault point if it is strength 6 or less, 2 assault points if it is strength 7 or greater. Barrage bombs which attack ships do not ignore shields like other ordnance; instead they knock down shields and place blast markers for hits just like a direct fire attack (which can be pretty useful in its own right)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="55ab-2f08-d010-91d2" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ebd0-6c8d-acc8-92d4" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Leadership" hidden="false" id="1ebf-0d93-7e5f-4c26" collective="false" targetId="72b9-2803-264f-57f0" type="selectionEntryGroup" sortIndex="1"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="410"/>
+      </costs>
+      <rules>
+        <rule name="Astartes Only" id="1447-0259-2b1b-df7d" hidden="false"/>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Basileus Class Battle Barge" hidden="false" id="e577-dc90-d68f-29c4" publicationId="177f-36f7-517e-af3f" page="90" collective="false">
+      <profiles>
+        <profile name="Basileus Class Battle Barge" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="9e70-7b3a-36cf-35e0" publicationId="177f-36f7-517e-af3f" page="90">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Battleship</characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">12</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">20cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">45°</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">4</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Dorsal Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="2a22-b717-f479-f416">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">4</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left/Front/Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Port Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="bbe5-8fa6-31b9-c7e7">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Fury Fighters: 30cm Starhawk Bombers: 20cm Shark assault boats: 30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">-</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="append" value="Marauder torpedo bombers (Speed: 20cm) " field="52616e67652f537065656423232344415441232323" join="
+">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="87ba-093c-9258-a1a4" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Port Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="f580-bb03-5176-53ba">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">10</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Starboard Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="527d-9dbb-db2f-31b7">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Fury Fighters: 30cm Starhawk Bombers: 20cm Shark assault boats: 30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">-</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="append" value="Marauder torpedo bombers (Speed: 20cm) " field="52616e67652f537065656423232344415441232323" join="
+">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="87ba-093c-9258-a1a4" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Starboard Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="b823-7c54-7089-c101">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">10</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Prow Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="904e-8b00-2315-f58e">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Fury Fighters: 30cm Starhawk Bombers: 20cm Shark assault boats: 30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">4</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">-</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="append" value="Marauder torpedo bombers (Speed: 20cm) " field="52616e67652f537065656423232344415441232323" join="
+">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="87ba-093c-9258-a1a4" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2" field="46697265706f7765722f53747223232344415441232323">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="5688-a854-5a28-8fa6" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Prow Torpedo Tubes" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="true" id="7149-c89b-4cb1-4035">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">9</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="5688-a854-5a28-8fa6" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="May not use the &quot;come to new heading&quot; special order" id="fa2f-f19e-5390-2324" hidden="false" targetId="b1a1-aead-ea5a-d8d3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="598e-1ce0-5926-6f14" id="91df-371a-550a-8d7b" primary="true" name="Battle Barges"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Attack Craft" id="9d30-1e42-998f-66b5" hidden="false" defaultSelectionEntryId="none">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Special Attack Craft" hidden="false" id="87ba-093c-9258-a1a4" defaultAmount="0">
+              <profiles>
+                <profile name="Special Attack Craft" typeId="5.570677261646523e+33" typeName="Upgrade" hidden="false" id="927c-f70d-fbb2-bf1b">
+                  <characteristics>
+                    <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Marauder torpedo bombers (Speed: 20cm), Dominus class battle barges that take Thunderhawk
+gunships cannot purchase this upgrade</characteristic>
+                    <characteristic name="Pg." typeId="50672e23232344415441232323"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="20"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons Refit" id="e693-2e22-38a6-65fa" hidden="false" defaultSelectionEntryId="none">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="prow torpedo salvo  (Speed: 30cm, Strength 9, Front)" hidden="false" id="5688-a854-5a28-8fa6">
+              <costs>
+                <cost name="pts" typeId="points" value="10"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a15-3008-ad29-3c2d"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Leadership" hidden="false" id="b63d-7ba6-537b-33f6" collective="false" targetId="72b9-2803-264f-57f0" type="selectionEntryGroup" sortIndex="1"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="395"/>
+      </costs>
+      <rules>
+        <rule name="Astartes Only" id="ef29-2956-94c4-80ed" hidden="false"/>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Legate Class Battle Barge" hidden="false" id="cf48-f62e-a4c0-e1a5" publicationId="177f-36f7-517e-af3f" page="87" collective="false">
+      <profiles>
+        <profile name="Legate Class Battle Barge" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="2e10-0e1e-1ce7-df79" publicationId="177f-36f7-517e-af3f" page="87">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Battleship</characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">12</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">20cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">45°</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">3</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">6+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Dorsal Bombardment Cannon" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="ff38-5f75-daba-4afe">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">10</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left/Front/Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Prow Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="c627-bc34-a2fd-0c86">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Fury Fighters: 30cm Starhawk Bombers: 20cm Shark assault boats: 30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">3</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">-</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="append" value="Marauder torpedo bombers (Speed: 20cm) " field="52616e67652f537065656423232344415441232323" join="
+">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="87ba-093c-9258-a1a4" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Prow Torpedo Tubes" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="2a19-ae3d-f243-b121">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Port Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="9ef3-7a91-4215-18ad">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">16</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Starboard Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="c898-c5d7-a66c-c54f">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">16</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="May not use the &quot;come to new heading&quot; special order" id="11e2-d6a6-b2ee-a3c5" hidden="false" targetId="b1a1-aead-ea5a-d8d3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="598e-1ce0-5926-6f14" id="7977-452e-dae0-6ff5" primary="true" name="Battle Barges"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Torpedo options" id="0b61-f7fb-8ee8-eb57" hidden="false" publicationId="177f-36f7-517e-af3f" page="91" defaultSelectionEntryId="12a3-98c3-8c68-9ae7">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Boarding Torpedoes" hidden="false" id="ccb0-7d16-133f-c89d">
+              <profiles>
+                <profile name="Boarding Torpedoes" typeId="5a49-6569-78e9-a35c" typeName="Special Rule" hidden="false" id="1412-eeee-a9da-ba02" publicationId="11f0-17d1-e4d2-1018" page="28">
+                  <characteristics>
+                    <characteristic name="Effects" typeId="fe13-6bab-c5cb-4f1d">These torpedoes are manned, so they can turn up to 45° at the start of the ordnance phase. They cannot turn 45° in the turn they have launched. They may elect to ignore hulks but must attack the first enemy ship they contact.
+Boarding torpedoes attack if they come into contact with an enemy ship&apos;s base. COnduct a Hit-and-run raid against the ship immediately.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Short burn Torpedoes" hidden="false" id="6241-49ef-1af9-d110">
+              <costs>
+                <cost name="pts" typeId="points" value="5"/>
+              </costs>
+              <profiles>
+                <profile name="Short Burn Torpedoes" typeId="5a49-6569-78e9-a35c" typeName="Special Rule" hidden="false" id="f948-1318-8779-c05a" publicationId="1bc8-5968-21c3-0f27" page="157">
+                  <characteristics>
+                    <characteristic name="Effects" typeId="fe13-6bab-c5cb-4f1d">Short burn torpedoes have an increased speed of 40cm. However, to represent the chance of them burning out, roll a D6 for each salvo of short burn torpedoes after they have moved and made any attacks – on a roll of 6 the torpedoes run out of fuel and are replaced with a blast marker.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Barrage bomb" hidden="false" id="217e-c434-cbd2-76de">
+              <costs>
+                <cost name="pts" typeId="points" value="10"/>
+              </costs>
+              <profiles>
+                <profile name="Barrage Bombs" typeId="5a49-6569-78e9-a35c" typeName="Special Rule" hidden="false" id="4a6f-c57a-eb9e-f860" publicationId="1bc8-5968-21c3-0f27" page="157">
+                  <characteristics>
+                    <characteristic name="Effects" typeId="fe13-6bab-c5cb-4f1d">Barrage bombs can be launched while a ship is in low orbit, where they will move just like ordinary torpedoes in deep space (they are unaffected by the gravitic pull of the planet). Barrage bombs may also be launched in space, like ordinary torpedoes. Each salvo of  arrage bombs which strikes a planet during a planetary assault scenario earns 1 assault point if it is strength 6 or less, 2 assault points if it is strength 7 or greater. Barrage bombs which attack ships do not ignore shields like other ordnance; instead they knock down shields and place blast markers for hits just like a direct fire attack (which can be pretty useful in its own right)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="26ec-0e87-b8d7-5f5b" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6cd8-898f-c6d6-e0c4" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Attack Craft" id="dbab-ac15-8708-ad06" hidden="false" defaultSelectionEntryId="none">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Special Attack Craft" hidden="false" id="f004-b634-42c0-7781" defaultAmount="0">
+              <profiles>
+                <profile name="Special Attack Craft" typeId="5.570677261646523e+33" typeName="Upgrade" hidden="false" id="6f6f-74d5-e7b2-812d">
+                  <characteristics>
+                    <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Marauder torpedo bombers (Speed: 20cm), Dominus class battle barges that take Thunderhawk
+gunships cannot purchase this upgrade</characteristic>
+                    <characteristic name="Pg." typeId="50672e23232344415441232323"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="15"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Leadership" hidden="false" id="fea6-521f-5715-dcb4" collective="false" targetId="72b9-2803-264f-57f0" type="selectionEntryGroup" sortIndex="1"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="440"/>
+      </costs>
+      <rules>
+        <rule name="Astartes Only" id="e7a2-f821-70b3-349d" hidden="false"/>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Warspite Class Battle Barge" hidden="false" id="ba24-a0da-76fa-5a66" publicationId="177f-36f7-517e-af3f" page="89" collective="false">
+      <profiles>
+        <profile name="Warspite Class Battle Barge" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="4c5a-d14b-e79e-4cfa" publicationId="177f-36f7-517e-af3f" page="89">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Battleship</characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">12</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">20cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">45°</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">3</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">6+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Dorsal Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="89a2-2f9c-e2a6-118c">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">10</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left/Front/Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Port Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="0bc6-903a-18b3-bac2">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Fury Fighters: 30cm Starhawk Bombers: 20cm Shark assault boats: 30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">-</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="append" value="Marauder torpedo bombers (Speed: 20cm) " field="52616e67652f537065656423232344415441232323" join="
+">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="7937-e8f0-b165-818d" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Prow Torpedo Tubes" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="8b79-3906-00ef-bfba">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">9</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Port Bombardment Cannon" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="2471-1c79-6e35-d997">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Starboard Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="9d25-0f74-554a-77da">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Fury Fighters: 30cm Starhawk Bombers: 20cm Shark assault boats: 30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">-</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="append" value="Marauder torpedo bombers (Speed: 20cm) " field="52616e67652f537065656423232344415441232323" join="
+">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="7937-e8f0-b165-818d" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Starboard Bombardment Cannon" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="be97-d088-0e23-d03d">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="May not use the &quot;come to new heading&quot; special order" id="db76-b9b5-2618-9e7c" hidden="false" targetId="b1a1-aead-ea5a-d8d3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="598e-1ce0-5926-6f14" id="09e1-c726-4b91-eb1c" primary="true" name="Battle Barges"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Attack Craft" id="e95e-797a-1d0e-62c4" hidden="false" defaultSelectionEntryId="none">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Special Attack Craft" hidden="false" id="7937-e8f0-b165-818d" defaultAmount="0">
+              <profiles>
+                <profile name="Special Attack Craft" typeId="5.570677261646523e+33" typeName="Upgrade" hidden="false" id="b879-63d1-f908-b7a0">
+                  <characteristics>
+                    <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Marauder torpedo bombers (Speed: 20cm), Dominus class battle barges that take Thunderhawk
+gunships cannot purchase this upgrade</characteristic>
+                    <characteristic name="Pg." typeId="50672e23232344415441232323"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="20"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Leadership" hidden="false" id="4216-0dca-1729-725b" collective="false" targetId="72b9-2803-264f-57f0" type="selectionEntryGroup" sortIndex="1"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="415"/>
+      </costs>
+      <rules>
+        <rule name="Astartes Only" id="9c45-f3b2-2c84-7f0d" hidden="false"/>
       </rules>
     </selectionEntry>
   </selectionEntries>

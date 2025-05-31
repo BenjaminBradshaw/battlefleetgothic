@@ -78,6 +78,13 @@
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">3</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">-</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="append" value="Torpedo Bomber: 20cm (STR 2)" field="52616e67652f537065656423232344415441232323">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="23a8-f55d-b8a2-bd37" childId="9b96-46ac-919a-eed9" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
         <profile name="Starboard Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="90f5-5331-ca50-9c1b">
           <characteristics>
@@ -85,6 +92,13 @@
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">3</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">-</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="append" value="Torpedo Bomber: 20cm (STR 2)" field="52616e67652f537065656423232344415441232323">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="23a8-f55d-b8a2-bd37" childId="9b96-46ac-919a-eed9" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
         <profile name="Dorsal Lances" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="6f04-be5a-2abd-781b">
           <characteristics>
@@ -99,6 +113,13 @@
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">-</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="append" value="Torpedo Bomber: 20cm (STR 2)" field="52616e67652f537065656423232344415441232323">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="23a8-f55d-b8a2-bd37" childId="9b96-46ac-919a-eed9" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <infoLinks>
@@ -227,12 +248,12 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9516-ad14-69b5-a72d" includeChildSelections="false"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Range 30cm, Firepower 4 " hidden="false" id="1217-5191-4493-cd4a">
+            <selectionEntry type="upgrade" import="true" name="Range 60cm, Firepower 3" hidden="false" id="1217-5191-4493-cd4a">
               <profiles>
                 <profile name="Dorsal Lance Range 30cm, Firepower 4 " typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="5d6e-6bdc-37e6-32c7">
                   <characteristics>
-                    <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
-                    <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">4</characteristic>
+                    <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
+                    <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">3</characteristic>
                     <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
                   </characteristics>
                 </profile>
@@ -269,6 +290,9 @@ gunships cannot purchase this upgrade</characteristic>
               <costs>
                 <cost name="pts" typeId="points" value="40"/>
               </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a7fe-1beb-b5c5-9a06" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1657,7 +1681,7 @@ cost and movement speed</description>
         </profile>
         <profile name="Prow Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="cb05-0ccb-94e8-8560">
           <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Thunderhawks: 20cm </characteristic>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Thunderhawks: 20cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">3</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">-</characteristic>
           </characteristics>
@@ -1691,7 +1715,7 @@ cost and movement speed</description>
         <categoryLink targetId="598e-1ce0-5926-6f14" id="52fa-84fe-310f-5d8e" primary="true" name="Battle Barges"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Torpedo options" id="7950-ca8e-a562-a8b5" hidden="false" publicationId="177f-36f7-517e-af3f" page="91" defaultSelectionEntryId="12a3-98c3-8c68-9ae7">
+        <selectionEntryGroup name="Torpedo options" id="7950-ca8e-a562-a8b5" hidden="false" publicationId="177f-36f7-517e-af3f" page="91" defaultSelectionEntryId="07c5-e963-644f-844e">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Boarding Torpedoes" hidden="false" id="07c5-e963-644f-844e">
               <profiles>
@@ -1774,7 +1798,7 @@ Boarding torpedoes attack if they come into contact with an enemy ship&apos;s ba
             <modifier type="append" value="Marauder torpedo bombers (Speed: 20cm) " field="52616e67652f537065656423232344415441232323" join="
 ">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="87ba-093c-9258-a1a4" shared="true" includeChildSelections="false"/>
+                <condition type="atLeast" value="1" field="selections" scope="e577-dc90-d68f-29c4" childId="87ba-093c-9258-a1a4" shared="true" includeChildSelections="false"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1796,7 +1820,7 @@ Boarding torpedoes attack if they come into contact with an enemy ship&apos;s ba
             <modifier type="append" value="Marauder torpedo bombers (Speed: 20cm) " field="52616e67652f537065656423232344415441232323" join="
 ">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="87ba-093c-9258-a1a4" shared="true" includeChildSelections="false"/>
+                <condition type="atLeast" value="1" field="selections" scope="e577-dc90-d68f-29c4" childId="87ba-093c-9258-a1a4" shared="true" includeChildSelections="false"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1837,7 +1861,7 @@ Boarding torpedoes attack if they come into contact with an enemy ship&apos;s ba
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="5688-a854-5a28-8fa6" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="e577-dc90-d68f-29c4" childId="5688-a854-5a28-8fa6" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1867,6 +1891,9 @@ gunships cannot purchase this upgrade</characteristic>
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1009-3058-55b1-9fc6" includeChildSelections="false"/>
+          </constraints>
         </selectionEntryGroup>
         <selectionEntryGroup name="Weapons Refit" id="e693-2e22-38a6-65fa" hidden="false" defaultSelectionEntryId="none">
           <selectionEntries>
@@ -1921,7 +1948,7 @@ gunships cannot purchase this upgrade</characteristic>
             <modifier type="append" value="Marauder torpedo bombers (Speed: 20cm) " field="52616e67652f537065656423232344415441232323" join="
 ">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="87ba-093c-9258-a1a4" shared="true" includeChildSelections="false"/>
+                <condition type="instanceOf" value="1" field="selections" scope="cf48-f62e-a4c0-e1a5" childId="f004-b634-42c0-7781" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1955,7 +1982,7 @@ gunships cannot purchase this upgrade</characteristic>
         <categoryLink targetId="598e-1ce0-5926-6f14" id="7977-452e-dae0-6ff5" primary="true" name="Battle Barges"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Torpedo options" id="0b61-f7fb-8ee8-eb57" hidden="false" publicationId="177f-36f7-517e-af3f" page="91" defaultSelectionEntryId="12a3-98c3-8c68-9ae7">
+        <selectionEntryGroup name="Torpedo options" id="0b61-f7fb-8ee8-eb57" hidden="false" publicationId="177f-36f7-517e-af3f" page="91" defaultSelectionEntryId="ccb0-7d16-133f-c89d">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Boarding Torpedoes" hidden="false" id="ccb0-7d16-133f-c89d">
               <profiles>
@@ -2003,7 +2030,7 @@ Boarding torpedoes attack if they come into contact with an enemy ship&apos;s ba
               <profiles>
                 <profile name="Special Attack Craft" typeId="5.570677261646523e+33" typeName="Upgrade" hidden="false" id="6f6f-74d5-e7b2-812d">
                   <characteristics>
-                    <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Marauder torpedo bombers (Speed: 20cm), Dominus class battle barges that take Thunderhawk
+                    <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Marauder torpedo bombers (Speed: 20cm), battle barges that take Thunderhawk
 gunships cannot purchase this upgrade</characteristic>
                     <characteristic name="Pg." typeId="50672e23232344415441232323"/>
                   </characteristics>
@@ -2014,6 +2041,9 @@ gunships cannot purchase this upgrade</characteristic>
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="45d8-5f6d-c87e-f4db" includeChildSelections="false"/>
+          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -2056,7 +2086,7 @@ gunships cannot purchase this upgrade</characteristic>
             <modifier type="append" value="Marauder torpedo bombers (Speed: 20cm) " field="52616e67652f537065656423232344415441232323" join="
 ">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="7937-e8f0-b165-818d" shared="true" includeChildSelections="false"/>
+                <condition type="atLeast" value="1" field="selections" scope="ba24-a0da-76fa-5a66" childId="7937-e8f0-b165-818d" shared="true" includeChildSelections="false"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2085,7 +2115,7 @@ gunships cannot purchase this upgrade</characteristic>
             <modifier type="append" value="Marauder torpedo bombers (Speed: 20cm) " field="52616e67652f537065656423232344415441232323" join="
 ">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="7937-e8f0-b165-818d" shared="true" includeChildSelections="false"/>
+                <condition type="atLeast" value="1" field="selections" scope="ba24-a0da-76fa-5a66" childId="7937-e8f0-b165-818d" shared="true" includeChildSelections="false"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2122,6 +2152,9 @@ gunships cannot purchase this upgrade</characteristic>
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9971-469c-65a3-8614" includeChildSelections="false"/>
+          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>

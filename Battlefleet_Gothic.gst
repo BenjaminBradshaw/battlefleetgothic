@@ -190,7 +190,7 @@ The additional ships compendium cites it&apos;s sources so site those instead of
         <categoryLink id="c124-8e33-253d-a43a" name="Special" hidden="false" targetId="5370656369616c23232344415441232323" primary="false"/>
         <categoryLink id="a039-196c-1735-c347" name="Reserves" hidden="false" targetId="9624-17a2-bfd7-6420" primary="false"/>
         <categoryLink name="Battle Barges" hidden="false" id="5dbd-056d-789f-4999" publicationId="177f-36f7-517e-af3f" targetId="598e-1ce0-5926-6f14"/>
-        <categoryLink name="Strike Cruiser" hidden="false" id="8fb3-a6f8-c6be-ed5b" targetId="c3b1-2361-847c-65d0" type="categoryEntry">
+        <categoryLink name="Strike Cruiser" hidden="false" id="8fb3-a6f8-c6be-ed5b" targetId="c3b1-2361-847c-65d0">
           <constraints>
             <constraint type="max" value="12" field="selections" scope="force" shared="true" id="d6c5-b8f5-845a-1b16" includeChildSelections="true"/>
           </constraints>
@@ -551,7 +551,7 @@ The additional ships compendium cites it&apos;s sources so site those instead of
             <characteristic name="Type" typeId="5.479706523232345e+27">Cruiser</characteristic>
             <characteristic name="Hits" typeId="4.869747323232344e+27">10</characteristic>
             <characteristic name="Speed" typeId="5.370656564232324e+29">20cm</characteristic>
-            <characteristic name="Turns" typeId="5475726e7323232344415441232323">14</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">45</characteristic>
             <characteristic name="Shields" typeId="536869656c647323232344415441232323">2</characteristic>
             <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+</characteristic>
             <characteristic name="Turrets" typeId="5.475727265747323e+33">3</characteristic>
@@ -800,13 +800,6 @@ The additional ships compendium cites it&apos;s sources so site those instead of
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a3e-9e2f-c58b-adc4" type="max"/>
       </constraints>
-      <profiles>
-        <profile id="1e74-0233-0038-5dc0" name="Advanced Shielding" hidden="false" typeId="5a49-6569-78e9-a35c" typeName="Special Rule">
-          <characteristics>
-            <characteristic name="Effects" typeId="fe13-6bab-c5cb-4f1d">Extra shield</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <costs>
         <cost name="pts" typeId="points" value="15"/>
       </costs>

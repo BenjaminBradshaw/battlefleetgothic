@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="685b-88d9-54e8-6ef7" name="Battlefleet Heresy  Galaxy Aflame" gameSystemId="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" gameSystemRevision="46" revision="3" battleScribeVersion="2.03" publicationId="137d-dbad-5653-19f2" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="685b-88d9-54e8-6ef7" name="Battlefleet Heresy  Galaxy Aflame" gameSystemId="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" gameSystemRevision="46" revision="4" battleScribeVersion="2.03" publicationId="137d-dbad-5653-19f2" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication name="Battlefleet Heresy: Galaxy Aflame" id="177f-36f7-517e-af3f" hidden="false" shortName="BH:GA" publisher="Battlefleet Heresy: Galaxy Aflame 0.97.42" publicationDate="15/03/2025"/>
   </publications>
@@ -3382,6 +3382,178 @@ gunships cannot purchase this upgrade</characteristic>
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Compliance (Armageddon) Class Battlecruiser" hidden="false" id="a2ad-d622-e296-495f" publicationId="177f-36f7-517e-af3f" page="105" collective="false">
+      <profiles>
+        <profile name="Compliance Class Battlecruiser" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="33ae-a1f7-7783-12c9" publicationId="177f-36f7-517e-af3f" page="105">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Battlecruiser</characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">8</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">20cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">45º</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">2</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">6+ front/5+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Port Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="4474-9cdd-7241-ee63">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Starbord Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="e861-3a4c-b403-3e90">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Port Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="c376-234b-86d1-d80b">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Starbord Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="dff0-347f-e301-1b05">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Dorsal Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="08d6-5d0f-776d-2e37">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left/Front/Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Prow Torpedos" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="e234-51ee-15b2-e897">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Cruiser" hidden="false" id="efa4-2be3-6c25-b4ab" targetId="1042-e458-4e02-a537" primary="false"/>
+        <categoryLink name="Heavy Cruiser" hidden="false" id="58eb-7b1a-92f4-52c2" targetId="cf79-82ee-ebe9-7ea3" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="230"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Targeting Matrix" hidden="false" id="3b9d-bb41-2542-a112" page="0" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="c779-5f43-9e4e-9eb9" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="primary-catalogue" shared="true" id="26d7-f596-b301-58d1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Targeting Matrix" typeId="5a49-6569-78e9-a35c" typeName="Special Rule" hidden="false" id="3dd5-9149-52e2-3570">
+              <characteristics>
+                <characteristic name="Effects" typeId="fe13-6bab-c5cb-4f1d">Left colum shift on the gunnery table</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="15"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Extra Turrets" hidden="false" id="6949-d7f9-a5ef-40a3">
+          <costs>
+            <cost name="pts" typeId="points" value="10"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cc40-e174-5948-5a2f"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="3" field="5.475727265747323e+33" affects="profiles.Unit" scope="a2ad-d622-e296-495f"/>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Overlord Class Battlecruiser" hidden="false" id="cdc2-4c64-0a4d-e4f5" publicationId="177f-36f7-517e-af3f" page="106" collective="false">
+      <profiles>
+        <profile name="Overlord Class Battlecruiser" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="9ad7-96c0-ea09-fba9" publicationId="177f-36f7-517e-af3f" page="106">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Battlecruiser</characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">8</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">20cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">45º</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">2</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">6+ front/5+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Port Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="eb2e-28de-129d-0097">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">8</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Starbord Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="1413-e39a-333c-f48f">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">8</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Dorsal Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="c61d-faa2-177e-62ba">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left/Front/Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Prow Torpedos" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="4396-6744-e046-48ee">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Cruiser" hidden="false" id="cf2b-7e7a-1584-2a57" targetId="1042-e458-4e02-a537" primary="false"/>
+        <categoryLink name="Heavy Cruiser" hidden="false" id="2a6e-a34b-e2e3-3224" targetId="cf79-82ee-ebe9-7ea3" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="220"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Targeting Matrix" hidden="false" id="5ce6-8ee7-0ff9-46e2" page="0" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="1823-89ec-7d45-8f77" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="primary-catalogue" shared="true" id="de63-21b0-1cab-00c7" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Targeting Matrix" typeId="5a49-6569-78e9-a35c" typeName="Special Rule" hidden="false" id="ff08-4f0d-c14e-cff8">
+              <characteristics>
+                <characteristic name="Effects" typeId="fe13-6bab-c5cb-4f1d">Left colum shift on the gunnery table</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="15"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Extra Turrets" hidden="false" id="5092-8d7a-b7c6-b157">
+          <costs>
+            <cost name="pts" typeId="points" value="10"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4632-5ece-4cb5-08b9"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="3" field="5.475727265747323e+33" affects="profiles.Unit" scope="cdc2-4c64-0a4d-e4f5"/>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>

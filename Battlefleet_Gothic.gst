@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" name="Battlefleet Gothic" revision="47" battleScribeVersion="2.03" authorName="BSData" authorContact="@BSData @Mont_Fox dndtonight.com" authorUrl="https://github.com/BSData/battlefleetgothic#battlefleet-gothic" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" name="Battlefleet Gothic" revision="48" battleScribeVersion="2.03" authorName="BSData" authorContact="@BSData @Mont_Fox dndtonight.com" authorUrl="https://github.com/BSData/battlefleetgothic#battlefleet-gothic" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <readme>Join us on the battlefleet gothic reddit to discuss more gothic.
 Bug report : https://tinyurl.com/gothicbug</readme>
   <publications>
@@ -131,6 +131,11 @@ The additional ships compendium cites it&apos;s sources so site those instead of
         <infoLink id="2678-75f7-2702-4fe4" name="*DAMAGE" hidden="false" targetId="b75c-180f-abe0-73bd" type="profile"/>
       </infoLinks>
     </categoryEntry>
+    <categoryEntry name="Assault Cruiser" id="9008-7984-0773-6f06" hidden="false">
+      <infoLinks>
+        <infoLink name="*DAMAGE" id="9a1c-1120-b514-976d" hidden="false" targetId="b75c-180f-abe0-73bd" type="profile"/>
+      </infoLinks>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="7529-da04-0225-31de" name="Unbound" publicationId="137d-dbad-5653-19f2" hidden="false">
@@ -194,6 +199,11 @@ The additional ships compendium cites it&apos;s sources so site those instead of
           <constraints>
             <constraint type="max" value="12" field="selections" scope="force" shared="true" id="d6c5-b8f5-845a-1b16" includeChildSelections="true"/>
           </constraints>
+        </categoryLink>
+        <categoryLink name="Assault Cruiser" hidden="false" id="1802-42fb-6415-262d" targetId="9008-7984-0773-6f06">
+          <infoLinks>
+            <infoLink name="*DAMAGE" id="87f0-8cfd-14f5-c422" hidden="false" targetId="b75c-180f-abe0-73bd" type="profile"/>
+          </infoLinks>
         </categoryLink>
       </categoryLinks>
     </forceEntry>

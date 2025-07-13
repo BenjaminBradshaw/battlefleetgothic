@@ -3846,7 +3846,7 @@ this upgrade.</characteristic>
         <cost name="pts" typeId="points" value="205"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Acheron Class Heavy Cruiser" hidden="true" id="7d32-ac00-8f39-ecba" publicationId="177f-36f7-517e-af3f" page="112" collective="false">
+    <selectionEntry type="model" import="true" name="Acheron Class Heavy Cruiser" hidden="false" id="7d32-ac00-8f39-ecba" publicationId="177f-36f7-517e-af3f" page="112" collective="false">
       <profiles>
         <profile name="Acheron Profile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="8300-e19a-fe59-3e4b" publicationId="11f0-17d1-e4d2-1018" page="122">
           <characteristics>

@@ -3895,6 +3895,228 @@ this upgrade.</characteristic>
         <cost name="pts" typeId="points" value="195"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Drake Assault Cruiser" hidden="false" id="ebbc-668b-0c0e-7b03" publicationId="177f-36f7-517e-af3f" page="114" collective="false">
+      <profiles>
+        <profile name="Drake Profile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="09a3-2f2d-25c1-95ce" publicationId="177f-36f7-517e-af3f" page="114">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Assault Cruiser </characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">8</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">25cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">90°</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">2</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">6+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Drake Port Weapons Battery " typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="08b9-ccee-ccfc-96ea">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">4</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Drake Starboard Weapons Battery " typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="8592-51a2-5d1c-dc35">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">4</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Drake Dorsal Bombardment Cannon" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="f857-996c-497a-00e8">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">3</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right </characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Drake Prow Torpedoes" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="8701-7e49-cce4-9312">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">4</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Drake Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="77c0-ffcd-9add-361e">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Thunderhawks: 20cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="9008-7984-0773-6f06" id="94ec-dc5d-0db4-d5e3" primary="true" name="Assault Cruiser"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="230"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Astartes Only " id="1c30-6dcf-6fc0-1244" hidden="false" type="rule" targetId="30e9-f67d-4568-a94e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Spatha Assault Cruiser" hidden="false" id="b4cb-48ca-c21d-49d2" publicationId="177f-36f7-517e-af3f" page="115" collective="false">
+      <profiles>
+        <profile name="Spatha Profile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="e434-60c5-b9de-bd6c" publicationId="177f-36f7-517e-af3f" page="114">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Assault Cruiser </characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">8</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">20cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">45°</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">2</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">6+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Spatha Port Weapons Battery " typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="76c0-0a5b-1226-ba9e">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">8</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Spatha Starboard Weapons Battery " typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="91e1-83ea-b5d3-671e">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">8</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Spatha Dorsal Bombardment Cannon" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="c324-631a-8c39-d513">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right </characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Spatha Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="388f-abaa-3f69-ff7a">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Thunderhawks: 20cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="9008-7984-0773-6f06" id="a027-4ae0-8838-9686" primary="true" name="Assault Cruiser"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="250"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Astartes Only " id="56bf-bcf6-f229-b6aa" hidden="false" type="rule" targetId="30e9-f67d-4568-a94e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Mageron Assault Cruiser" hidden="false" id="e246-fa69-2179-5e9c" publicationId="177f-36f7-517e-af3f" page="116" collective="false">
+      <profiles>
+        <profile name="Mageron Profile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="63b4-71b4-3853-73b7" publicationId="177f-36f7-517e-af3f" page="114">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Assault Cruiser </characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">8</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">20cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">45°</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">2</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">6+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Mageron Port Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="413c-2471-5ba6-d678">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Thunderhawks: 20cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Mageron Staboard Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="b31e-7ea6-e66f-1b46">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Thunderhawks: 20cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Mageron Dorsal Weapons Battery " typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="7de3-c7c7-f579-2f2b">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Mageron Prow Bombardment Cannon" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="2c2d-1c74-531f-b2ab">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="9008-7984-0773-6f06" id="cc5d-313d-98a6-6293" primary="true" name="Assault Cruiser"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="255"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Astartes Only " id="3077-88df-3364-15e7" hidden="false" type="rule" targetId="30e9-f67d-4568-a94e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Olympia Assault Cruiser" hidden="false" id="9c74-0700-9e07-2ac2" publicationId="177f-36f7-517e-af3f" page="117" collective="false">
+      <profiles>
+        <profile name="Olympia Profile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="ee43-2578-1ffe-1313" publicationId="177f-36f7-517e-af3f" page="117">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Assault Cruiser </characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">8</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">25cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">45°</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">2</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">6+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Olympia Port Bombardment Cannon" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="6a04-77d4-2a6f-7db3">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">3</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Olympia Starboard Bombardment Cannon" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="3040-f78e-712a-b470">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">3</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Olympia Dorsal Weapons Battery " typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="f613-0eb6-e88b-39f8">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">3</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Olympia Prow Weapons Battery " typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="28e4-a900-1dbc-e171">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right </characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Olympia Prow Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="cab4-7649-42bb-f363">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Thunderhawks: 20cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="9008-7984-0773-6f06" id="7c00-08b9-d46c-506f" primary="true" name="Assault Cruiser"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="235"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Astartes Only " id="8ca5-c552-d9f8-cad2" hidden="false" type="rule" targetId="30e9-f67d-4568-a94e"/>
+      </infoLinks>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Shark Assault Boats" hidden="false" id="15f0-cae3-711f-302d" collective="false">
@@ -3924,4 +4146,9 @@ to its Leadership value at all times (max Ld10).</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
+  <sharedRules>
+    <rule name="Astartes Only " id="30e9-f67d-4568-a94e" hidden="false">
+      <description>Astartes Only </description>
+    </rule>
+  </sharedRules>
 </catalogue>

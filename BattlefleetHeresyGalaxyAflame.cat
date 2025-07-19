@@ -4466,7 +4466,7 @@ Starhawks: 20cm</characteristic>
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right </characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4696,8 +4696,8 @@ purchase this upgrade.</characteristic>
         <selectionEntry type="upgrade" import="true" name="Special Refits: Lance" hidden="false" id="c20e-0ca4-a2bf-87fd">
           <rules>
             <rule name="Special Refit Lance" id="e338-6abf-d8b0-65e4" hidden="false">
-              <description> A Decurion class cruiser may reduce the firepower of its port and starboard weapons batteries to 4 in exchange 
-for port and starboard lance batteries (Range 45cm, Strength 2) firing Left and Right respectively, for no change in cost. </description>
+              <description>A Decurion class cruiser may reduce the firepower of its port and starboard weapons batteries to 4 in exchange 
+for port and starboard lance batteries (Range 45cm, Strength 2) firing Left and Right respectively, for no change in cost.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -4760,7 +4760,7 @@ for port and starboard lance batteries (Range 45cm, Strength 2) firing Left and 
       </costs>
       <rules>
         <rule name="Improved Thrusters" id="df00-d480-3e0a-2a50" hidden="false">
-          <description> Mercury class cruisers add an additional +1D6cm to their speed when on All Ahead Full special orders.</description>
+          <description>Mercury class cruisers add an additional +1D6cm to their speed when on All Ahead Full special orders.</description>
         </rule>
       </rules>
     </selectionEntry>
@@ -4787,7 +4787,7 @@ for port and starboard lance batteries (Range 45cm, Strength 2) firing Left and 
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right </characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
           </characteristics>
         </profile>
         <profile name="Prow Plasma Scourer " typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="7ce1-d007-b9c6-1b80">
@@ -4802,7 +4802,7 @@ for port and starboard lance batteries (Range 45cm, Strength 2) firing Left and 
         <rule name="Bombardment Cruiser" id="9f02-30d0-7a43-06e0" hidden="false">
           <description>When a Mangonel-class Bombardment Cruiser attempts to go on the Reload Ordnance special order roll 3D6 
 for its command check, discarding the highest result. In addition if a Mangonel-class Bombardment Cruiser suffers a Prow 
-Armament Damaged critical hit result it suffers a Fire! critical hit result as well. </description>
+Armament Damaged critical hit result it suffers a Fire! critical hit result as well.</description>
         </rule>
       </rules>
     </selectionEntry>
@@ -4857,7 +4857,7 @@ Armament Damaged critical hit result it suffers a Fire! critical hit result as w
       <rules>
         <rule name="Astartes Only" id="d5c2-7590-b8d1-5140" hidden="false"/>
         <rule name="Improved Thrusters" id="54fd-dfd5-2dd4-7487" hidden="false">
-          <description>Pilum class strike cruisers add an additional +1D6cm to their speed when on All Ahead Full special orders. </description>
+          <description>Pilum class strike cruisers add an additional +1D6cm to their speed when on All Ahead Full special orders.</description>
         </rule>
         <rule name="Reconnaissance Vessel" id="45a9-070f-feca-93fa" hidden="false">
           <description>After setup before the first turn begins Pilum class strike cruisers may move up to 15cm abiding by all 
@@ -4923,7 +4923,7 @@ the normal rules and restrictions for movement.</description>
       <rules>
         <rule name="Astartes Only" id="bfc8-fb02-20b3-77c0" hidden="false"/>
         <rule name="Improved Thrusters" id="548e-26e4-9d56-06c4" hidden="false">
-          <description>Pilum class strike cruisers add an additional +1D6cm to their speed when on All Ahead Full special orders. </description>
+          <description>Pilum class strike cruisers add an additional +1D6cm to their speed when on All Ahead Full special orders.</description>
         </rule>
         <rule name="Reconnaissance Vessel" id="f1f3-cc74-4e14-637d" hidden="false">
           <description>After setup before the first turn begins Pilum class strike cruisers may move up to 15cm abiding by all 
@@ -4982,7 +4982,7 @@ the normal rules and restrictions for movement.</description>
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">4</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right </characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
           </characteristics>
         </profile>
         <profile name="Prow Launch Bay" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="fb67-36aa-8d51-f892">
@@ -5117,7 +5117,7 @@ the normal rules and restrictions for movement.</description>
             <characteristic name="Speed" typeId="5.370656564232324e+29">20cm</characteristic>
             <characteristic name="Turns" typeId="5475726e7323232344415441232323">45°</characteristic>
             <characteristic name="Shields" typeId="536869656c647323232344415441232323">1</characteristic>
-            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">6+ Prow / 5+ </characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">6+ Prow / 5+</characteristic>
             <characteristic name="Turrets" typeId="5.475727265747323e+33">3</characteristic>
           </characteristics>
         </profile>
@@ -5154,11 +5154,11 @@ Starhawk Bombers: 20cm</characteristic>
       </profiles>
       <rules>
         <rule name="Defensive Deck Layout" id="8253-8ac5-e7bb-e28e" hidden="false">
-          <description> A Defiant class light cruiser adds +1 to its boarding action result when defending against an enemy 
+          <description>A Defiant class light cruiser adds +1 to its boarding action result when defending against an enemy 
 boarding action, due to its narrow mid-ship corridor choking the enemy advance.</description>
         </rule>
         <rule name="Armored Prow" id="f9e0-4e8c-96e2-4188" hidden="false">
-          <description> Defiant class light cruisers have a turn radius of 45° instead of the normal 90°. A Defiant class light cruiser may 
+          <description>Defiant class light cruisers have a turn radius of 45° instead of the normal 90°. A Defiant class light cruiser may 
 reduce its armor to 5+ armor and improve its turn radius to 90° for no change in cost.</description>
         </rule>
       </rules>
@@ -5179,14 +5179,13 @@ reduce its armor to 5+ armor and improve its turn radius to 90° for no change i
             <characteristic name="Speed" typeId="5.370656564232324e+29">20cm</characteristic>
             <characteristic name="Turns" typeId="5475726e7323232344415441232323">45°</characteristic>
             <characteristic name="Shields" typeId="536869656c647323232344415441232323">1</characteristic>
-            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">6+ Prow / 5+ </characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">6+ Prow / 5+</characteristic>
             <characteristic name="Turrets" typeId="5.475727265747323e+33">2</characteristic>
           </characteristics>
         </profile>
         <profile name="Port Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="db97-e18e-6e18-1612">
           <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm
-</characteristic>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
           </characteristics>
@@ -5215,11 +5214,11 @@ reduce its armor to 5+ armor and improve its turn radius to 90° for no change i
       </profiles>
       <rules>
         <rule name="Defensive Deck Layout" id="847a-91a6-79ba-891c" hidden="false">
-          <description> A Defiant class light cruiser adds +1 to its boarding action result when defending against an enemy 
+          <description>A Defiant class light cruiser adds +1 to its boarding action result when defending against an enemy 
 boarding action, due to its narrow mid-ship corridor choking the enemy advance.</description>
         </rule>
         <rule name="Armored Prow" id="cac8-2816-48a0-a8bf" hidden="false">
-          <description> Endurance class light cruisers have a turn radius of 45° instead of the normal 90°. A Endurance class light cruiser may 
+          <description>Endurance class light cruisers have a turn radius of 45° instead of the normal 90°. A Endurance class light cruiser may 
 reduce its armor to 5+ armor and improve its turn radius to 90° for no change in cost.</description>
         </rule>
       </rules>
@@ -5240,14 +5239,13 @@ reduce its armor to 5+ armor and improve its turn radius to 90° for no change i
             <characteristic name="Speed" typeId="5.370656564232324e+29">20cm</characteristic>
             <characteristic name="Turns" typeId="5475726e7323232344415441232323">45°</characteristic>
             <characteristic name="Shields" typeId="536869656c647323232344415441232323">1</characteristic>
-            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">6+ Prow / 5+ </characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">6+ Prow / 5+</characteristic>
             <characteristic name="Turrets" typeId="5.475727265747323e+33">2</characteristic>
           </characteristics>
         </profile>
         <profile name="Port Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="dd36-6b1c-ecbe-2b45">
           <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm
-</characteristic>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
           </characteristics>
@@ -5276,11 +5274,11 @@ reduce its armor to 5+ armor and improve its turn radius to 90° for no change i
       </profiles>
       <rules>
         <rule name="Defensive Deck Layout" id="649c-3d9c-98f2-18ce" hidden="false">
-          <description> A Defiant class light cruiser adds +1 to its boarding action result when defending against an enemy 
+          <description>A Defiant class light cruiser adds +1 to its boarding action result when defending against an enemy 
 boarding action, due to its narrow mid-ship corridor choking the enemy advance.</description>
         </rule>
         <rule name="Armored Prow" id="a436-b9b8-68b5-da61" hidden="false">
-          <description> Endurance class light cruisers have a turn radius of 45° instead of the normal 90°. A Endurance class light cruiser may 
+          <description>Endurance class light cruisers have a turn radius of 45° instead of the normal 90°. A Endurance class light cruiser may 
 reduce its armor to 5+ armor and improve its turn radius to 90° for no change in cost.</description>
         </rule>
       </rules>
@@ -5301,14 +5299,13 @@ reduce its armor to 5+ armor and improve its turn radius to 90° for no change i
             <characteristic name="Speed" typeId="5.370656564232324e+29">90cm</characteristic>
             <characteristic name="Turns" typeId="5475726e7323232344415441232323">45°</characteristic>
             <characteristic name="Shields" typeId="536869656c647323232344415441232323">1</characteristic>
-            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+ </characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+</characteristic>
             <characteristic name="Turrets" typeId="5.475727265747323e+33">1</characteristic>
           </characteristics>
         </profile>
         <profile name="Port Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="0ace-3721-af50-989b">
           <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm
-</characteristic>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">4</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
           </characteristics>
@@ -5359,8 +5356,8 @@ orders.</description>
         <selectionEntry type="upgrade" import="true" name="Special Refits: prow torpedoes " hidden="false" id="69d6-1693-fd03-d8de">
           <rules>
             <rule name="Special Refits: Prow Torpedos" id="a75e-3042-a93f-d91e" hidden="false">
-              <description> A Dauntless class light cruiser may replace its prow lance batteries with prow torpedoes (Speed: 30cm, Strength 
-6, Front) for no change in cost. </description>
+              <description>A Dauntless class light cruiser may replace its prow lance batteries with prow torpedoes (Speed: 30cm, Strength 
+6, Front) for no change in cost.</description>
             </rule>
           </rules>
           <constraints>
@@ -5385,14 +5382,13 @@ orders.</description>
             <characteristic name="Speed" typeId="5.370656564232324e+29">30cm</characteristic>
             <characteristic name="Turns" typeId="5475726e7323232344415441232323">90°</characteristic>
             <characteristic name="Shields" typeId="536869656c647323232344415441232323">1</characteristic>
-            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+ </characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+</characteristic>
             <characteristic name="Turrets" typeId="5.475727265747323e+33">2</characteristic>
           </characteristics>
         </profile>
         <profile name="Port Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="e069-cfbb-74a4-45b1">
           <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm
-</characteristic>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
           </characteristics>
@@ -5414,7 +5410,7 @@ orders.</description>
       </profiles>
       <rules>
         <rule name="Improved Thrusters" id="a265-a308-e668-7ed6" hidden="false">
-          <description>Unity class light cruisers add an additional +1D6cm to their speed when on All Ahead Full special orders. </description>
+          <description>Unity class light cruisers add an additional +1D6cm to their speed when on All Ahead Full special orders.</description>
         </rule>
         <rule name="No Teleportarium" id="69ca-3d26-5ada-74bf" hidden="false">
           <description>Unity class light cruisers may not perform teleport attacks.</description>
@@ -5437,14 +5433,13 @@ orders.</description>
             <characteristic name="Speed" typeId="5.370656564232324e+29">30cm</characteristic>
             <characteristic name="Turns" typeId="5475726e7323232344415441232323">90°</characteristic>
             <characteristic name="Shields" typeId="536869656c647323232344415441232323">1</characteristic>
-            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+ </characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+</characteristic>
             <characteristic name="Turrets" typeId="5.475727265747323e+33">2</characteristic>
           </characteristics>
         </profile>
         <profile name="Port Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="74e8-1902-2089-8175">
           <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm
-</characteristic>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
           </characteristics>
@@ -5466,7 +5461,7 @@ orders.</description>
       </profiles>
       <rules>
         <rule name="Improved Thrusters" id="c1b1-50bf-83fa-e66d" hidden="false">
-          <description>Unity class light cruisers add an additional +1D6cm to their speed when on All Ahead Full special orders. </description>
+          <description>Unity class light cruisers add an additional +1D6cm to their speed when on All Ahead Full special orders.</description>
         </rule>
       </rules>
     </selectionEntry>
@@ -5486,7 +5481,7 @@ orders.</description>
             <characteristic name="Speed" typeId="5.370656564232324e+29">30cm</characteristic>
             <characteristic name="Turns" typeId="5475726e7323232344415441232323">90°</characteristic>
             <characteristic name="Shields" typeId="536869656c647323232344415441232323">1</characteristic>
-            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+ </characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+</characteristic>
             <characteristic name="Turrets" typeId="5.475727265747323e+33">2</characteristic>
           </characteristics>
         </profile>
@@ -5500,7 +5495,7 @@ orders.</description>
         <profile name="Port Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="9329-9986-cb32-342e">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Fury Fighters: 30cm 
-Starhawk Bombers: 20cm </characteristic>
+Starhawk Bombers: 20cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">1</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35"/>
           </characteristics>
@@ -5508,7 +5503,7 @@ Starhawk Bombers: 20cm </characteristic>
         <profile name="Starboard Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="f92d-9f33-ac0e-5144">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Fury Fighters: 30cm 
-Starhawk Bombers: 20cm </characteristic>
+Starhawk Bombers: 20cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">1</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35"/>
           </characteristics>
@@ -5516,12 +5511,495 @@ Starhawk Bombers: 20cm </characteristic>
       </profiles>
       <rules>
         <rule name="Improved Thrusters" id="d2cc-fc2a-c38e-68b4" hidden="false">
-          <description>Venus class light cruisers add an additional +1D6cm to their speed when on All Ahead Full special orders. </description>
+          <description>Venus class light cruisers add an additional +1D6cm to their speed when on All Ahead Full special orders.</description>
         </rule>
         <rule name="No Teleportarium" id="a1f5-cb67-2ef0-3978" hidden="false">
           <description>Venus class light cruisers may not perform teleport attacks.</description>
         </rule>
       </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name=" Havoc Class Heavy Frigate" hidden="false" id="c75a-f1de-3267-3df3" publicationId="177f-36f7-517e-af3f" page="144">
+      <costs>
+        <cost name="pts" typeId="points" value="45"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="4573636f72747323232344415441232323" id="de9d-b2c6-f2ba-23f4" primary="true" name="Escort"/>
+        <categoryLink targetId="f448-d70a-49e6-0c2f" id="7ace-a64e-0a9e-c8f8" primary="false" name="Heavy Escort"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Havoc Class Heavy Frigate" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="07a9-90e5-dce2-aa4c" publicationId="177f-36f7-517e-af3f" page="144">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Heavy Escort</characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">2</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">25cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">45°</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">1</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Dorsal Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="0f84-941a-7708-1fec">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Prow Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="508b-e643-bd41-52ea">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name=" Praetor (Infudel) Class Heavy Frigate" hidden="false" id="909c-e922-29f0-789c" publicationId="177f-36f7-517e-af3f" page="145">
+      <costs>
+        <cost name="pts" typeId="points" value="50"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="4573636f72747323232344415441232323" id="a441-fe82-767a-0825" primary="true" name="Escort"/>
+        <categoryLink targetId="f448-d70a-49e6-0c2f" id="476a-f571-72b6-2912" primary="false" name="Heavy Escort"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Praetor Class Heavy Frigate" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="22b7-3357-90a5-8d78" publicationId="177f-36f7-517e-af3f" page="145">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Heavy Escort</characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">2</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">25cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">45°</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">1</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="c536-6d97-adad-0306">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">4</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Prow Torpedoes" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="052c-2a34-7636-027f">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Subjugator (Recusant) Class War Barque" hidden="false" id="4cd5-b217-a9fb-ce02" publicationId="177f-36f7-517e-af3f" page="146">
+      <costs>
+        <cost name="pts" typeId="points" value="50"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="4573636f72747323232344415441232323" id="ed84-e369-e7cd-e123" primary="true" name="Escort"/>
+        <categoryLink targetId="f448-d70a-49e6-0c2f" id="de7b-5f35-a865-934a" primary="false" name="Heavy Escort"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Subjugator Class War Barque" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="3a3a-4e25-a9c6-dd12" publicationId="177f-36f7-517e-af3f" page="146">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Heavy Escort</characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">2</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">25cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">45°</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">1</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="aa6f-46ce-087d-0d67">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Bombardment Cannon" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="5afa-2323-4b24-4120">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Thunderbolt Class Heavy Frigate" hidden="false" id="cc82-af8d-e1ed-6f95" publicationId="177f-36f7-517e-af3f" page="147">
+      <costs>
+        <cost name="pts" typeId="points" value="50"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="4573636f72747323232344415441232323" id="539a-ae58-ca10-bbd4" primary="true" name="Escort"/>
+        <categoryLink targetId="f448-d70a-49e6-0c2f" id="9ee1-159b-f266-113b" primary="false" name="Heavy Escort"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Thunderbolt Class Heavy Frigate" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="7aae-54fa-2861-00ad" publicationId="177f-36f7-517e-af3f" page="147">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Heavy Escort</characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">2</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">25cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">45°</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">1</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="010f-aa06-1118-5986">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">3</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="9819-8800-35ba-361b">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">1</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Gladius Class Frigate" hidden="false" id="1a30-8ba7-c250-b9e9" publicationId="177f-36f7-517e-af3f" page="149">
+      <costs>
+        <cost name="pts" typeId="points" value="45"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="4573636f72747323232344415441232323" id="c25d-6bb0-34cb-f47e" primary="true" name="Escort"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Gladius Class Frigate" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="c3b4-f4ae-866d-e479" publicationId="177f-36f7-517e-af3f" page="149">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Escort</characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">1</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">30cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">90°</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">1</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="3656-b44a-c2d7-ff1f">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">4</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Hunter Class Destroyer" hidden="false" id="e8e2-6dbe-95e5-735b" publicationId="177f-36f7-517e-af3f" page="150">
+      <costs>
+        <cost name="pts" typeId="points" value="40"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="4573636f72747323232344415441232323" id="ceeb-b95d-ddf8-1ada" primary="true" name="Escort"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Hunter Class Destroyer " typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="2e36-4d52-746f-aec1" publicationId="177f-36f7-517e-af3f" page="150">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Escort</characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">1</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">35cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">90°</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">1</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="889d-8802-55e6-5558">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">1</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Torpedo Salvo" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="84a9-b653-337d-e5eb">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Astartes Only" id="93d3-9c01-5670-c55c" hidden="false"/>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Nova Class Frigate" hidden="false" id="89a5-1e2f-3ee8-1039" publicationId="177f-36f7-517e-af3f" page="151">
+      <costs>
+        <cost name="pts" typeId="points" value="50"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="4573636f72747323232344415441232323" id="ad69-908e-3a79-6cfc" primary="true" name="Escort"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Nova Class Frigate" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="2142-a42b-a944-e528" publicationId="177f-36f7-517e-af3f" page="151">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Escort</characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">1</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">35cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">90°</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">1</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="96ba-2caf-25c5-dfc7">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="7695-0f3f-6179-6357">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">1</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Astartes Only" id="119d-11ad-6705-79c1" hidden="false"/>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Python Class Reconnaissance Vessel" hidden="false" id="08e3-c3a3-6015-21f6" publicationId="177f-36f7-517e-af3f" page="152">
+      <costs>
+        <cost name="pts" typeId="points" value="40"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="4573636f72747323232344415441232323" id="7e2d-eb5c-0a1c-a4ae" primary="true" name="Escort"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Python Class Reconnaissance Vessel" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="0b3b-41d1-d552-02f9" publicationId="177f-36f7-517e-af3f" page="152">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Escort</characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">1</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">30cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">90°</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">1</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">4+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="9df3-1a60-e4a3-ed46">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">15cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Reconnaissance Vessel" id="3342-e688-b66f-0b59" hidden="false">
+          <description>After setup before the first turn begins Python class reconnaissance vessels may move up to 15cm 
+abiding by all the normal rules and restrictions for movement. At the end of this move it must be outside your deployment zone 
+and cannot be within 60cm of an enemy vessel or orbital defense.</description>
+        </rule>
+        <rule name="Improved Thrusters" id="5892-8b9b-010a-e616" hidden="false">
+          <description>Python class reconnaissance vessels add an additional +1D6cm to their speed when on All Ahead Full 
+special orders.</description>
+        </rule>
+        <rule name="Advanced Auspex Arrays" id="118b-8306-a6ef-58ae" hidden="false">
+          <description>Any vessel within 10cm of a ship or station equipped with advanced auspex arrays may re-roll 
+missed attacks with turrets and does not suffer a right-column shift for firing gunnery weapons at targets more than 30cm away. 
+A ship or station’s advanced auspex arrays will continue to function even if it is on Brace for Impact special orders. </description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Iconoclast Class Destroyer" hidden="false" id="6c69-ce48-ba05-2e18" publicationId="177f-36f7-517e-af3f" page="153">
+      <costs>
+        <cost name="pts" typeId="points" value="25"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="4573636f72747323232344415441232323" id="6c76-d442-7ed8-880c" primary="true" name="Escort"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Iconoclast Class Destroyer" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="4ea0-2b4a-2329-e3c8" publicationId="177f-36f7-517e-af3f" page="153">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Escort</characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">1</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">30cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">90°</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">1</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">4+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="82b0-a341-d6ea-b7c1">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">3</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Cobra Class Destroyer" hidden="false" id="b37a-dca9-649b-334f" publicationId="177f-36f7-517e-af3f" page="154">
+      <costs>
+        <cost name="pts" typeId="points" value="30"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="4573636f72747323232344415441232323" id="9626-d41f-61d2-d06b" primary="true" name="Escort"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Cobra Class Destroyer" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="00e8-c0f3-3084-4508" publicationId="177f-36f7-517e-af3f" page="154">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Escort</characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">1</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">30cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">90°</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">1</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">4+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="ddfb-a2a3-da8f-15a2">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">1</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="b345-9c90-6f9f-630d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Prow Torpedoes" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="55ea-2dce-5dbb-b37d">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="3" field="46697265706f7765722f53747223232344415441232323">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="b345-9c90-6f9f-630d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Special Refit: Remove Weapons Battery" hidden="false" id="b345-9c90-6f9f-630d">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0914-4b41-cf8c-a7ff"/>
+          </constraints>
+          <rules>
+            <rule name="Special Refit: Remove Weapons Battery" id="198b-2a51-d50d-ddf2" hidden="false">
+              <description>A Cobra Class Destroyer can remove it&apos;s Weapons Battery to increase the strength of it&apos;s Torpedo Salvo to 3 for +5 
+points. </description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="points" value="5"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Firestorm Class Frigate" hidden="false" id="674f-febe-46ec-6c95" publicationId="177f-36f7-517e-af3f" page="155">
+      <costs>
+        <cost name="pts" typeId="points" value="35"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="4573636f72747323232344415441232323" id="572f-4428-0274-307b" primary="true" name="Escort"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Firestorm Class Frigate" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="4709-2e1f-3cbd-c3ac" publicationId="177f-36f7-517e-af3f" page="155">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Escort</characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">1</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">25cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">90°</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">1</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="f826-fb32-8373-0ed5">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="2777-fad4-9ca2-0a89">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">1</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Sword Class Frigate" hidden="false" id="4794-59c8-2da7-bf51" publicationId="177f-36f7-517e-af3f" page="156">
+      <costs>
+        <cost name="pts" typeId="points" value="35"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="4573636f72747323232344415441232323" id="0a64-ad6b-bcd5-120e" primary="true" name="Escort"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Sword Class Frigate" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="6eff-fa6d-60b2-889f" publicationId="177f-36f7-517e-af3f" page="156">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Escort</characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">1</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">25cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">90°</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">1</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="2b76-43ad-55a1-a82d">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">4</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Falchion Class Frigate" hidden="false" id="a7e2-6d31-d65e-eb19" publicationId="177f-36f7-517e-af3f" page="157">
+      <costs>
+        <cost name="pts" typeId="points" value="35"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="4573636f72747323232344415441232323" id="fff1-637c-9312-0e0a" primary="true" name="Escort"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Falchion Class Frigate" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="8202-b780-daee-1f6a" publicationId="177f-36f7-517e-af3f" page="156">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Escort</characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">1</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">25cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">90°</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">1</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="2637-6f4d-110f-2bbb">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">3</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Prow Torpedoes" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="0584-5ec1-bd45-2e8e">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">1</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
@@ -5559,5 +6037,6 @@ to its Leadership value at all times (max Ld10).</characteristic>
   </sharedRules>
   <categoryEntries>
     <categoryEntry name="Light Cruiser" id="dd62-c394-a24a-7306" hidden="false"/>
+    <categoryEntry name="Heavy Escort" id="f448-d70a-49e6-0c2f" hidden="false"/>
   </categoryEntries>
 </catalogue>

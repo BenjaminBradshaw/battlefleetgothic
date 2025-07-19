@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" name="Battlefleet Gothic" revision="48" battleScribeVersion="2.03" authorName="BSData" authorContact="@BSData @Mont_Fox dndtonight.com" authorUrl="https://github.com/BSData/battlefleetgothic#battlefleet-gothic" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" name="Battlefleet Gothic" revision="49" battleScribeVersion="2.03" authorName="BSData" authorContact="@BSData @Mont_Fox dndtonight.com" authorUrl="https://github.com/BSData/battlefleetgothic#battlefleet-gothic" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <readme>Join us on the battlefleet gothic reddit to discuss more gothic.
 Bug report : https://tinyurl.com/gothicbug</readme>
   <publications>
@@ -112,15 +112,21 @@ The additional ships compendium cites it&apos;s sources so site those instead of
         <infoLink id="b39e-6c3e-6052-31dd" name="*DAMAGE" hidden="false" targetId="b75c-180f-abe0-73bd" type="profile"/>
       </infoLinks>
       <constraints>
-        <constraint type="max" value="0" field="selections" scope="force" shared="true" id="f566-aaf0-d76a-caae" includeChildSelections="false"/>
+        <constraint type="max" value="0" field="selections" scope="parent" shared="false" id="f566-aaf0-d76a-caae" includeChildSelections="false"/>
       </constraints>
       <modifiers>
         <modifier type="increment" value="1" field="f566-aaf0-d76a-caae">
           <conditions>
-            <condition type="instanceOf" value="1000" field="points" scope="force" childId="any" shared="true" includeChildSelections="true"/>
+            <condition type="atLeast" value="3" field="selections" scope="force" childId="1042-e458-4e02-a537" shared="true" includeChildSelections="false"/>
           </conditions>
           <repeats>
-            <repeat value="1000" repeats="1" field="points" scope="force" childId="any" shared="true" roundUp="false" includeChildSelections="true"/>
+            <repeat value="3" repeats="1" field="selections" scope="roster" childId="1042-e458-4e02-a537" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true">
+              <comment>You may include one battleship or battlebarge for every three cruisers, light 
+cruisers, strike cruisers, assault cruisers, heavy cruisers, or battlecruisers in the 
+fleet. Grand cruisers do not count for this purpose. (e.g. a light cruiser, strike 
+cruiser, and cruiser would allow you to select a single battleship or battle 
+barge.)</comment>
+            </repeat>
           </repeats>
         </modifier>
       </modifiers>
@@ -136,6 +142,7 @@ The additional ships compendium cites it&apos;s sources so site those instead of
         <infoLink name="*DAMAGE" id="9a1c-1120-b514-976d" hidden="false" targetId="b75c-180f-abe0-73bd" type="profile"/>
       </infoLinks>
     </categoryEntry>
+    <categoryEntry name="Rite of War" id="5306-37c4-43b1-4e0d" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="7529-da04-0225-31de" name="Unbound" publicationId="137d-dbad-5653-19f2" hidden="false">
@@ -171,12 +178,36 @@ The additional ships compendium cites it&apos;s sources so site those instead of
                 <repeat value="2" repeats="1" field="selections" scope="force" childId="1042-e458-4e02-a537" shared="true" roundUp="false" includeChildSelections="true"/>
               </repeats>
             </modifier>
+            <modifier type="increment" value="-1" field="0a5a-7c78-d250-93fa">
+              <conditions>
+                <condition type="atLeast" value="2" field="selections" scope="force" childId="cf79-82ee-ebe9-7ea3" shared="true" includeChildSelections="false"/>
+              </conditions>
+              <repeats>
+                <repeat value="2" repeats="1" field="selections" scope="force" childId="cf79-82ee-ebe9-7ea3" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
           </modifiers>
         </categoryLink>
         <categoryLink id="9632-a335-61c7-124d" name="Battleship" hidden="false" targetId="4361706974616c20536869707323232344415441232323" primary="false">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec6e-ffeb-c9af-7828"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="ec6e-ffeb-c9af-7828"/>
           </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="ec6e-ffeb-c9af-7828">
+              <conditions>
+                <condition type="atLeast" value="3" field="selections" scope="force" childId="1042-e458-4e02-a537" shared="true" includeChildSelections="false"/>
+              </conditions>
+              <repeats>
+                <repeat value="3" repeats="1" field="selections" scope="roster" childId="1042-e458-4e02-a537" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true">
+                  <comment>You may include one battleship or battlebarge for every three cruisers, light 
+cruisers, strike cruisers, assault cruisers, heavy cruisers, or battlecruisers in the 
+fleet. Grand cruisers do not count for this purpose. (e.g. a light cruiser, strike 
+cruiser, and cruiser would allow you to select a single battleship or battle 
+barge.)</comment>
+                </repeat>
+              </repeats>
+            </modifier>
+          </modifiers>
         </categoryLink>
         <categoryLink id="c5a1-a3a5-c79a-6e4a" name="Cruiser" hidden="false" targetId="1042-e458-4e02-a537" primary="false">
           <constraints>
@@ -197,13 +228,18 @@ The additional ships compendium cites it&apos;s sources so site those instead of
         <categoryLink name="Battle Barges" hidden="false" id="5dbd-056d-789f-4999" publicationId="177f-36f7-517e-af3f" targetId="598e-1ce0-5926-6f14"/>
         <categoryLink name="Strike Cruiser" hidden="false" id="8fb3-a6f8-c6be-ed5b" targetId="c3b1-2361-847c-65d0">
           <constraints>
-            <constraint type="max" value="12" field="selections" scope="force" shared="true" id="d6c5-b8f5-845a-1b16" includeChildSelections="true"/>
+            <constraint type="max" value="10" field="selections" scope="force" shared="true" id="d6c5-b8f5-845a-1b16" includeChildSelections="true"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Assault Cruiser" hidden="false" id="1802-42fb-6415-262d" targetId="9008-7984-0773-6f06">
           <infoLinks>
             <infoLink name="*DAMAGE" id="87f0-8cfd-14f5-c422" hidden="false" targetId="b75c-180f-abe0-73bd" type="profile"/>
           </infoLinks>
+        </categoryLink>
+        <categoryLink name="Rite of War" hidden="false" id="5e71-98b6-24d9-1d0a" targetId="5306-37c4-43b1-4e0d" type="categoryEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b92-5be4-3dbb-05a3"/>
+          </constraints>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
@@ -443,6 +479,8 @@ The additional ships compendium cites it&apos;s sources so site those instead of
       </profiles>
       <categoryLinks>
         <categoryLink id="65c9-599e-f524-3be8" name="Grand Cruiser" hidden="false" targetId="46e2-c9eb-27e7-172a" primary="true"/>
+        <categoryLink targetId="1042-e458-4e02-a537" id="acb1-8752-411e-1625" primary="false" name="Cruiser"/>
+        <categoryLink targetId="cf79-82ee-ebe9-7ea3" id="fc53-c195-bf1c-db6d" primary="false" name="Heavy Cruiser"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a804-3f90-68ef-1b56" name="Leadership" hidden="false" collective="false" import="true" targetId="72b9-2803-264f-57f0" type="selectionEntryGroup"/>
@@ -578,6 +616,7 @@ The additional ships compendium cites it&apos;s sources so site those instead of
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d97c-ef88-673d-deca" name="Grand Cruiser" hidden="false" targetId="46e2-c9eb-27e7-172a" primary="true"/>
+        <categoryLink targetId="cf79-82ee-ebe9-7ea3" id="9921-1a8c-1b8a-df69" primary="false" name="Heavy Cruiser"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a2bd-54c3-8943-f44a" name="Extra Shield" publicationId="5766-7751-d146-0800" page="23" hidden="false" collective="false" import="true" targetId="6e59-320c-8ea6-e4e6" type="selectionEntry">
@@ -646,6 +685,7 @@ The additional ships compendium cites it&apos;s sources so site those instead of
       </profiles>
       <categoryLinks>
         <categoryLink id="ee7f-83a4-2ca8-47c9" name="Grand Cruiser" hidden="false" targetId="46e2-c9eb-27e7-172a" primary="true"/>
+        <categoryLink targetId="cf79-82ee-ebe9-7ea3" id="0dcc-93a0-e91b-fe07" primary="false" name="Heavy Cruiser"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2076-d894-063c-60ff" name="Leadership" hidden="false" collective="false" import="true" targetId="72b9-2803-264f-57f0" type="selectionEntryGroup"/>
@@ -789,6 +829,7 @@ The additional ships compendium cites it&apos;s sources so site those instead of
       </profiles>
       <categoryLinks>
         <categoryLink id="a799-fab9-46ca-2e50" name="Grand Cruiser" hidden="false" targetId="46e2-c9eb-27e7-172a" primary="true"/>
+        <categoryLink targetId="cf79-82ee-ebe9-7ea3" id="f9b5-c7cc-c15b-d185" primary="false" name="Heavy Cruiser"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="c4da-cdf2-005b-ac1f" name="Chaos Capital Ship Options" hidden="true" collective="false" import="true" targetId="01b5-5904-9e02-fb87" type="selectionEntryGroup">
@@ -935,6 +976,7 @@ The additional ships compendium cites it&apos;s sources so site those instead of
       <categoryLinks>
         <categoryLink id="5c7a-de91-5184-e2ed" name="Cruiser" hidden="false" targetId="1042-e458-4e02-a537" primary="true"/>
         <categoryLink id="1ea5-1274-4adb-522d" name="CV" hidden="false" targetId="e0c6-bde4-7055-1e6e" primary="false"/>
+        <categoryLink targetId="c3b1-2361-847c-65d0" id="4c16-36c3-e5b7-a278" primary="false" name="Strike Cruiser"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="01ce-35ca-d5a1-bd67" name="Chaos Capital Ship Options" hidden="true" collective="false" import="true" targetId="01b5-5904-9e02-fb87" type="selectionEntryGroup">
@@ -1002,6 +1044,7 @@ The additional ships compendium cites it&apos;s sources so site those instead of
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8648-42b9-1dee-c7c6" name="Grand Cruiser" hidden="false" targetId="46e2-c9eb-27e7-172a" primary="true"/>
+        <categoryLink targetId="cf79-82ee-ebe9-7ea3" id="576b-e612-d31a-e133" primary="false" name="Heavy Cruiser"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="9276-da26-aada-d2f9" name="Leadership" hidden="false" collective="false" import="true" targetId="72b9-2803-264f-57f0" type="selectionEntryGroup"/>

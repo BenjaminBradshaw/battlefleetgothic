@@ -4,6 +4,335 @@
     <publication name="Battlefleet Heresy: Galaxy Aflame" id="177f-36f7-517e-af3f" hidden="false" shortName="BH:GA" publisher="Battlefleet Heresy: Galaxy Aflame 0.97.42" publicationDate="15/03/2025"/>
   </publications>
   <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Legion" hidden="false" id="5d60-ccfe-5d2e-83b6" collective="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f655-6171-4a5b-3ee6" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Special" hidden="false" id="61a8-77a5-129f-c5c7" targetId="5370656369616c23232344415441232323" primary="false"/>
+        <categoryLink name="Fleet Commander" hidden="false" id="c456-4264-9d62-7212" targetId="466c65657420436f6d6d616e6465727323232344415441232323" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Select Legion" id="b7ca-890a-ae8d-9bf1" hidden="false" collective="false" import="true" publicationId="177f-36f7-517e-af3f">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2511-3c9f-394f-549c" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="I Legion: Dark Angels " hidden="false" id="a3cf-e5c5-e26d-afdd" publicationId="177f-36f7-517e-af3f" page="22">
+              <infoGroups>
+                <infoGroup name="Legion Traits" id="b885-daf2-ad18-020c" hidden="false">
+                  <rules>
+                    <rule name="Promethean Pattern Cruisers " id="69e0-a644-940a-b924" hidden="false">
+                      <alias>Against attacks which make use of the gunnery table targeting a vessel with this special rule force one additional right column-shift in addition to any other column shifts</alias>
+                      <alias>that apply. This effect only applies while the target vessel has a shield strength above 0.</alias>
+                      <alias>This rule only applies to Dark Angels Legion Cruisers (of any kind) that have been upgraded with Overloaded Shield Capacitors.</alias>
+                    </rule>
+                    <rule name="Tiamat Pattern Destroyers" id="ad6b-3a4c-05c2-d508" hidden="false">
+                      <description>A Heavy Escort with this special rule adds +5cm to its speed and improves its turn radius to 90º.</description>
+                    </rule>
+                    <rule name="Dark Age Weaponry" id="b368-d1f6-e683-a03d" hidden="false">
+                      <description>As long as it is not crippled and it did not move more than its minimum movement distance this turn the lances and weapons batteries of a vessel with this special rule 
+fire using the normal shooting rules, but for each hit scored with a to-hit roll with a score of &apos;6&apos;, roll for an additional shot with the same weapon. These additional shots 
+cannot themselves generate additional shots. 
+This rule only applies to any Dark Angels Legion Capital Ships that have been upgraded with Turbo Weapons and Dark Angels Legion Heavy Escorts.</description>
+                    </rule>
+                  </rules>
+                </infoGroup>
+                <infoGroup name="Legion Refit" id="8b59-e150-8232-fe9a" hidden="false">
+                  <rules>
+                    <rule name="Turbo Weapons (+10 pts) " id="b64c-6091-068b-1a0c" hidden="false"/>
+                    <rule name="Overloaded Shield Capacitors (+20 pts)" id="0d48-2b09-c1f9-2ed3" hidden="false"/>
+                  </rules>
+                </infoGroup>
+              </infoGroups>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Rite of war" id="656b-eb05-d1fb-6cc9" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Legacies Of Old Night " hidden="false" id="1f22-f484-212c-bd84" publicationId="177f-36f7-517e-af3f" page="23">
+                      <rules>
+                        <rule name="Legacies Of Old Night" id="8f05-75e1-31ec-1b01" hidden="false" publicationId="177f-36f7-517e-af3f" page="23">
+                          <description>Prerequisite: Your fleet must contain at least as many escorts and/or heavy escorts as it does Grand Cruisers, Battlecruisers, Heavy Cruisers, and Assault Cruisers. 
+Effect: Dark Angels may take one less cruiser or light cruiser before they are allowed to take a Heavy Cruiser, Battlecruiser, Assault Cruiser, or Grand Cruiser. (E.g instead of a 1:2 ratio, The Dark Angels may take them at a 1:1 ratio.)</description>
+                        </rule>
+                      </rules>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f0dc-4b21-3ee6-8bdf" includeChildSelections="true"/>
+                      </constraints>
+                      <categoryLinks>
+                        <categoryLink name="Rite of War" hidden="false" id="ee86-4055-937b-fee4" targetId="ed40-746f-dea1-ece2" primary="true"/>
+                      </categoryLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name=" The Hexagrammaton" hidden="false" id="4585-b19a-afa7-8145" publicationId="177f-36f7-517e-af3f" page="23">
+                      <rules>
+                        <rule name=" The Hexagrammaton " id="f00a-9e35-60c3-a88b" hidden="false" publicationId="177f-36f7-517e-af3f" page="23">
+                          <description>Prerequisite: Your commander must sacrifice one commander’s re-roll to overcome the disruptions to the legion&apos;s chain of command the activation of the Hexagrammaton causes. 
+
+</description>
+                        </rule>
+                        <rule name="The Six Divine Ways" id="3c46-25f1-d4eb-e093" hidden="false">
+                          <description>At the beginning of each of your End Phases choose and conceal one special order. At the beginning of your next turn reveal which special order you chose in your previous end phase. For the remainder of your turn vessels with this special rule may re-roll to-hit rolls with a result of &quot;1&quot; against enemy vessels on the chosen special order. Simply pick up and re-roll the missed dice, the second result stands even if it is worse.</description>
+                        </rule>
+                        <rule name="Legion of Secrets" id="4d64-712a-f9bd-e7c8" hidden="false">
+                          <description> Enemy vessels reduce their leadership bonus for command checks for your ships being on special orders by -1 Ld. (i.e. Vessels with Improved Sensor 
+Array only receive a +1 Ld bonus.)</description>
+                        </rule>
+                      </rules>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="505f-0a1b-187c-28d8" includeChildSelections="true"/>
+                      </constraints>
+                      <categoryLinks>
+                        <categoryLink name="Rite of War" hidden="false" id="087b-3bfa-6650-df5c" targetId="ed40-746f-dea1-ece2" primary="true"/>
+                      </categoryLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="49eb-b9a3-cb8b-f363"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="III Legion: Emperor’s Children" hidden="false" id="4f9b-3ee9-429d-7250" publicationId="177f-36f7-517e-af3f" page="24">
+              <infoGroups>
+                <infoGroup name="Legion Traits" id="a617-4111-d239-261a" hidden="false">
+                  <rules>
+                    <rule name="Exemplars of War" id="06a1-3110-1d9c-b91e" hidden="false">
+                      <description>If a vessel with this special rule has no critical damage and is not crippled, it may re-roll to-hit rolls with a result of &quot;1&quot;. Simply pick up the missed dice and roll them again - the second result stands, even if it is worse.</description>
+                    </rule>
+                    <rule name="Flawless Execution" id="1abf-2011-2b06-d2c8" hidden="false">
+                      <description> When a ship or squadron of ships comprised entirely of vessels with this special rule performs a command check to go on a special order other than Brace For Impact! compare the result with the table below. 
+
+- Equals or is below Ld: |The ship/squadron is placed on the chosen special order. 
+- 1 or more below Ld: The ship/squadron may perform teleport attacks even if the special order would ordinarily prevent this. 
+- 2 or more below Ld: If the special order reduces the effectiveness of the ship/squadron&apos;s weapons is reduced by 25% (rounding up) rather than halved. 
+- 3 or more below Ld: The ship/squadron may perform an additional 45° turn at the end of its movement. All of the normal restrictions apply to this extra turn, meaning a capital ship must move its minimum turning distance again before making its additional turn (unless it is on Burn Retros special orders). </description>
+                    </rule>
+                    <rule name="The Maru Skara " id="3a39-214d-e8bc-528b" hidden="false">
+                      <description>Vessels with this special rule add +15 cm to their speed until the end of the first turn</description>
+                    </rule>
+                  </rules>
+                </infoGroup>
+                <infoGroup name="Legion Refit" id="0dde-480f-1ff2-85c2" hidden="false">
+                  <rules>
+                    <rule name="Maneuvering Thrusters (+20 pts) " id="f2e0-1000-bea7-7541" hidden="false"/>
+                    <rule name="Improved Logic Engines (+5 pts)" id="b19b-0da1-d9da-9aaa" hidden="false"/>
+                  </rules>
+                </infoGroup>
+              </infoGroups>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Rite of war" id="c9c5-8018-92d6-e76b" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Meticulous Plans " hidden="false" id="c6a5-fab7-7940-30dc" publicationId="177f-36f7-517e-af3f" page="25">
+                      <rules>
+                        <rule name="Meticulous Plans" id="fb3d-d997-1f1d-d08a" hidden="false" publicationId="177f-36f7-517e-af3f" page="25">
+                          <description>Prerequisite: At least half of your capital ships must have a speed of 25cm or higher.
+
+
+Effect: At the beginning of the game before setup select one special order for every turn of the game, then write them down as a list of special orders numbered from &quot;1 to #&quot; with &quot;#&quot; equaling the maximum number of turns you think the game can last. You cannot choose the same special order two turns in a row. Vessels with this special rule roll 3D6 when attempting to go on the special order you had selected for the current game turn, discarding the highest result. Furthermore, if you have already failed a command check this turn any vessels with this special rule which have yet to move may still attempt to go on the special order you chose for the current game turn.</description>
+                        </rule>
+                      </rules>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b9c7-066a-14af-9762" includeChildSelections="true"/>
+                      </constraints>
+                      <categoryLinks>
+                        <categoryLink name="Rite of War" hidden="false" id="c16e-9ccc-193f-6a64" targetId="ed40-746f-dea1-ece2" primary="true"/>
+                      </categoryLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="The Perfect Host (Traitor Only)" hidden="false" id="2798-5dee-3f6e-92a4" publicationId="177f-36f7-517e-af3f" page="25">
+                      <rules>
+                        <rule name="The Perfect Host" id="4058-336e-c2dd-7109" hidden="false" publicationId="177f-36f7-517e-af3f" page="25">
+                          <description>**Prerequisite**: Each of your commanders must be given the Empowered Mark of Slaanesh at the cost of sacrificing 1 of their commander’s re-rolls to the lord of excess.
+
+**Effects:** Any of your legion capital ships may take the Mark of Slaanesh for +15 points. In addition to its normal effects Any ships with the Mark of Slaanesh gain the following effects: 
+- Veil of Lust: The dissonant noise becomes so palpable, even the sensors and auguries of enemy vessels are affected. Ships firing on this vessel within 30cm must perform a leadership test. If the test is failed then they must re-roll to-hit rolls with a result of &quot;6&quot;. Simply pick up the missed dice and roll them again - the second result stands, even if it is worse. 
+- Sirens Song: Vivid sounds and images of unspeakably dark pleasures permeate the hulls of enemy vessels and enrapt entire crews to inaction.While within 15 cm of the marked vessel, enemy ships roll 3D6 for command checks discarding the lowest result. (Note: This supercedes other abilities which affect the number of dice rolled for command checks.)</description>
+                        </rule>
+                      </rules>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="32ce-ff81-93b8-0452" includeChildSelections="true"/>
+                      </constraints>
+                      <categoryLinks>
+                        <categoryLink name="Rite of War" hidden="false" id="a53d-9cc5-5043-232f" targetId="ed40-746f-dea1-ece2" primary="true"/>
+                      </categoryLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4806-1fb8-9adb-ef40"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="IV Legion: Iron Warriors" hidden="false" id="69fe-bbe4-f65f-43ed" publicationId="177f-36f7-517e-af3f" page="26">
+              <infoGroups>
+                <infoGroup name="Legion Traits" id="cef4-3068-6f2e-e650" hidden="false">
+                  <rules>
+                    <rule name="Extremis Arsenal" id="516d-c8e9-2a56-9ba9" hidden="false">
+                      <description>When determining how many Nova Cannons, Plasma Scourers, Mangonel Bombardment Cruisers, and Stalwart Mine Keepers may be included in your fleet you may take 1 more than the points value of your fleet would usually allow. </description>
+                    </rule>
+                    <rule name="Siege Batteries " id="600a-a1b9-2339-0553" hidden="false">
+                      <description>Whenever a vessel with this special rule fires its weapon batteries and bombardment cannons together, add both weapons’ firepower together and look up the corresponding number of to-hit rolls on the gunnery table. Any of these in excess of the bombardment cannons’ firepower are first made by the weapon batteries, and the rest are then made by the bombardment cannons. (ex: When a Strike Cruiser targets a closing capital ship at 30cm range with both its prow bombardment cannon ( firepower 3) and starboard weapons batteries (firepower 4) it would ordinarily roll 2 to-hit rolls for its bombardment cannons and 3 to-hit rolls for its weapons batteries. When an Iron Warriors Strike Cruiser does this you instead combine the firepower values of both weapons into a single firepower 7 attack before consulting the gunnery table resulting in a 5 to-hit roll attack. You then subtract the firepower of the bombardment cannons being used in the attack to determine how many to-hit rolls are made by the weapon batteries. In this example the Iron Warriors Strike Cruiser’s prow bombardment cannon has a firepower of 3, so the first 2 to-hit rolls are made by the weapon batteries and then the remaining 3 to-hit rolls are made by the bombardment cannons.) </description>
+                    </rule>
+                    <rule name="Fury of Olympia" id="7d31-9b8e-95aa-e081" hidden="false">
+                      <description>When checking to see if a hit inflicted by a vessel with this special rule or its ordnance causes critical damage you can re-roll rolls with a result of &apos;1&apos;. Simply pick up the missed dice and roll them again - the second result stands, even if it is worse. This rule only applies to ordnance markers launched by Iron Warriors Legion Vessels and Iron Warriors Legion Capital Ships that have been upgraded with Turbo Weapons. Note: This does not apply to Hit-and-Run attacks. (ex: When an Iron Warriors Cobra Class Destroyer targets an enemy vessel with its weapons batteries and torpedoes it does not get to re-roll rolls with a result of 1 to cause critical damage for any hits inflicted by its weapon batteries, however, it does get to re-roll rolls with a result of 1 to cause critical damage for any hits inflicted by its torpedoes. When an Iron Warriors Cruiser with Turbo Weapons targets an enemy vessel with its weapons batteries and torpedoes it gets to re-roll rolls with a result of 1 to cause critical damage for any hits inflicted by its weapon batteries and its torpedoes.)</description>
+                    </rule>
+                  </rules>
+                </infoGroup>
+                <infoGroup name="Legion Refit" id="a4cc-0d46-e2dd-cff5" hidden="false">
+                  <rules>
+                    <rule name="Reinforced Hull (+10 pts) " id="17e5-1e6b-b8e8-ec23" hidden="false"/>
+                    <rule name="Turbo Weapons (+10 pts)" id="0564-00c8-a34e-8c57" hidden="false"/>
+                  </rules>
+                </infoGroup>
+              </infoGroups>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Rite of war" id="868c-3043-03fc-5d78" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="The Unbreakable Litany" hidden="false" id="c123-fc70-8bbd-ac00" publicationId="177f-36f7-517e-af3f" page="27">
+                      <rules>
+                        <rule name="The Unbreakable Litany" id="e95f-0384-1dfd-4d81" hidden="false" publicationId="177f-36f7-517e-af3f" page="27">
+                          <description>**Prerequisite:** At least half of your capital ships must have been given the reinforced hull refit.
+**Iron Within** 
+The ordnance strength, gunnery firepower, turrets, and shields values of a vessel with this special rule that is crippled or on Brace for Impact! special orders are reduced 
+by only 25% (rounding up) rather than halved. 
+**Iron Without** 
+*The IV legion typically added many additional layers of ablative (one might even say redundant) armor plating to their vessels.* 
+When a vessel with this special rule and the reinforced hull refit suffers a Prow Armament Damaged critical hit it must perform a leadership test. If the test is passed then 
+the critical hit is ignored. </description>
+                        </rule>
+                      </rules>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2d49-18cf-71b8-11cc" includeChildSelections="true"/>
+                      </constraints>
+                      <categoryLinks>
+                        <categoryLink name="Rite of War" hidden="false" id="6e5d-e43e-44ba-37dc" targetId="ed40-746f-dea1-ece2" primary="true"/>
+                      </categoryLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Tyrant Flotilla (Traitor Only)" hidden="false" id="0155-c298-1966-4cbd" publicationId="177f-36f7-517e-af3f" page="27">
+                      <rules>
+                        <rule name="Tyrant Flotilla" id="d9ab-a5fb-ce15-1670" hidden="false" publicationId="177f-36f7-517e-af3f" page="27">
+                          <description>**Prerequisite:** Your fleet must include Planetary Defenses. Any of your commanders may be given either the Mark of Chaos Undivided at the cost of sacrificing 1 of their commander’s re-rolls to the dark gods. (Note this does not require you to be the defender in the battle, if you are the attacker you can still field system ships.) 
+**Attritional warfare:** You can spend an extra 50 points on planetary defenses for every 500 points (or part thereof) in your fleet. Your planetary defenses count as Legion Vessels.
+**Peerless Seigemasters:** Planetary defenses that are a part of your fleet increase strength and firepower of their weapons batteries, lances, and torpedoes by 1.</description>
+                        </rule>
+                      </rules>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7250-010b-6afb-6021" includeChildSelections="true"/>
+                      </constraints>
+                      <categoryLinks>
+                        <categoryLink name="Rite of War" hidden="false" id="e689-199f-9f01-66ea" targetId="ed40-746f-dea1-ece2" primary="true"/>
+                      </categoryLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="63d8-25dc-8746-bf70"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="V Legion: White Scars" hidden="false" id="167a-a17d-71cf-751a" publicationId="177f-36f7-517e-af3f" page="28">
+              <infoGroups>
+                <infoGroup name="Legion Traits" id="c638-718b-b420-e06a" hidden="false">
+                  <rules>
+                    <rule name="Swift as the Wind" id="34b6-fd37-4415-1588" hidden="false" publicationId="177f-36f7-517e-af3f" page="28">
+                      <description>A vessel with this special rule adds +5cm to its speed. When a vessel with this special rule suffers an Engine Room Damaged critical hit it suffers an additional critical hit. Roll a D6 for this additional critical hit and apply the corresponding result from the critical hits table. If the result of this roll is a “1” the additional critical hit is discarded. </description>
+                    </rule>
+                    <rule name="Masters of Maneuver " id="a173-61de-f06d-aa5e" hidden="false">
+                      <description>White Scars Legion Vessels with this special rule roll 3d6 for command checks to go on All Ahead Full and Burn Retros special orders, discarding the highest result. 
+White Scars Legion Vessels except Battleships with this special rule roll 3d6 for command checks to go on Come To New Heading, discarding the highest result.  </description>
+                    </rule>
+                    <rule name="Lightning Strike " id="debb-19ec-1c47-668c" hidden="false">
+                      <description>White Scars Legion Capital Ships with this special rule can perform teleporter attacks while on All Ahead Full, Come To New Heading, and Burn Retros special orders. </description>
+                    </rule>
+                  </rules>
+                </infoGroup>
+                <infoGroup name="Legion Refit" id="b707-38d7-fec0-f18b" hidden="false">
+                  <rules>
+                    <rule name="Motion-Tracking Targeters (+20 pts) " id="7167-d855-19cf-bbb3" hidden="false"/>
+                    <rule name="Maneuvering Thrusters (+20 pts)" id="ffd4-66d8-4cf2-0347" hidden="false"/>
+                  </rules>
+                </infoGroup>
+              </infoGroups>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Rite of war" id="98dd-045e-bdcd-abc4" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Zao" hidden="false" id="ef4a-47fb-f936-923b" publicationId="177f-36f7-517e-af3f" page="29">
+                      <rules>
+                        <rule name="Zao" id="ee84-9c62-a174-d4ce" hidden="false" publicationId="177f-36f7-517e-af3f" page="23">
+                          <description>**Prerequisite:** ¾ of your vessels must have a speed of 25cm or higher. 
+**Effect:** If there are any vessels with this special rule on All Ahead Full, Come To New Heading, or Burn Retros special orders enemy vessels suffer -2 leadership for command checks to go on Lock On special orders and for target priority tests to target vessels with this special rule. In addition when an enemy vessel targets a vessel with this special rule that is on All Ahead Full, Come To New Heading, or Burn Retros special orders it has -1 to-hit with lances and suffers a rightward shift for weapons that use the gunnery table. </description>
+                        </rule>
+                      </rules>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6e11-ff8a-848b-374f" includeChildSelections="true"/>
+                      </constraints>
+                      <categoryLinks>
+                        <categoryLink name="Rite of War" hidden="false" id="a4a2-f50a-3bcb-adc0" targetId="ed40-746f-dea1-ece2" primary="true"/>
+                      </categoryLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="The Thunder and The Lightning " hidden="false" id="c65c-a3d7-ac25-26e1" publicationId="177f-36f7-517e-af3f" page="29">
+                      <rules>
+                        <rule name="The Thunder and The Lightning" id="a687-4d01-a58a-97ae" hidden="false" publicationId="177f-36f7-517e-af3f" page="23">
+                          <description>**Prerequisite:** At least half of your capital ships must have at least one weapon which has a range greater than 30cm. 
+**The Thunder:**  Until an enemy capital ship has been crippled or destroyed vessels with this special rule may re-roll to-hit rolls with a result of &quot;1&quot; against targets beyond 30cm. Simply pick up the missed dice and roll them again - the second result stands, even if it is worse. 
+**The Lightning:** After at least one enemy capital ship has been crippled or destroyed vessels with this special rule may re-roll to-hit rolls with a result of “1” against targets within 15cm. Simply pick up the missed dice and roll them again - the second result stands, even if it is worse.</description>
+                        </rule>
+                      </rules>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="cec2-a767-701e-c75b" includeChildSelections="true"/>
+                      </constraints>
+                      <categoryLinks>
+                        <categoryLink name="Rite of War" hidden="false" id="27b1-c201-c769-cc1e" targetId="ed40-746f-dea1-ece2" primary="true"/>
+                      </categoryLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e132-8eb7-a6fe-2bf8"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="xx Legion: xx" hidden="true" id="431b-f3ed-62fd-4f2b" publicationId="177f-36f7-517e-af3f" page="22">
+              <infoGroups>
+                <infoGroup name="Legion Traits" id="f578-f119-d083-5535" hidden="false">
+                  <rules>
+                    <rule name="New Rule" id="6b6a-e126-0a2a-ff13" hidden="false"/>
+                  </rules>
+                </infoGroup>
+                <infoGroup name="Legion Refit" id="05e2-6fd0-0349-ee37" hidden="false">
+                  <rules>
+                    <rule name="New Rule" id="c129-339c-9944-f15f" hidden="false"/>
+                  </rules>
+                </infoGroup>
+              </infoGroups>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Rite of war" id="8851-c73f-e863-4f37" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="rite" hidden="false" id="e80d-c5c3-54ce-e045" publicationId="177f-36f7-517e-af3f" page="23">
+                      <rules>
+                        <rule name="rite" id="3332-e11c-3188-64f8" hidden="false" publicationId="177f-36f7-517e-af3f" page="23">
+                          <description/>
+                        </rule>
+                      </rules>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7741-b460-f5ae-5232" includeChildSelections="true"/>
+                      </constraints>
+                      <categoryLinks>
+                        <categoryLink name="Rite of War" hidden="false" id="4e77-d3c0-b15f-a35b" targetId="ed40-746f-dea1-ece2" primary="true"/>
+                      </categoryLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd94-5345-e5ad-b5e5"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry type="unit" import="true" name="Desolator Class Battleship" hidden="false" id="4dec-718b-ac42-e9a9" publicationId="177f-36f7-517e-af3f" page="76" collective="false">
       <profiles>
         <profile name="Desolator Profile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="0c66-6e65-5426-ad75" publicationId="11f0-17d1-e4d2-1018" page="118">
@@ -127,6 +456,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="598e-1ce0-5926-6f14" id="fb54-cf61-a744-ba9a" primary="true" name="Battle Barges"/>
+        <categoryLink targetId="4361706974616c20536869707323232344415441232323" id="df03-c77a-ba09-ed06" primary="false" name="Battleship"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Weapons Battery Options" id="6bf3-7222-2b5c-84ca" hidden="false" collective="false" import="true" defaultSelectionEntryId="78fe-d1a4-6d9d-3c7c" sortIndex="2">
@@ -1713,6 +2043,7 @@ cost and movement speed</description>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="598e-1ce0-5926-6f14" id="52fa-84fe-310f-5d8e" primary="true" name="Battle Barges"/>
+        <categoryLink targetId="4361706974616c20536869707323232344415441232323" id="909a-a27d-ee64-c22c" primary="false" name="Battleship"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Torpedo options" id="7950-ca8e-a562-a8b5" hidden="false" publicationId="177f-36f7-517e-af3f" page="91" defaultSelectionEntryId="07c5-e963-644f-844e">
@@ -1872,6 +2203,7 @@ Boarding torpedoes attack if they come into contact with an enemy ship&apos;s ba
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="598e-1ce0-5926-6f14" id="91df-371a-550a-8d7b" primary="true" name="Battle Barges"/>
+        <categoryLink targetId="4361706974616c20536869707323232344415441232323" id="5db4-8dde-1ef6-a00f" primary="false" name="Battleship"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Attack Craft" id="9d30-1e42-998f-66b5" hidden="false" defaultSelectionEntryId="none">
@@ -1980,6 +2312,7 @@ gunships cannot purchase this upgrade</characteristic>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="598e-1ce0-5926-6f14" id="7977-452e-dae0-6ff5" primary="true" name="Battle Barges"/>
+        <categoryLink targetId="4361706974616c20536869707323232344415441232323" id="5018-f52f-afc9-cd28" primary="false" name="Battleship"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Torpedo options" id="0b61-f7fb-8ee8-eb57" hidden="false" publicationId="177f-36f7-517e-af3f" page="91" defaultSelectionEntryId="ccb0-7d16-133f-c89d">
@@ -2133,6 +2466,7 @@ gunships cannot purchase this upgrade</characteristic>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="598e-1ce0-5926-6f14" id="09e1-c726-4b91-eb1c" primary="true" name="Battle Barges"/>
+        <categoryLink targetId="4361706974616c20536869707323232344415441232323" id="223c-3ca0-3c00-c4f9" primary="false" name="Battleship"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Attack Craft" id="e95e-797a-1d0e-62c4" hidden="false" defaultSelectionEntryId="none">
@@ -2225,6 +2559,7 @@ gunships cannot purchase this upgrade</characteristic>
       </profiles>
       <categoryLinks>
         <categoryLink name="Grand Cruiser" hidden="false" id="1c5f-f881-6b2c-5529" targetId="46e2-c9eb-27e7-172a" primary="true"/>
+        <categoryLink targetId="cf79-82ee-ebe9-7ea3" id="0bca-b36e-f6bc-63d2" primary="false" name="Heavy Cruiser"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Dorsal Weapons" id="3451-51b8-150a-2ba4" hidden="false">
@@ -2343,6 +2678,7 @@ with prow torpedoes automatically loses this special rule, as its prow must be r
       </profiles>
       <categoryLinks>
         <categoryLink name="Grand Cruiser" hidden="false" id="0898-1b1d-8e52-c037" targetId="46e2-c9eb-27e7-172a" primary="true"/>
+        <categoryLink targetId="cf79-82ee-ebe9-7ea3" id="9391-bfb5-82dc-eae9" primary="false" name="Heavy Cruiser"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="280"/>
@@ -2486,6 +2822,7 @@ with prow torpedoes automatically loses this special rule, as its prow must be r
       </profiles>
       <categoryLinks>
         <categoryLink name="Grand Cruiser" hidden="false" id="fd6c-5234-9675-768f" targetId="46e2-c9eb-27e7-172a" primary="true"/>
+        <categoryLink targetId="cf79-82ee-ebe9-7ea3" id="d206-ee4c-7981-753c" primary="false" name="Heavy Cruiser"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="260"/>
@@ -2613,6 +2950,7 @@ with prow torpedoes automatically loses this special rule, as its prow must be r
       </profiles>
       <categoryLinks>
         <categoryLink name="Grand Cruiser" hidden="false" id="12a1-23e2-be87-3765" targetId="46e2-c9eb-27e7-172a" primary="true"/>
+        <categoryLink targetId="cf79-82ee-ebe9-7ea3" id="2c91-23d0-37f7-891d" primary="false" name="Heavy Cruiser"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="205"/>
@@ -2719,6 +3057,7 @@ with prow torpedoes automatically loses this special rule, as its prow must be r
       </profiles>
       <categoryLinks>
         <categoryLink name="Grand Cruiser" hidden="false" id="5d35-75f4-ab8c-1f7a" targetId="46e2-c9eb-27e7-172a" primary="true"/>
+        <categoryLink targetId="cf79-82ee-ebe9-7ea3" id="d314-d3bf-1f45-9151" primary="false" name="Heavy Cruiser"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="250"/>
@@ -2825,6 +3164,7 @@ with prow torpedoes automatically loses this special rule, as its prow must be r
       </profiles>
       <categoryLinks>
         <categoryLink name="Grand Cruiser" hidden="false" id="7776-25d7-d514-f7b9" targetId="46e2-c9eb-27e7-172a" primary="true"/>
+        <categoryLink targetId="cf79-82ee-ebe9-7ea3" id="84e0-b1b8-0146-f1e0" primary="false" name="Heavy Cruiser"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="230"/>
@@ -2917,6 +3257,7 @@ with prow torpedoes automatically loses this special rule, as its prow must be r
       </profiles>
       <categoryLinks>
         <categoryLink name="Grand Cruiser" hidden="false" id="de46-755b-8896-f47e" targetId="46e2-c9eb-27e7-172a" primary="true"/>
+        <categoryLink targetId="cf79-82ee-ebe9-7ea3" id="888f-2a56-a4e2-84d9" primary="false" name="Heavy Cruiser"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="200"/>
@@ -3037,6 +3378,7 @@ with prow torpedoes automatically loses this special rule, as its prow must be r
       </profiles>
       <categoryLinks>
         <categoryLink name="Grand Cruiser" hidden="false" id="a45a-1ab8-7200-56ca" targetId="46e2-c9eb-27e7-172a" primary="true"/>
+        <categoryLink targetId="cf79-82ee-ebe9-7ea3" id="d382-b01f-4ece-8719" primary="false" name="Heavy Cruiser"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="305"/>
@@ -3136,6 +3478,7 @@ with prow torpedoes automatically loses this special rule, as its prow must be r
       </profiles>
       <categoryLinks>
         <categoryLink name="Grand Cruiser" hidden="false" id="e712-40fb-563e-d23d" targetId="46e2-c9eb-27e7-172a" primary="true"/>
+        <categoryLink targetId="cf79-82ee-ebe9-7ea3" id="2fce-cae7-30d1-c89b" primary="false" name="Heavy Cruiser"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Dorsal Weapons" id="75a2-a87f-0213-7456" hidden="false">
@@ -3224,6 +3567,7 @@ with prow torpedoes automatically loses this special rule, as its prow must be r
       </profiles>
       <categoryLinks>
         <categoryLink name="Grand Cruiser" hidden="false" id="0692-b2b0-9bc1-27d4" targetId="46e2-c9eb-27e7-172a" primary="true"/>
+        <categoryLink targetId="cf79-82ee-ebe9-7ea3" id="77da-7cbb-c690-d052" primary="false" name="Heavy Cruiser"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Dorsal Weapons" id="4bc8-248f-79a3-ead4" hidden="false">
@@ -3326,6 +3670,8 @@ Starhawks: 20cm</characteristic>
       </profiles>
       <categoryLinks>
         <categoryLink name="Heavy Cruiser" hidden="false" id="3493-a282-faa4-cb34" targetId="cf79-82ee-ebe9-7ea3" primary="true"/>
+        <categoryLink targetId="b041-ef69-0039-d535" id="a8bb-077d-b8f5-7bd6" primary="false" name="Battlecruiser"/>
+        <categoryLink targetId="1042-e458-4e02-a537" id="447e-9a18-74bb-fb7a" primary="false" name="Cruiser"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Imperious" hidden="false" id="bf5b-8b09-1794-e865" page="0" collective="false">
@@ -3440,8 +3786,9 @@ gunships cannot purchase this upgrade</characteristic>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink name="Cruiser" hidden="false" id="efa4-2be3-6c25-b4ab" targetId="1042-e458-4e02-a537" primary="false"/>
         <categoryLink name="Heavy Cruiser" hidden="false" id="58eb-7b1a-92f4-52c2" targetId="cf79-82ee-ebe9-7ea3" primary="true"/>
+        <categoryLink targetId="b041-ef69-0039-d535" id="488b-e057-e6d0-bc9b" primary="false" name="Battlecruiser"/>
+        <categoryLink targetId="1042-e458-4e02-a537" id="6683-c6b3-05c0-5a49" primary="false" name="Cruiser"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="230"/>
@@ -3519,8 +3866,9 @@ gunships cannot purchase this upgrade</characteristic>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink name="Cruiser" hidden="false" id="cf2b-7e7a-1584-2a57" targetId="1042-e458-4e02-a537" primary="false"/>
         <categoryLink name="Heavy Cruiser" hidden="false" id="2a6e-a34b-e2e3-3224" targetId="cf79-82ee-ebe9-7ea3" primary="true"/>
+        <categoryLink targetId="b041-ef69-0039-d535" id="2145-c223-596e-f460" primary="false" name="Battlecruiser"/>
+        <categoryLink targetId="1042-e458-4e02-a537" id="13a7-4756-d08a-ae93" primary="false" name="Cruiser"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="220"/>
@@ -3599,6 +3947,7 @@ gunships cannot purchase this upgrade</characteristic>
       </profiles>
       <categoryLinks>
         <categoryLink name="Heavy Cruiser" hidden="false" id="4779-18a3-1d0e-7fa7" targetId="cf79-82ee-ebe9-7ea3" primary="true"/>
+        <categoryLink targetId="1042-e458-4e02-a537" id="9dad-624f-49ee-ec57" primary="false" name="Cruiser"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="190"/>
@@ -3668,6 +4017,7 @@ Shark assault boats: 30cm</characteristic>
       </profiles>
       <categoryLinks>
         <categoryLink name="Heavy Cruiser" hidden="false" id="209d-b7c4-8e47-bed7" targetId="cf79-82ee-ebe9-7ea3" primary="true"/>
+        <categoryLink targetId="1042-e458-4e02-a537" id="e244-4c94-088c-e7fe" primary="false" name="Cruiser"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="265"/>
@@ -3772,6 +4122,7 @@ Shark assault boats: 30cm</characteristic>
       <categoryLinks>
         <categoryLink name="Heavy Cruiser" hidden="false" id="8005-5d6d-bfec-38ac" targetId="cf79-82ee-ebe9-7ea3" primary="true"/>
         <categoryLink name="CV" hidden="false" id="d4eb-1441-6b08-58b7" targetId="e0c6-bde4-7055-1e6e" primary="false"/>
+        <categoryLink targetId="1042-e458-4e02-a537" id="2582-d222-0da0-8f62" primary="false" name="Cruiser"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="240"/>
@@ -3841,6 +4192,7 @@ this upgrade.</characteristic>
       </profiles>
       <categoryLinks>
         <categoryLink name="Heavy Cruiser" hidden="false" id="fac9-abfb-07c7-2f0e" targetId="cf79-82ee-ebe9-7ea3" primary="true"/>
+        <categoryLink targetId="1042-e458-4e02-a537" id="1f79-a021-ce8e-067c" primary="false" name="Cruiser"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="205"/>
@@ -3890,6 +4242,7 @@ this upgrade.</characteristic>
       </profiles>
       <categoryLinks>
         <categoryLink name="Heavy Cruiser" hidden="false" id="113d-db81-0e9e-f11e" targetId="cf79-82ee-ebe9-7ea3" primary="true"/>
+        <categoryLink targetId="1042-e458-4e02-a537" id="2d85-a954-9002-d5cb" primary="false" name="Cruiser"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="195"/>
@@ -3946,6 +4299,8 @@ this upgrade.</characteristic>
       </profiles>
       <categoryLinks>
         <categoryLink targetId="9008-7984-0773-6f06" id="94ec-dc5d-0db4-d5e3" primary="true" name="Assault Cruiser"/>
+        <categoryLink targetId="1042-e458-4e02-a537" id="8db0-0614-aee3-af50" primary="false" name="Cruiser"/>
+        <categoryLink targetId="cf79-82ee-ebe9-7ea3" id="3887-9335-e82c-bf09" primary="false" name="Heavy Cruiser"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="230"/>
@@ -3998,6 +4353,8 @@ this upgrade.</characteristic>
       </profiles>
       <categoryLinks>
         <categoryLink targetId="9008-7984-0773-6f06" id="a027-4ae0-8838-9686" primary="true" name="Assault Cruiser"/>
+        <categoryLink targetId="1042-e458-4e02-a537" id="ca18-5263-61da-12cc" primary="false" name="Cruiser"/>
+        <categoryLink targetId="cf79-82ee-ebe9-7ea3" id="41e5-8c70-aee1-830f" primary="false" name="Heavy Cruiser"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="250"/>
@@ -4050,6 +4407,8 @@ this upgrade.</characteristic>
       </profiles>
       <categoryLinks>
         <categoryLink targetId="9008-7984-0773-6f06" id="cc5d-313d-98a6-6293" primary="true" name="Assault Cruiser"/>
+        <categoryLink targetId="1042-e458-4e02-a537" id="1cc4-af55-9f2e-c4a3" primary="false" name="Cruiser"/>
+        <categoryLink targetId="cf79-82ee-ebe9-7ea3" id="1d29-6bda-df7b-219f" primary="false" name="Heavy Cruiser"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="255"/>
@@ -4109,6 +4468,8 @@ this upgrade.</characteristic>
       </profiles>
       <categoryLinks>
         <categoryLink targetId="9008-7984-0773-6f06" id="7c00-08b9-d46c-506f" primary="true" name="Assault Cruiser"/>
+        <categoryLink targetId="1042-e458-4e02-a537" id="e55d-f092-d9c7-9467" primary="false" name="Cruiser"/>
+        <categoryLink targetId="cf79-82ee-ebe9-7ea3" id="4d9f-04aa-4509-d202" primary="false" name="Heavy Cruiser"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="235"/>
@@ -4871,6 +5232,7 @@ the normal rules and restrictions for movement.</description>
       </costs>
       <categoryLinks>
         <categoryLink targetId="c3b1-2361-847c-65d0" id="9fc7-1166-fdc0-aa7e" primary="true" name="Strike Cruiser"/>
+        <categoryLink targetId="1042-e458-4e02-a537" id="8465-8ff2-47a9-5475" primary="false" name="Cruiser"/>
       </categoryLinks>
       <profiles>
         <profile name="Vanguard Class Strike Cruiser" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="0f45-9aad-06a3-1e16" publicationId="177f-36f7-517e-af3f" page="131">
@@ -4937,6 +5299,7 @@ the normal rules and restrictions for movement.</description>
       </costs>
       <categoryLinks>
         <categoryLink targetId="c3b1-2361-847c-65d0" id="26e6-06fd-f8e4-8087" primary="true" name="Strike Cruiser"/>
+        <categoryLink targetId="1042-e458-4e02-a537" id="ee17-4239-d683-7661" primary="false" name="Cruiser"/>
       </categoryLinks>
       <profiles>
         <profile name="Crusade Class Strike Cruiser" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="85e4-6c63-8122-1912" publicationId="177f-36f7-517e-af3f" page="132">
@@ -5003,6 +5366,7 @@ the normal rules and restrictions for movement.</description>
       </costs>
       <categoryLinks>
         <categoryLink targetId="c3b1-2361-847c-65d0" id="b2f1-c2fd-6423-8c17" primary="true" name="Strike Cruiser"/>
+        <categoryLink targetId="1042-e458-4e02-a537" id="08a8-9f11-4438-092e" primary="false" name="Cruiser"/>
       </categoryLinks>
       <profiles>
         <profile name="Aegis Class Strike Cruiser" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="ee2b-f9af-e405-a185" publicationId="177f-36f7-517e-af3f" page="133">
@@ -5055,6 +5419,7 @@ the normal rules and restrictions for movement.</description>
       </costs>
       <categoryLinks>
         <categoryLink targetId="c3b1-2361-847c-65d0" id="f91d-c48f-16bf-d9fa" primary="true" name="Strike Cruiser"/>
+        <categoryLink targetId="1042-e458-4e02-a537" id="3a8d-de9f-7439-8b1e" primary="false" name="Cruiser"/>
       </categoryLinks>
       <profiles>
         <profile name="Agentha Class Strike Cruiser" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="3681-bb94-dce7-bb95" publicationId="177f-36f7-517e-af3f" page="134">
@@ -5326,7 +5691,7 @@ reduce its armor to 5+ armor and improve its turn radius to 90° for no change i
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="69d6-1693-fd03-d8de" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="dddd-02d4-7a56-ee8b" childId="69d6-1693-fd03-d8de" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -5340,7 +5705,7 @@ reduce its armor to 5+ armor and improve its turn radius to 90° for no change i
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="69d6-1693-fd03-d8de" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="dddd-02d4-7a56-ee8b" childId="69d6-1693-fd03-d8de" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -5518,7 +5883,7 @@ Starhawk Bombers: 20cm</characteristic>
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name=" Havoc Class Heavy Frigate" hidden="false" id="c75a-f1de-3267-3df3" publicationId="177f-36f7-517e-af3f" page="144">
+    <selectionEntry type="unit" import="true" name=" Havoc Class Heavy Frigate" hidden="false" id="c75a-f1de-3267-3df3" publicationId="177f-36f7-517e-af3f" page="144" defaultAmount="2">
       <costs>
         <cost name="pts" typeId="points" value="45"/>
       </costs>
@@ -5806,11 +6171,11 @@ special orders.</description>
         <rule name="Advanced Auspex Arrays" id="118b-8306-a6ef-58ae" hidden="false">
           <description>Any vessel within 10cm of a ship or station equipped with advanced auspex arrays may re-roll 
 missed attacks with turrets and does not suffer a right-column shift for firing gunnery weapons at targets more than 30cm away. 
-A ship or station’s advanced auspex arrays will continue to function even if it is on Brace for Impact special orders. </description>
+A ship or station’s advanced auspex arrays will continue to function even if it is on Brace for Impact special orders.</description>
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Iconoclast Class Destroyer" hidden="false" id="6c69-ce48-ba05-2e18" publicationId="177f-36f7-517e-af3f" page="153">
+    <selectionEntry type="unit" import="true" name="Iconoclast Class Destroyer" hidden="false" id="6c69-ce48-ba05-2e18" publicationId="177f-36f7-517e-af3f" page="153" collapsible="true" defaultAmount="2">
       <costs>
         <cost name="pts" typeId="points" value="25"/>
       </costs>
@@ -5838,7 +6203,7 @@ A ship or station’s advanced auspex arrays will continue to function even if i
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Cobra Class Destroyer" hidden="false" id="b37a-dca9-649b-334f" publicationId="177f-36f7-517e-af3f" page="154">
+    <selectionEntry type="unit" import="true" name="Cobra Class Destroyer" hidden="false" id="b37a-dca9-649b-334f" publicationId="177f-36f7-517e-af3f" page="154" collapsible="true">
       <costs>
         <cost name="pts" typeId="points" value="30"/>
       </costs>
@@ -5894,7 +6259,7 @@ A ship or station’s advanced auspex arrays will continue to function even if i
           <rules>
             <rule name="Special Refit: Remove Weapons Battery" id="198b-2a51-d50d-ddf2" hidden="false">
               <description>A Cobra Class Destroyer can remove it&apos;s Weapons Battery to increase the strength of it&apos;s Torpedo Salvo to 3 for +5 
-points. </description>
+points.</description>
             </rule>
           </rules>
           <costs>
@@ -5903,7 +6268,7 @@ points. </description>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Firestorm Class Frigate" hidden="false" id="674f-febe-46ec-6c95" publicationId="177f-36f7-517e-af3f" page="155">
+    <selectionEntry type="unit" import="true" name="Firestorm Class Frigate" hidden="false" id="674f-febe-46ec-6c95" publicationId="177f-36f7-517e-af3f" page="155" collapsible="true">
       <costs>
         <cost name="pts" typeId="points" value="35"/>
       </costs>
@@ -5938,7 +6303,7 @@ points. </description>
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Sword Class Frigate" hidden="false" id="4794-59c8-2da7-bf51" publicationId="177f-36f7-517e-af3f" page="156">
+    <selectionEntry type="unit" import="true" name="Sword Class Frigate" hidden="false" id="4794-59c8-2da7-bf51" publicationId="177f-36f7-517e-af3f" page="156" collapsible="true">
       <costs>
         <cost name="pts" typeId="points" value="35"/>
       </costs>
@@ -5966,7 +6331,7 @@ points. </description>
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Falchion Class Frigate" hidden="false" id="a7e2-6d31-d65e-eb19" publicationId="177f-36f7-517e-af3f" page="157">
+    <selectionEntry type="unit" import="false" name="Falchion Class Frigate" hidden="false" id="a7e2-6d31-d65e-eb19" publicationId="177f-36f7-517e-af3f" page="157" collapsible="true">
       <costs>
         <cost name="pts" typeId="points" value="35"/>
       </costs>
@@ -6038,5 +6403,6 @@ to its Leadership value at all times (max Ld10).</characteristic>
   <categoryEntries>
     <categoryEntry name="Light Cruiser" id="dd62-c394-a24a-7306" hidden="false"/>
     <categoryEntry name="Heavy Escort" id="f448-d70a-49e6-0c2f" hidden="false"/>
+    <categoryEntry name="Rite of War" id="ed40-746f-dea1-ece2" hidden="false"/>
   </categoryEntries>
 </catalogue>

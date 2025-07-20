@@ -65,15 +65,13 @@ Effect: Dark Angels may take one less cruiser or light cruiser before they are a
                     <selectionEntry type="upgrade" import="true" name=" The Hexagrammaton" hidden="false" id="4585-b19a-afa7-8145" publicationId="177f-36f7-517e-af3f" page="23">
                       <rules>
                         <rule name=" The Hexagrammaton " id="f00a-9e35-60c3-a88b" hidden="false" publicationId="177f-36f7-517e-af3f" page="23">
-                          <description>Prerequisite: Your commander must sacrifice one commander’s re-roll to overcome the disruptions to the legion&apos;s chain of command the activation of the Hexagrammaton causes. 
-
-</description>
+                          <description>Prerequisite: Your commander must sacrifice one commander’s re-roll to overcome the disruptions to the legion&apos;s chain of command the activation of the Hexagrammaton causes.</description>
                         </rule>
                         <rule name="The Six Divine Ways" id="3c46-25f1-d4eb-e093" hidden="false">
                           <description>At the beginning of each of your End Phases choose and conceal one special order. At the beginning of your next turn reveal which special order you chose in your previous end phase. For the remainder of your turn vessels with this special rule may re-roll to-hit rolls with a result of &quot;1&quot; against enemy vessels on the chosen special order. Simply pick up and re-roll the missed dice, the second result stands even if it is worse.</description>
                         </rule>
                         <rule name="Legion of Secrets" id="4d64-712a-f9bd-e7c8" hidden="false">
-                          <description> Enemy vessels reduce their leadership bonus for command checks for your ships being on special orders by -1 Ld. (i.e. Vessels with Improved Sensor 
+                          <description>Enemy vessels reduce their leadership bonus for command checks for your ships being on special orders by -1 Ld. (i.e. Vessels with Improved Sensor 
 Array only receive a +1 Ld bonus.)</description>
                         </rule>
                       </rules>
@@ -99,12 +97,12 @@ Array only receive a +1 Ld bonus.)</description>
                       <description>If a vessel with this special rule has no critical damage and is not crippled, it may re-roll to-hit rolls with a result of &quot;1&quot;. Simply pick up the missed dice and roll them again - the second result stands, even if it is worse.</description>
                     </rule>
                     <rule name="Flawless Execution" id="1abf-2011-2b06-d2c8" hidden="false">
-                      <description> When a ship or squadron of ships comprised entirely of vessels with this special rule performs a command check to go on a special order other than Brace For Impact! compare the result with the table below. 
+                      <description>When a ship or squadron of ships comprised entirely of vessels with this special rule performs a command check to go on a special order other than Brace For Impact! compare the result with the table below. 
 
 - Equals or is below Ld: |The ship/squadron is placed on the chosen special order. 
 - 1 or more below Ld: The ship/squadron may perform teleport attacks even if the special order would ordinarily prevent this. 
 - 2 or more below Ld: If the special order reduces the effectiveness of the ship/squadron&apos;s weapons is reduced by 25% (rounding up) rather than halved. 
-- 3 or more below Ld: The ship/squadron may perform an additional 45° turn at the end of its movement. All of the normal restrictions apply to this extra turn, meaning a capital ship must move its minimum turning distance again before making its additional turn (unless it is on Burn Retros special orders). </description>
+- 3 or more below Ld: The ship/squadron may perform an additional 45° turn at the end of its movement. All of the normal restrictions apply to this extra turn, meaning a capital ship must move its minimum turning distance again before making its additional turn (unless it is on Burn Retros special orders).</description>
                     </rule>
                     <rule name="The Maru Skara " id="3a39-214d-e8bc-528b" hidden="false">
                       <description>Vessels with this special rule add +15 cm to their speed until the end of the first turn</description>
@@ -166,10 +164,10 @@ Effect: At the beginning of the game before setup select one special order for e
                 <infoGroup name="Legion Traits" id="cef4-3068-6f2e-e650" hidden="false">
                   <rules>
                     <rule name="Extremis Arsenal" id="516d-c8e9-2a56-9ba9" hidden="false">
-                      <description>When determining how many Nova Cannons, Plasma Scourers, Mangonel Bombardment Cruisers, and Stalwart Mine Keepers may be included in your fleet you may take 1 more than the points value of your fleet would usually allow. </description>
+                      <description>When determining how many Nova Cannons, Plasma Scourers, Mangonel Bombardment Cruisers, and Stalwart Mine Keepers may be included in your fleet you may take 1 more than the points value of your fleet would usually allow.</description>
                     </rule>
                     <rule name="Siege Batteries " id="600a-a1b9-2339-0553" hidden="false">
-                      <description>Whenever a vessel with this special rule fires its weapon batteries and bombardment cannons together, add both weapons’ firepower together and look up the corresponding number of to-hit rolls on the gunnery table. Any of these in excess of the bombardment cannons’ firepower are first made by the weapon batteries, and the rest are then made by the bombardment cannons. (ex: When a Strike Cruiser targets a closing capital ship at 30cm range with both its prow bombardment cannon ( firepower 3) and starboard weapons batteries (firepower 4) it would ordinarily roll 2 to-hit rolls for its bombardment cannons and 3 to-hit rolls for its weapons batteries. When an Iron Warriors Strike Cruiser does this you instead combine the firepower values of both weapons into a single firepower 7 attack before consulting the gunnery table resulting in a 5 to-hit roll attack. You then subtract the firepower of the bombardment cannons being used in the attack to determine how many to-hit rolls are made by the weapon batteries. In this example the Iron Warriors Strike Cruiser’s prow bombardment cannon has a firepower of 3, so the first 2 to-hit rolls are made by the weapon batteries and then the remaining 3 to-hit rolls are made by the bombardment cannons.) </description>
+                      <description>Whenever a vessel with this special rule fires its weapon batteries and bombardment cannons together, add both weapons’ firepower together and look up the corresponding number of to-hit rolls on the gunnery table. Any of these in excess of the bombardment cannons’ firepower are first made by the weapon batteries, and the rest are then made by the bombardment cannons. (ex: When a Strike Cruiser targets a closing capital ship at 30cm range with both its prow bombardment cannon ( firepower 3) and starboard weapons batteries (firepower 4) it would ordinarily roll 2 to-hit rolls for its bombardment cannons and 3 to-hit rolls for its weapons batteries. When an Iron Warriors Strike Cruiser does this you instead combine the firepower values of both weapons into a single firepower 7 attack before consulting the gunnery table resulting in a 5 to-hit roll attack. You then subtract the firepower of the bombardment cannons being used in the attack to determine how many to-hit rolls are made by the weapon batteries. In this example the Iron Warriors Strike Cruiser’s prow bombardment cannon has a firepower of 3, so the first 2 to-hit rolls are made by the weapon batteries and then the remaining 3 to-hit rolls are made by the bombardment cannons.)</description>
                     </rule>
                     <rule name="Fury of Olympia" id="7d31-9b8e-95aa-e081" hidden="false">
                       <description>When checking to see if a hit inflicted by a vessel with this special rule or its ordnance causes critical damage you can re-roll rolls with a result of &apos;1&apos;. Simply pick up the missed dice and roll them again - the second result stands, even if it is worse. This rule only applies to ordnance markers launched by Iron Warriors Legion Vessels and Iron Warriors Legion Capital Ships that have been upgraded with Turbo Weapons. Note: This does not apply to Hit-and-Run attacks. (ex: When an Iron Warriors Cobra Class Destroyer targets an enemy vessel with its weapons batteries and torpedoes it does not get to re-roll rolls with a result of 1 to cause critical damage for any hits inflicted by its weapon batteries, however, it does get to re-roll rolls with a result of 1 to cause critical damage for any hits inflicted by its torpedoes. When an Iron Warriors Cruiser with Turbo Weapons targets an enemy vessel with its weapons batteries and torpedoes it gets to re-roll rolls with a result of 1 to cause critical damage for any hits inflicted by its weapon batteries and its torpedoes.)</description>
@@ -196,7 +194,7 @@ by only 25% (rounding up) rather than halved. 
 **Iron Without** 
 *The IV legion typically added many additional layers of ablative (one might even say redundant) armor plating to their vessels.* 
 When a vessel with this special rule and the reinforced hull refit suffers a Prow Armament Damaged critical hit it must perform a leadership test. If the test is passed then 
-the critical hit is ignored. </description>
+the critical hit is ignored.</description>
                         </rule>
                       </rules>
                       <constraints>
@@ -233,14 +231,14 @@ the critical hit is ignored. </description>
                 <infoGroup name="Legion Traits" id="c638-718b-b420-e06a" hidden="false">
                   <rules>
                     <rule name="Swift as the Wind" id="34b6-fd37-4415-1588" hidden="false" publicationId="177f-36f7-517e-af3f" page="28">
-                      <description>A vessel with this special rule adds +5cm to its speed. When a vessel with this special rule suffers an Engine Room Damaged critical hit it suffers an additional critical hit. Roll a D6 for this additional critical hit and apply the corresponding result from the critical hits table. If the result of this roll is a “1” the additional critical hit is discarded. </description>
+                      <description>A vessel with this special rule adds +5cm to its speed. When a vessel with this special rule suffers an Engine Room Damaged critical hit it suffers an additional critical hit. Roll a D6 for this additional critical hit and apply the corresponding result from the critical hits table. If the result of this roll is a “1” the additional critical hit is discarded.</description>
                     </rule>
                     <rule name="Masters of Maneuver " id="a173-61de-f06d-aa5e" hidden="false">
                       <description>White Scars Legion Vessels with this special rule roll 3d6 for command checks to go on All Ahead Full and Burn Retros special orders, discarding the highest result. 
-White Scars Legion Vessels except Battleships with this special rule roll 3d6 for command checks to go on Come To New Heading, discarding the highest result.  </description>
+White Scars Legion Vessels except Battleships with this special rule roll 3d6 for command checks to go on Come To New Heading, discarding the highest result.</description>
                     </rule>
                     <rule name="Lightning Strike " id="debb-19ec-1c47-668c" hidden="false">
-                      <description>White Scars Legion Capital Ships with this special rule can perform teleporter attacks while on All Ahead Full, Come To New Heading, and Burn Retros special orders. </description>
+                      <description>White Scars Legion Capital Ships with this special rule can perform teleporter attacks while on All Ahead Full, Come To New Heading, and Burn Retros special orders.</description>
                     </rule>
                   </rules>
                 </infoGroup>
@@ -258,7 +256,7 @@ White Scars Legion Vessels except Battleships with this special rule roll 3d6 fo
                       <rules>
                         <rule name="Zao" id="ee84-9c62-a174-d4ce" hidden="false" publicationId="177f-36f7-517e-af3f" page="23">
                           <description>**Prerequisite:** ¾ of your vessels must have a speed of 25cm or higher. 
-**Effect:** If there are any vessels with this special rule on All Ahead Full, Come To New Heading, or Burn Retros special orders enemy vessels suffer -2 leadership for command checks to go on Lock On special orders and for target priority tests to target vessels with this special rule. In addition when an enemy vessel targets a vessel with this special rule that is on All Ahead Full, Come To New Heading, or Burn Retros special orders it has -1 to-hit with lances and suffers a rightward shift for weapons that use the gunnery table. </description>
+**Effect:** If there are any vessels with this special rule on All Ahead Full, Come To New Heading, or Burn Retros special orders enemy vessels suffer -2 leadership for command checks to go on Lock On special orders and for target priority tests to target vessels with this special rule. In addition when an enemy vessel targets a vessel with this special rule that is on All Ahead Full, Come To New Heading, or Burn Retros special orders it has -1 to-hit with lances and suffers a rightward shift for weapons that use the gunnery table.</description>
                         </rule>
                       </rules>
                       <constraints>
@@ -295,13 +293,13 @@ White Scars Legion Vessels except Battleships with this special rule roll 3d6 fo
                 <infoGroup name="Legion Traits" id="f578-f119-d083-5535" hidden="false">
                   <rules>
                     <rule name="Pack Hunters" id="6b6a-e126-0a2a-ff13" hidden="false">
-                      <description>A vessel with this special rule rolls 3D6 for command checks to go on a special order if there is another vessel with this special rule on the same special order within 30 cm, discarding the highest result. </description>
+                      <description>A vessel with this special rule rolls 3D6 for command checks to go on a special order if there is another vessel with this special rule on the same special order within 30 cm, discarding the highest result.</description>
                     </rule>
                     <rule name="No Prey Escapes the Wolf " id="68ae-acf9-d93e-180d" hidden="false">
-                      <description>All Space Wolf Legion Vessels in this fleet gain the No Prey Escapes special order. </description>
+                      <description>All Space Wolf Legion Vessels in this fleet gain the No Prey Escapes special order.</description>
                     </rule>
                     <rule name="Beastial Savagery" id="61ac-2512-e581-20dd" hidden="false">
-                      <description>Vessels with this special rule and their ordnance markers may modify the result of their Hit-and-Run attacks by +1/-1. Vessels with this special rule receive +D3 to their rolls for determining the results of boarding actions. </description>
+                      <description>Vessels with this special rule and their ordnance markers may modify the result of their Hit-and-Run attacks by +1/-1. Vessels with this special rule receive +D3 to their rolls for determining the results of boarding actions.</description>
                     </rule>
                   </rules>
                 </infoGroup>
@@ -323,7 +321,7 @@ A ship is placed on No Prey Escapes orders until the end of its next turn, repl
 A ship which uses this special order may not use special orders at all in its next turn and its Firepower, ordnance (this effect is cumulative if a capital ship is crippled) and armament Strength is halved, while Nova Cannons and Plasma Scourers may not be fired at all. Turrets and shields are unaffected. 
 
 
-A ship using No Prey Escapes orders must turn towards the enemy ship and move 4D6 cm forwards as if it were on All Ahead Full orders. If any part of the vessel on No Prey Escapes special orders base contacts any part of the target’s base during the course of its movement it stops even if it has not moved its full distance and initiates a Boarding Action. If this happens the target vessel immediately stops moving even if it has not moved its minimum move distance. If the vessel going on No Prey Escapes special orders is a member of a squadron only one roll is made and every ship in the squadron moves the distance rolled. </description>
+A ship using No Prey Escapes orders must turn towards the enemy ship and move 4D6 cm forwards as if it were on All Ahead Full orders. If any part of the vessel on No Prey Escapes special orders base contacts any part of the target’s base during the course of its movement it stops even if it has not moved its full distance and initiates a Boarding Action. If this happens the target vessel immediately stops moving even if it has not moved its minimum move distance. If the vessel going on No Prey Escapes special orders is a member of a squadron only one roll is made and every ship in the squadron moves the distance rolled.</description>
                     </rule>
                   </rules>
                 </infoGroup>
@@ -340,7 +338,7 @@ A ship using No Prey Escapes orders must turn towards the enemy ship and move 4
 Vessels with this special rule automatically pass target priority checks when targeting battleships, grand cruisers, heavy cruisers, battlecruisers, and assault cruisers. 
  
 **The All Father’s Headsmen** 
-Vessels with this special rule may re-roll boarding action and hit-and-run attack dice with a result of “1”. Simply pick up the dice and roll them again - the second result stands, even if it is worse. </description>
+Vessels with this special rule may re-roll boarding action and hit-and-run attack dice with a result of “1”. Simply pick up the dice and roll them again - the second result stands, even if it is worse.</description>
                         </rule>
                       </rules>
                       <constraints>
@@ -366,9 +364,7 @@ Each saga can only be used once during the battle and no ship may use more than
 - *Saga of the Thread Cutter*: Once per game when going on Lock On special orders announce that you&apos;re using Saga of the Thread Cutter. For the remainder of the turn this ship may re-roll failed critical hit rolls.   
 - *Saga of the Dread Wolf*: Once per game when going on All Ahead Full special orders announce that you&apos;re using Saga of the Dread Wolf. This ship and any friendly space wolves vessels within 30cm may add +2D6 cm to their speed this turn. 
 - *Saga of the Helstorm*: Once per game when going on Reload Ordnance special orders announce that you&apos;re using Saga of the Helstorm. Increase the speed of all ordnance launched by this vessel by 5cm for the remainder of the battle.  
-- *Saga of the Patient Hunter*: Once per game when going on Burn Retros special orders announce that you&apos;re using Saga of the Patient Hunter. For the remainder of this ship may fire its weapons as if it were not on Burn Retros orders. 
-
-</description>
+- *Saga of the Patient Hunter*: Once per game when going on Burn Retros special orders announce that you&apos;re using Saga of the Patient Hunter. For the remainder of this ship may fire its weapons as if it were not on Burn Retros orders.</description>
                         </rule>
                       </rules>
                       <constraints>
@@ -390,13 +386,13 @@ Each saga can only be used once during the battle and no ship may use more than
                 <infoGroup name="Legion Traits" id="f77d-88e2-e113-4082" hidden="false">
                   <rules>
                     <rule name="Close Order Formation" id="f2a0-dca1-84da-c4a4" hidden="false">
-                      <description>A squadron comprised entirely of vessels with this special rule are considered in Close Order when they are in contiguous base-to-base contact (i.e. you must be able to draw an unbroken chain of contact from any one ship’s base to any other in the group, the same way coherency is measured). While in Close Order a vessel with this special rule increases its shield strength by 1. Additionally vessels in Close Order always use their turrets against all attacking ordnance, regardless of type. </description>
+                      <description>A squadron comprised entirely of vessels with this special rule are considered in Close Order when they are in contiguous base-to-base contact (i.e. you must be able to draw an unbroken chain of contact from any one ship’s base to any other in the group, the same way coherency is measured). While in Close Order a vessel with this special rule increases its shield strength by 1. Additionally vessels in Close Order always use their turrets against all attacking ordnance, regardless of type.</description>
                     </rule>
                     <rule name="Stalwart Obstinacy" id="770f-b1d1-38d2-6039" hidden="false">
-                      <description>Vessels with this special rule may still attempt to go on special orders if you have already failed a command check this turn, however, if you have already failed a command check this turn they must roll 3D6 when performing command checks, discarding the lowest result. </description>
+                      <description>Vessels with this special rule may still attempt to go on special orders if you have already failed a command check this turn, however, if you have already failed a command check this turn they must roll 3D6 when performing command checks, discarding the lowest result.</description>
                     </rule>
                     <rule name="Disciplined Fire" id="0aed-f7fc-2b3a-01b5" hidden="false">
-                      <description>Vessels with this special rule re-roll to-hit rolls with a result of &apos;1&apos; if the when firing weapons which used the gunnery table. Simply pick up the missed dice and roll them again - the second result stands, even if it is worse. </description>
+                      <description>Vessels with this special rule re-roll to-hit rolls with a result of &apos;1&apos; if the when firing weapons which used the gunnery table. Simply pick up the missed dice and roll them again - the second result stands, even if it is worse.</description>
                     </rule>
                   </rules>
                 </infoGroup>
@@ -414,7 +410,7 @@ Each saga can only be used once during the battle and no ship may use more than
                       <rules>
                         <rule name="Eternal Crusaders" id="2ffc-9f03-d6ff-3b52" hidden="false" publicationId="177f-36f7-517e-af3f" page="33">
                           <description>**Prerequisite:** Your fleet must contain at least as many escorts and/or heavy escorts as it does cruisers (of any kind). 
-**First Among Equals:** When building your fleet list you receive a number of bonus points equal to 10% of the points limit of the battle. These bonus points can only be spent on escorts and/or heavy escorts. </description>
+**First Among Equals:** When building your fleet list you receive a number of bonus points equal to 10% of the points limit of the battle. These bonus points can only be spent on escorts and/or heavy escorts.</description>
                         </rule>
                       </rules>
                       <constraints>
@@ -451,14 +447,14 @@ Each saga can only be used once during the battle and no ship may use more than
                 <infoGroup name="Legion Traits" id="a0b0-e3ed-70a6-c9fe" hidden="false">
                   <rules>
                     <rule name="Reign of Terror" id="eda4-82f7-8bf6-7fad" hidden="false">
-                      <description>When a capital ship or squadron comprised of vessels with this special rule fails a command check you may choose for it to suffer a cumulative -1 Ld penalty for the remainder of the game (to a maximum penalty of -3) to attempt the command check again rolling 3D6 and discarding the highest result, the result of the second roll is final even if it is worse. </description>
+                      <description>When a capital ship or squadron comprised of vessels with this special rule fails a command check you may choose for it to suffer a cumulative -1 Ld penalty for the remainder of the game (to a maximum penalty of -3) to attempt the command check again rolling 3D6 and discarding the highest result, the result of the second roll is final even if it is worse.</description>
                     </rule>
                     <rule name="Terror Tactics" id="312f-33d6-4d66-dfba" hidden="false">
                       <description>When rolling to determine the result of a Hit-And-Run attack against capital ships or other targets that can suffer critical damage, you may choose to disregard the result of the dice and instead inflict a “Terror” critical damage. This rule applies to teleporter attacks from vessels with this special rule and ordnance markers launched by vessels with this special rule. 
 Extra Damage: +0, Special Critical Hit: Terror: *The Night Lords broadcast their slaughtering of the ship’s crew over the intra-ship vox network to sow terror amongst the survivors.* The ship’s Leadership is reduced by 1 for each unresolved Terror Critical hit it has suffered.</description>
                     </rule>
                     <rule name="Cull The Weak" id="4019-2df5-5155-440b" hidden="false">
-                      <description>Vessels with this special rule automatically pass any target priority checks to target vessels which are crippled or have a smaller maximum number of hit points. (e.g. A Night Lords Battleship automatically passes target priority checks against Grand Cruisers, Battlecruisers, Heavy Cruisers, Assault Cruisers, Cruisers, Strike Cruisers, Light Cruisers, Heavy Escorts, Escorts, and Defenses with fewer than 12 starting hit points.) </description>
+                      <description>Vessels with this special rule automatically pass any target priority checks to target vessels which are crippled or have a smaller maximum number of hit points. (e.g. A Night Lords Battleship automatically passes target priority checks against Grand Cruisers, Battlecruisers, Heavy Cruisers, Assault Cruisers, Cruisers, Strike Cruisers, Light Cruisers, Heavy Escorts, Escorts, and Defenses with fewer than 12 starting hit points.)</description>
                     </rule>
                   </rules>
                 </infoGroup>
@@ -502,7 +498,7 @@ Vessels with this special rule re-roll to-hit rolls with a result of &apos;1&apo
 
 
 **The Dark Revelry**
-Vessels with this special rule receive a +1 Ld bonus if there is at least 1 enemy vessel with an unrepaired Terror critical damage. </description>
+Vessels with this special rule receive a +1 Ld bonus if there is at least 1 enemy vessel with an unrepaired Terror critical damage.</description>
                         </rule>
                       </rules>
                       <constraints>
@@ -533,7 +529,7 @@ While you have at least one extra commander’s re-roll you may re-roll boarding
 - **Hit-and-Run attacks:**Choose which critical damage effect to apply out of the range of potential results for the Hit-and-Run attack after accounting for attacker and defender modifiers</description>
                     </rule>
                     <rule name="Encarmine Fury" id="3548-0bf8-1d6d-fd26" hidden="false">
-                      <description>Vessels with this special rule have -1Ld on their Target Priority Tests but they may re-roll to-hit rolls with a result of “1” when the target is the nearest enemy capital ship or escort squadron within its firing arc. Simply pick up the missed dice and roll them again - the second result stands, even if it is worse. </description>
+                      <description>Vessels with this special rule have -1Ld on their Target Priority Tests but they may re-roll to-hit rolls with a result of “1” when the target is the nearest enemy capital ship or escort squadron within its firing arc. Simply pick up the missed dice and roll them again - the second result stands, even if it is worse.</description>
                     </rule>
                   </rules>
                 </infoGroup>
@@ -551,7 +547,7 @@ While you have at least one extra commander’s re-roll you may re-roll boarding
                       <rules>
                         <rule name="The Heavenly Host" id="434a-eb95-aa93-4565" hidden="false" publicationId="177f-36f7-517e-af3f" page="38">
                           <description>**Prerequisite:** At Least half your capital ships must have Assault Veterans embarked. 
-**On Angel’s Wings:** Attack craft launched by vessels with this special rule gain +5cm speed and are hit by turrets on a result of a 5+ instead of a 4+. In addition attack craft launched by vessels with this special rule that have Resilient re-roll failed saving throws with a result of “1”. Simply pick up the dice and roll them again - the second result stands, even if it is worse. </description>
+**On Angel’s Wings:** Attack craft launched by vessels with this special rule gain +5cm speed and are hit by turrets on a result of a 5+ instead of a 4+. In addition attack craft launched by vessels with this special rule that have Resilient re-roll failed saving throws with a result of “1”. Simply pick up the dice and roll them again - the second result stands, even if it is worse.</description>
                         </rule>
                       </rules>
                       <constraints>
@@ -590,10 +586,10 @@ While you have at least one extra commander’s re-roll you may re-roll boarding
                       <description>When a vessel with this special rule fires Lances or weapons which use the gunnery table increase the number of dice rolled to-hit by one, up to the total strength or firepower values for the weapons being fired listed on that ship&apos;s data sheet. This occurs after applying the reductions to the effectiveness of its weapons for any special orders, critical damage, or being crippled. For gunnery weapons the effect of Adaptive Power Conduits is applied after consulting the gunnery table to determine how many to-hit rolls are rolled for the attack. This effect can never increase the strength or firepower of a weapon beyond the values written on the ship’s data sheet.</description>
                     </rule>
                     <rule name="Inviolate Armor" id="7366-f760-eace-1104" hidden="false">
-                      <description>A vessel with this special rule that is not on Brace For Impact! special orders gains a saving throw against any hits it suffers (but not hits against its shields or other defenses). Roll a D6 for each hit: on a score of “6”, the hit is ignored. If the vessel is on Brace for Impact! special orders you may re-roll saving throw rolls with a result of “1”. Simply pick up the failed dice and roll them again - the second result stands, even if it is worse. </description>
+                      <description>A vessel with this special rule that is not on Brace For Impact! special orders gains a saving throw against any hits it suffers (but not hits against its shields or other defenses). Roll a D6 for each hit: on a score of “6”, the hit is ignored. If the vessel is on Brace for Impact! special orders you may re-roll saving throw rolls with a result of “1”. Simply pick up the failed dice and roll them again - the second result stands, even if it is worse.</description>
                     </rule>
                     <rule name="Blessed Autosimulacra" id="13d1-c5ed-0514-8350" hidden="false">
-                      <description>When rolling to determine which result on the Critical Hits Table should be applied to a vessel with this special rule use the Ironhands Critical Hits Table instead of the one in the core rulebook. </description>
+                      <description>When rolling to determine which result on the Critical Hits Table should be applied to a vessel with this special rule use the Ironhands Critical Hits Table (p40) instead of the one in the core rulebook.</description>
                     </rule>
                   </rules>
                 </infoGroup>
@@ -607,10 +603,12 @@ While you have at least one extra commander’s re-roll you may re-roll boarding
               <selectionEntryGroups>
                 <selectionEntryGroup name="Rite of war" id="4699-6dd6-8be8-a508" hidden="false">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="rite" hidden="false" id="a1a2-0bdb-62df-0943" publicationId="177f-36f7-517e-af3f" page="23">
+                    <selectionEntry type="upgrade" import="true" name="The Medusan Inheritance" hidden="false" id="a1a2-0bdb-62df-0943" publicationId="177f-36f7-517e-af3f" page="41">
                       <rules>
-                        <rule name="rite" id="67f2-bd4c-f640-9743" hidden="false" publicationId="177f-36f7-517e-af3f" page="23">
-                          <description/>
+                        <rule name="The Medusan Inheritance" id="67f2-bd4c-f640-9743" hidden="false" publicationId="177f-36f7-517e-af3f" page="41">
+                          <description>**Prerequisite:** All Legion capital ships in your fleet must have at least one Archeotech Refit.
+**Archeotech Refits:** Iron Hands vessels that have embarked a Praetor or Centurion must roll a D6 once against the Archeotech Refits table. 
+Capital ships with this special rule can purchase one additional roll on the Archeotech Refits table for +15 points. No vessel may have more than 2 Archeotech Refits for any reason. </description>
                         </rule>
                       </rules>
                       <constraints>
@@ -620,6 +618,22 @@ While you have at least one extra commander’s re-roll you may re-roll boarding
                         <categoryLink name="Rite of War" hidden="false" id="dfd7-03b3-fb15-77a4" targetId="ed40-746f-dea1-ece2" primary="true"/>
                       </categoryLinks>
                     </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="The Gorgon’s Fangs" hidden="false" id="983f-318d-2bca-be53" publicationId="177f-36f7-517e-af3f" page="41">
+                      <rules>
+                        <rule name="The Gorgon’s Fangs" id="bc5a-d83e-47d3-7bc2" hidden="false" publicationId="177f-36f7-517e-af3f" page="41">
+                          <description>**Prerequisite:** At least half of the capital ships in your fleet must have an armor rating of 6+.
+**Singularity Bomb:** When a vessel with this special rule fires a Nova Cannon, after determining the final location of the Nova Cannon template all vessels and ordnance markers within a 10cm radius measured from the template edge are caught in the singularity bomb’s gravity well. Ordnance markers within the gravity well are moved 2D6cm towards the center of the nova cannon template. Vessels within the gravity well must immediately perform a leadership test as if they were attempting to navigate through an asteroid field, and any vessels that fail to pass the leadership test must move 2D6cm and make a 45º turn towards the center of the nova cannon template. After all vessels and ordnance markers within the gravity well have been moved or have passed their navigation test resolve the damage from the attack normally.
+**Graviton-Annihalator:** When a vessel with this special rule fires a Plasma Scourer, in addition to it’s normal effects trace a 1cm wide line from the attacking ship’s base to the target ship’s base. Any vessel touched by this line cannot go on All Ahead Full, Come to New Heading, and Burn Retros special orders and reduces its speed by -5cm during its next turn
+**Extremis Arsenal:** Iron Hands Legion capital ships that utilize torpedoes can be equipped with refitted torpedoes as described in their rules on pg. 19. of the BFG:Remastered - Fleets book.</description>
+                        </rule>
+                      </rules>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9b8e-59db-41a9-6dc2" includeChildSelections="true"/>
+                      </constraints>
+                      <categoryLinks>
+                        <categoryLink name="Rite of War" hidden="false" id="3687-d2bf-b2f8-5b30" targetId="ed40-746f-dea1-ece2" primary="true"/>
+                      </categoryLinks>
+                    </selectionEntry>
                   </selectionEntries>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58a0-d26b-3d60-ee59"/>
@@ -627,26 +641,37 @@ While you have at least one extra commander’s re-roll you may re-roll boarding
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="xx Legion: xx" hidden="true" id="e02d-4f42-a4bc-bd63" publicationId="177f-36f7-517e-af3f" page="22">
+            <selectionEntry type="upgrade" import="true" name="XII Legion: World Eaters" hidden="false" id="e02d-4f42-a4bc-bd63" publicationId="177f-36f7-517e-af3f" page="42">
               <infoGroups>
                 <infoGroup name="Legion Traits" id="252d-5953-bfbb-5daf" hidden="false">
                   <rules>
-                    <rule name="New Rule" id="9314-54eb-078e-2456" hidden="false"/>
+                    <rule name="The Butcher&apos;s Nails" id="9314-54eb-078e-2456" hidden="false">
+                      <description>When a vessel with this special rule begins its movement, if there is an enemy ship in its front arc within 30cm the ship must perform a free turn towards the nearest enemy vessel (Or a different enemy ship in its front arc within 30cm by passing a target priority test) and attempt to move into base contact with the enemy, at which point it stops even if it has not moved its minimum move distance, and declare a boarding action, if possible. (Note that this does not prevent you from going on special orders, however, vessels that have moved into contact with an enemy ship and initiated a boarding action may not fire their weapons or launch ordnance in the same turn, because their crews are too busy trying to reach the enemy ship.) 
+A vessel may attempt to resist the pull of the nails by taking a leadership test on 3D6, discarding the highest result (If there is an enemy ship in its front arc within 15cm roll 2D6 instead). If the test is passed then that vessel proceeds with its turn normally. If the test is failed the ship must attempt to declare a boarding action using the process described above. </description>
+                    </rule>
+                    <rule name="Violence Incarnate" id="0275-ff08-42a4-991b" hidden="false">
+                      <description>World Eaters Legion vessels double the result of the dice rolled during boarding actions. Furthermore, XII Legion vessels never count as being in contact with blast markers for the purposes of enemy boarding action bonuses.</description>
+                    </rule>
+                    <rule name="No One Runs… " id="33dc-2b93-dda6-04e9" hidden="false">
+                      <description>Any World Eaters Legion vessel may take Ursus Claws, Boarding Torpedoes, or Assault Boats for free. </description>
+                    </rule>
                   </rules>
                 </infoGroup>
                 <infoGroup name="Legion Refit" id="7b7c-6409-9e6d-6f66" hidden="false">
                   <rules>
-                    <rule name="New Rule" id="e30e-a68b-3430-920f" hidden="false"/>
+                    <rule name="Navigational Shields (+5 pts) " id="e30e-a68b-3430-920f" hidden="false"/>
+                    <rule name="Improved Logic Engines (+5 pts)" id="b87f-6184-9b89-8152" hidden="false"/>
                   </rules>
                 </infoGroup>
               </infoGroups>
               <selectionEntryGroups>
                 <selectionEntryGroup name="Rite of war" id="1a0d-fd67-d9d2-61d5" hidden="false">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="rite" hidden="false" id="40a5-62eb-b325-6ffa" publicationId="177f-36f7-517e-af3f" page="23">
+                    <selectionEntry type="upgrade" import="true" name="Close Assault Doctrine" hidden="false" id="40a5-62eb-b325-6ffa" publicationId="177f-36f7-517e-af3f" page="43">
                       <rules>
-                        <rule name="rite" id="f0b5-fda0-f566-7845" hidden="false" publicationId="177f-36f7-517e-af3f" page="23">
-                          <description/>
+                        <rule name="Close Assault Doctrine" id="f0b5-fda0-f566-7845" hidden="false" publicationId="177f-36f7-517e-af3f" page="43">
+                          <description>**Prerequisite:** At least half of your capital ships must have a speed of 25cm or higher. 
+**Effect:** Vessels with this special rule may re-roll to-hit rolls with a result of &apos;1&apos; if the target vessel is within 15cm. Simply pick up the missed dice and roll them again - the second result stands, even if it is worse. Additionally, vessels with this special rule have -1Ld on their Target Priority Tests.  </description>
                         </rule>
                       </rules>
                       <constraints>
@@ -656,9 +681,129 @@ While you have at least one extra commander’s re-roll you may re-roll boarding
                         <categoryLink name="Rite of War" hidden="false" id="c0d3-d25d-ed60-9e63" targetId="ed40-746f-dea1-ece2" primary="true"/>
                       </categoryLinks>
                     </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="The Crimson Path (Traitor Only)" hidden="false" id="445b-af57-97a1-d5bd" publicationId="177f-36f7-517e-af3f" page="43">
+                      <rules>
+                        <rule name="The Crimson Path (Traitor Only)" id="f229-de82-8be4-17dd" hidden="false" publicationId="177f-36f7-517e-af3f" page="43">
+                          <description>**Prerequisite:** Each of your commanders must be given the Empowered Mark of Khorne at the cost of sacrificing 1 of their commander’s re-rolls to the blood god. 
+**Effect:** Any of your legion capital ships may take the Mark of Khorne for +15 points. In addition to its normal effects Any ships with the Mark of Khorne gain the following effects: 
+- When conducting a boarding action may roll D3 extra critical damage rolls if desired, but then it may not take any special orders (including Brace for Impact) in the next turn.  
+- Carriers with this Mark may launch up to D3 more assault boat attack craft markers above the capacity of their launch bays if within less than 20 cm of their target. If they do so, they must Reload Ordnance and not launch in the next turn.</description>
+                        </rule>
+                      </rules>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="38a7-7e8a-dba1-d4d1" includeChildSelections="true"/>
+                      </constraints>
+                      <categoryLinks>
+                        <categoryLink name="Rite of War" hidden="false" id="98b7-d284-934c-3954" targetId="ed40-746f-dea1-ece2" primary="true"/>
+                      </categoryLinks>
+                    </selectionEntry>
                   </selectionEntries>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="905c-93de-c549-1b61"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="XIII Legion: Ultramarines" hidden="false" id="918b-8222-9847-3519" publicationId="177f-36f7-517e-af3f" page="44">
+              <infoGroups>
+                <infoGroup name="Legion Traits" id="a082-24e7-f449-3bef" hidden="false">
+                  <rules>
+                    <rule name="The Strength of Wisdom" id="0452-5647-e112-7b43" hidden="false">
+                      <description>Vessels with this special rule re-roll to-hit rolls with a result of “1” when targeting a vessel which has already been targeted by a different ship or squadron with this special rule this turn. Simply pick up the missed dice and roll them again - the second result stands, even if it is worse. Additionally, vessels with this special rule roll 3D6 and discard the highest result for target priority tests.  </description>
+                    </rule>
+                    <rule name="Unity of Purpose" id="9a24-c116-35a0-baf0" hidden="false">
+                      <description>Before declaring special orders for a vessel or squadron with this special rule, if there is a friendly vessel with this special rule within 15cm which has not yet moved this turn and is not already a part of a squadron, you may treat that vessel as though it were a part of this squadron for the remainder of this turn. </description>
+                    </rule>
+                    <rule name="Aegis of Wisdom" id="dbce-4946-6675-73e6" hidden="false">
+                      <description>When a capital ship or squadron composed of vessels with this special rule fails a command check you may choose to place it on the same special order as your flagship instead. If you do it automatically passes its command check. </description>
+                    </rule>
+                  </rules>
+                </infoGroup>
+                <infoGroup name="Legion Refit" id="4630-9889-6c0d-42cd" hidden="false">
+                  <rules>
+                    <rule name="Improved Sensor Array (+5 pts) " id="b375-2969-d15e-e91e" hidden="false"/>
+                    <rule name="Evasive Jets (+20 pts)" id="febc-7550-1cd8-78f8" hidden="false"/>
+                  </rules>
+                </infoGroup>
+              </infoGroups>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Rite of war" id="eda3-2fec-0c9c-3a49" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Ultramar Defense Fleet (Loyalist Only) " hidden="false" id="d2a1-dee1-36e9-6968" publicationId="177f-36f7-517e-af3f" page="45">
+                      <rules>
+                        <rule name="Ultramar Defense Fleet" id="3601-78e6-4080-0cad" hidden="false" publicationId="177f-36f7-517e-af3f" page="45">
+                          <description>**Prerequisite:** At least ⅓ of your fleet’s points must be spent on Naval Auxilia vessels. 
+**Effect:** Reduce the points cost of Naval Auxilia vessels taken as reserves in your fleet by -5 points. For every 1 battleship, cruiser (of any sub-type), or escort chosen from 
+your fleet list, you may take 1 Naval Auxilia ship of the matching type as reserves. Note: This supercedes the normal ratio for taking reserves. 
+Naval Auxilia vessels taken as reserves in your fleet may be placed in squadrons with Ultramarines Legion Vessels. As long as they are part of a squadron with at least one Ultramarines Legion Vessel of the same type, Naval Auxilia vessels taken as reserves in of an Ultramarines Legion Fleet count as Ultramarines Legion Vessels for the purposes of benefiting from The Strength of Wisdom Legion Trait. </description>
+                        </rule>
+                      </rules>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6c41-6552-e200-fb98" includeChildSelections="true"/>
+                      </constraints>
+                      <categoryLinks>
+                        <categoryLink name="Rite of War" hidden="false" id="0614-afe5-a36f-043b" targetId="ed40-746f-dea1-ece2" primary="true"/>
+                      </categoryLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Logos Lectora " hidden="false" id="488f-d452-8ed2-a31f" publicationId="177f-36f7-517e-af3f" page="45">
+                      <rules>
+                        <rule name="Logos Lectora" id="0364-002e-76af-0df7" hidden="false" publicationId="177f-36f7-517e-af3f" page="45">
+                          <description>**Prerequisite:** You must include at least one escort or heavy escort for every three cruisers (of any kind) and for each battleship or battlebarge in your fleet. (e.g. An Ultramarines fleet with 3 cruisers and 1 battleship would need to include 2 escorts or heavy escorts)  
+**Effect:**  At the beginning of each of your turns choose one special order to be the fleet order until the beginning of your next turn. When a vessel with this special rule attempts to go on the special order chosen as this turn’s fleet order, roll 3D6 for its command check, discarding the highest result. If the command check is successful it gains the corresponding effect listed below in addition to the normal effects of going on that special order. You may not select the same fleet order two turns in a row.
+- **All Ahead Full:** Add +D6 cm to its movement. 
+- **Come To New Heading:** Reduce the distance the it needs to move before turning by 5 cm. 
+- **Burn Retros:** Its weapons’ effectiveness is reduced by only 25% (rounding up) rather than halved.
+- **Lock On:**  It benefits from an extra left column-shift in addition to any other column-shifts that apply for all gunnery weapons.
+- **Reload Ordnance:** Re-roll repair rolls with a result of &quot;1&quot;.
+- **Brace For Impact!:** Re-roll saving throws with a result of “1”.
+
+</description>
+                        </rule>
+                      </rules>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6960-fb65-753c-a5b6" includeChildSelections="true"/>
+                      </constraints>
+                      <categoryLinks>
+                        <categoryLink name="Rite of War" hidden="false" id="74b7-0e20-7cbf-68ee" targetId="ed40-746f-dea1-ece2" primary="true"/>
+                      </categoryLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a18-71f2-14c2-c7c9"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="xx Legion: xx" hidden="true" id="1076-631b-3ecc-08f5" publicationId="177f-36f7-517e-af3f" page="22">
+              <infoGroups>
+                <infoGroup name="Legion Traits" id="7669-1950-6771-fd70" hidden="false">
+                  <rules>
+                    <rule name="New Rule" id="f27b-257a-a7b9-4ab1" hidden="false"/>
+                  </rules>
+                </infoGroup>
+                <infoGroup name="Legion Refit" id="17e1-b66c-7968-ab9e" hidden="false">
+                  <rules>
+                    <rule name="New Rule" id="7104-e6a9-f8ef-ba0f" hidden="false"/>
+                  </rules>
+                </infoGroup>
+              </infoGroups>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Rite of war" id="1f1d-acea-1e7c-ba53" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="rite" hidden="false" id="9d27-10a8-5bf2-8dd4" publicationId="177f-36f7-517e-af3f" page="23">
+                      <rules>
+                        <rule name="rite" id="6854-a1bb-996c-1b4e" hidden="false" publicationId="177f-36f7-517e-af3f" page="23"/>
+                      </rules>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="234d-7048-e9ce-12ab" includeChildSelections="true"/>
+                      </constraints>
+                      <categoryLinks>
+                        <categoryLink name="Rite of War" hidden="false" id="fa59-c1e8-4d1c-8538" targetId="ed40-746f-dea1-ece2" primary="true"/>
+                      </categoryLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ed16-f8d6-74e3-e805"/>
                   </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>

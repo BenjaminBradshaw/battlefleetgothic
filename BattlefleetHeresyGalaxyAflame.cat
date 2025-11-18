@@ -5394,7 +5394,7 @@ purchase this upgrade.</characteristic>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Jupiter (Devastation) Class Cruiser" hidden="false" id="0211-be51-8f12-7c24" collective="false" publicationId="177f-36f7-517e-af3f" page="123">
+    <selectionEntry type="unit" import="true" name="Devastation Class Cruiser" hidden="false" id="0211-be51-8f12-7c24" collective="false" publicationId="177f-36f7-517e-af3f" page="123">
       <profiles>
         <profile name="Jupiter Profile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="4e30-e8eb-d905-e899" publicationId="177f-36f7-517e-af3f" page="123">
           <characteristics>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="685b-88d9-54e8-6ef7" name="Battlefleet Heresy  Galaxy Aflame" gameSystemId="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" gameSystemRevision="46" revision="5" battleScribeVersion="2.03" publicationId="137d-dbad-5653-19f2" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="685b-88d9-54e8-6ef7" name="Battlefleet Heresy  Galaxy Aflame" gameSystemId="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" gameSystemRevision="46" revision="6" battleScribeVersion="2.03" publicationId="137d-dbad-5653-19f2" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication name="Battlefleet Heresy: Galaxy Aflame" id="177f-36f7-517e-af3f" hidden="false" shortName="BH:GA" publisher="Battlefleet Heresy: Galaxy Aflame 0.97.42" publicationDate="15/03/2025"/>
+    <publication name="Battlefleet Heresy: Galaxy Aflame" id="177f-36f7-517e-af3f" hidden="false" shortName="BH:GA" publisher="Battlefleet Heresy: Galaxy Aflame 0.98.14" publicationDate="27/10/2025"/>
   </publications>
   <selectionEntries>
     <selectionEntry type="upgrade" import="true" name="Legion" hidden="false" id="5d60-ccfe-5d2e-83b6" collective="false">
@@ -608,7 +608,7 @@ While you have at least one extra commander’s re-roll you may re-roll boarding
                         <rule name="The Medusan Inheritance" id="67f2-bd4c-f640-9743" hidden="false" publicationId="177f-36f7-517e-af3f" page="41">
                           <description>**Prerequisite:** All Legion capital ships in your fleet must have at least one Archeotech Refit.
 **Archeotech Refits:** Iron Hands vessels that have embarked a Praetor or Centurion must roll a D6 once against the Archeotech Refits table. 
-Capital ships with this special rule can purchase one additional roll on the Archeotech Refits table for +15 points. No vessel may have more than 2 Archeotech Refits for any reason. </description>
+Capital ships with this special rule can purchase one additional roll on the Archeotech Refits table for +15 points. No vessel may have more than 2 Archeotech Refits for any reason.</description>
                         </rule>
                       </rules>
                       <constraints>
@@ -647,13 +647,13 @@ Capital ships with this special rule can purchase one additional roll on the Ar
                   <rules>
                     <rule name="The Butcher&apos;s Nails" id="9314-54eb-078e-2456" hidden="false">
                       <description>When a vessel with this special rule begins its movement, if there is an enemy ship in its front arc within 30cm the ship must perform a free turn towards the nearest enemy vessel (Or a different enemy ship in its front arc within 30cm by passing a target priority test) and attempt to move into base contact with the enemy, at which point it stops even if it has not moved its minimum move distance, and declare a boarding action, if possible. (Note that this does not prevent you from going on special orders, however, vessels that have moved into contact with an enemy ship and initiated a boarding action may not fire their weapons or launch ordnance in the same turn, because their crews are too busy trying to reach the enemy ship.) 
-A vessel may attempt to resist the pull of the nails by taking a leadership test on 3D6, discarding the highest result (If there is an enemy ship in its front arc within 15cm roll 2D6 instead). If the test is passed then that vessel proceeds with its turn normally. If the test is failed the ship must attempt to declare a boarding action using the process described above. </description>
+A vessel may attempt to resist the pull of the nails by taking a leadership test on 3D6, discarding the highest result (If there is an enemy ship in its front arc within 15cm roll 2D6 instead). If the test is passed then that vessel proceeds with its turn normally. If the test is failed the ship must attempt to declare a boarding action using the process described above.</description>
                     </rule>
                     <rule name="Violence Incarnate" id="0275-ff08-42a4-991b" hidden="false">
                       <description>World Eaters Legion vessels double the result of the dice rolled during boarding actions. Furthermore, XII Legion vessels never count as being in contact with blast markers for the purposes of enemy boarding action bonuses.</description>
                     </rule>
                     <rule name="No One Runs… " id="33dc-2b93-dda6-04e9" hidden="false">
-                      <description>Any World Eaters Legion vessel may take Ursus Claws, Boarding Torpedoes, or Assault Boats for free. </description>
+                      <description>Any World Eaters Legion vessel may take Ursus Claws, Boarding Torpedoes, or Assault Boats for free.</description>
                     </rule>
                   </rules>
                 </infoGroup>
@@ -671,7 +671,7 @@ A vessel may attempt to resist the pull of the nails by taking a leadership test
                       <rules>
                         <rule name="Close Assault Doctrine" id="f0b5-fda0-f566-7845" hidden="false" publicationId="177f-36f7-517e-af3f" page="43">
                           <description>**Prerequisite:** At least half of your capital ships must have a speed of 25cm or higher. 
-**Effect:** Vessels with this special rule may re-roll to-hit rolls with a result of &apos;1&apos; if the target vessel is within 15cm. Simply pick up the missed dice and roll them again - the second result stands, even if it is worse. Additionally, vessels with this special rule have -1Ld on their Target Priority Tests.  </description>
+**Effect:** Vessels with this special rule may re-roll to-hit rolls with a result of &apos;1&apos; if the target vessel is within 15cm. Simply pick up the missed dice and roll them again - the second result stands, even if it is worse. Additionally, vessels with this special rule have -1Ld on their Target Priority Tests.</description>
                         </rule>
                       </rules>
                       <constraints>
@@ -709,13 +709,13 @@ A vessel may attempt to resist the pull of the nails by taking a leadership test
                 <infoGroup name="Legion Traits" id="a082-24e7-f449-3bef" hidden="false">
                   <rules>
                     <rule name="The Strength of Wisdom" id="0452-5647-e112-7b43" hidden="false">
-                      <description>Vessels with this special rule re-roll to-hit rolls with a result of “1” when targeting a vessel which has already been targeted by a different ship or squadron with this special rule this turn. Simply pick up the missed dice and roll them again - the second result stands, even if it is worse. Additionally, vessels with this special rule roll 3D6 and discard the highest result for target priority tests.  </description>
+                      <description>Vessels with this special rule re-roll to-hit rolls with a result of “1” when targeting a vessel which has already been targeted by a different ship or squadron with this special rule this turn. Simply pick up the missed dice and roll them again - the second result stands, even if it is worse. Additionally, vessels with this special rule roll 3D6 and discard the highest result for target priority tests.</description>
                     </rule>
-                    <rule name="Unity of Purpose" id="9a24-c116-35a0-baf0" hidden="false">
-                      <description>Before declaring special orders for a vessel or squadron with this special rule, if there is a friendly vessel with this special rule within 15cm which has not yet moved this turn and is not already a part of a squadron, you may treat that vessel as though it were a part of this squadron for the remainder of this turn. </description>
+                    <rule name="Tactical Flexibility" id="9a24-c116-35a0-baf0" hidden="false">
+                      <description>Before declaring special orders for a vessel or squadron with this special rule, if there is a friendly vessel with this special rule within 15cm which has not yet moved this turn and is not already a part of a squadron, you may treat that vessel as though it were a part of this squadron for the remainder of this turn.</description>
                     </rule>
                     <rule name="Aegis of Wisdom" id="dbce-4946-6675-73e6" hidden="false">
-                      <description>When a capital ship or squadron composed of vessels with this special rule fails a command check you may choose to place it on the same special order as your flagship instead. If you do it automatically passes its command check. </description>
+                      <description>When a capital ship or squadron composed of vessels with this special rule fails a command check you may choose to place it on the same special order as your flagship instead. If you do it automatically passes its command check.</description>
                     </rule>
                   </rules>
                 </infoGroup>
@@ -735,7 +735,7 @@ A vessel may attempt to resist the pull of the nails by taking a leadership test
                           <description>**Prerequisite:** At least ⅓ of your fleet’s points must be spent on Naval Auxilia vessels. 
 **Effect:** Reduce the points cost of Naval Auxilia vessels taken as reserves in your fleet by -5 points. For every 1 battleship, cruiser (of any sub-type), or escort chosen from 
 your fleet list, you may take 1 Naval Auxilia ship of the matching type as reserves. Note: This supercedes the normal ratio for taking reserves. 
-Naval Auxilia vessels taken as reserves in your fleet may be placed in squadrons with Ultramarines Legion Vessels. As long as they are part of a squadron with at least one Ultramarines Legion Vessel of the same type, Naval Auxilia vessels taken as reserves in of an Ultramarines Legion Fleet count as Ultramarines Legion Vessels for the purposes of benefiting from The Strength of Wisdom Legion Trait. </description>
+Naval Auxilia vessels taken as reserves in your fleet may be placed in squadrons with Ultramarines Legion Vessels. As long as they are part of a squadron with at least one Ultramarines Legion Vessel of the same type, Naval Auxilia vessels taken as reserves in of an Ultramarines Legion Fleet count as Ultramarines Legion Vessels for the purposes of benefiting from The Strength of Wisdom Legion Trait.</description>
                         </rule>
                       </rules>
                       <constraints>
@@ -755,9 +755,7 @@ Naval Auxilia vessels taken as reserves in your fleet may be placed in squadrons
 - **Burn Retros:** Its weapons’ effectiveness is reduced by only 25% (rounding up) rather than halved.
 - **Lock On:**  It benefits from an extra left column-shift in addition to any other column-shifts that apply for all gunnery weapons.
 - **Reload Ordnance:** Re-roll repair rolls with a result of &quot;1&quot;.
-- **Brace For Impact!:** Re-roll saving throws with a result of “1”.
-
-</description>
+- **Brace For Impact!:** Re-roll saving throws with a result of “1”.</description>
                         </rule>
                       </rules>
                       <constraints>
@@ -815,7 +813,7 @@ Naval Auxilia vessels taken as reserves in your fleet may be placed in squadrons
         <cost name="pts" typeId="points" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Desolator Class Battleship" hidden="false" id="4dec-718b-ac42-e9a9" publicationId="177f-36f7-517e-af3f" page="76" collective="false">
+    <selectionEntry type="unit" import="true" name="Desolator Class Battleship" hidden="false" id="4dec-718b-ac42-e9a9" publicationId="177f-36f7-517e-af3f" page="97" collective="false">
       <profiles>
         <profile name="Desolator Profile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="0c66-6e65-5426-ad75" publicationId="11f0-17d1-e4d2-1018" page="118">
           <characteristics>
@@ -1119,7 +1117,7 @@ gunships cannot purchase this upgrade</characteristic>
         <rule name="Astartes Only" id="bf50-590b-b7a0-4b49" hidden="false"/>
       </rules>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Oberon Class Battleship" hidden="false" id="bb0e-1ef2-6da0-12d3" publicationId="177f-36f7-517e-af3f" page="69" collective="false">
+    <selectionEntry type="unit" import="true" name="Oberon Class Battleship" hidden="false" id="bb0e-1ef2-6da0-12d3" publicationId="177f-36f7-517e-af3f" page="99" collective="false">
       <profiles>
         <profile name="Oberon Profile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="4e1c-ed8f-bf80-c2a7">
           <characteristics>
@@ -1224,7 +1222,7 @@ gunships cannot purchase this upgrade</characteristic>
         <entryLink import="true" name="Leadership" hidden="false" id="f5e3-7a63-1e37-df2e" collective="false" targetId="72b9-2803-264f-57f0" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="335"/>
+        <cost name="pts" typeId="points" value="340"/>
       </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="Attack Craft" id="b21a-39b0-77f5-3172" hidden="false" defaultSelectionEntryId="none"/>
@@ -1306,7 +1304,7 @@ gunships cannot purchase this upgrade</characteristic>
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Emperor Class Battleship" hidden="false" id="debc-ad62-63ba-042b" publicationId="11f0-17d1-e4d2-1018" page="106" collective="false">
+    <selectionEntry type="unit" import="true" name="Emperor Class Battleship" hidden="false" id="debc-ad62-63ba-042b" publicationId="177f-36f7-517e-af3f" page="96" collective="false">
       <profiles>
         <profile name="Emperor Profile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="cec2-a94e-39c1-9127" publicationId="177f-36f7-517e-af3f" page="71">
           <characteristics>
@@ -1406,7 +1404,7 @@ Starhawks: 20cm</characteristic>
         <entryLink import="true" name="Leadership" hidden="false" id="d58b-9ae0-e9ff-3075" collective="false" targetId="72b9-2803-264f-57f0" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="365"/>
+        <cost name="pts" typeId="points" value="370"/>
       </costs>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Shark Assault Boats" hidden="false" id="b3b7-448c-29a2-4b58" collective="false">
@@ -1430,9 +1428,9 @@ Starhawks: 20cm</characteristic>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Retribution Class Battleship" hidden="false" id="3ee4-68b4-29f3-9157" publicationId="11f0-17d1-e4d2-1018" page="107" collective="false">
+    <selectionEntry type="unit" import="true" name="Retribution Class Battleship" hidden="false" id="3ee4-68b4-29f3-9157" publicationId="177f-36f7-517e-af3f" page="100" collective="false">
       <profiles>
-        <profile name="Retribution Profile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="943f-d8ac-667a-09df" publicationId="177f-36f7-517e-af3f" page="72">
+        <profile name="Retribution Profile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="943f-d8ac-667a-09df" publicationId="177f-36f7-517e-af3f" page="100">
           <characteristics>
             <characteristic name="Type" typeId="5.479706523232345e+27">Battleship</characteristic>
             <characteristic name="Hits" typeId="4.869747323232344e+27">12</characteristic>
@@ -1449,6 +1447,17 @@ Starhawks: 20cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">12</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
           </characteristics>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="3ee4-68b4-29f3-9157" childId="2049-3ef2-2776-f0d5" shared="true" includeChildSelections="false"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" value="18" field="46697265706f7765722f53747223232344415441232323"/>
+                <modifier type="set" value="45cm" field="52616e67652f537065656423232344415441232323"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
         </profile>
         <profile name="Starboard Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="a6a7-b523-1597-ea33">
           <characteristics>
@@ -1456,12 +1465,23 @@ Starhawks: 20cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">12</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
           </characteristics>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="3ee4-68b4-29f3-9157" childId="2049-3ef2-2776-f0d5" shared="true" includeChildSelections="false"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" value="18" field="46697265706f7765722f53747223232344415441232323"/>
+                <modifier type="set" value="45cm" field="52616e67652f537065656423232344415441232323"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
         </profile>
         <profile name="Dorsal Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="68ee-fab3-81e4-2f20">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">3</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Le / Front / Right</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
           </characteristics>
         </profile>
         <profile name="Prow Torpedoes" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="1b6e-75a4-9345-a8ba">
@@ -1481,6 +1501,16 @@ Starhawks: 20cm</characteristic>
       <costs>
         <cost name="pts" typeId="points" value="345"/>
       </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Upgunned" hidden="false" id="2049-3ef2-2776-f0d5" defaultAmount="0">
+          <costs>
+            <cost name="pts" typeId="points" value="5"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c11-dd99-df1e-1100"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Victory Class Battleship" hidden="false" id="eeaa-fc2a-aa5d-befc" publicationId="5766-7751-d146-0800" collective="false">
       <comment>points are listed differently from page to page fleet list page (44) is 345</comment>
@@ -3542,7 +3572,7 @@ with prow torpedoes automatically loses this special rule, as its prow must be r
         <categoryLink targetId="cf79-82ee-ebe9-7ea3" id="d314-d3bf-1f45-9151" primary="false" name="Heavy Cruiser"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="250"/>
+        <cost name="pts" typeId="points" value="270"/>
       </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="Specialist Refits" id="e9a3-a2b5-3e93-dea0" hidden="false">
@@ -4185,7 +4215,7 @@ Starhawks: 20cm</characteristic>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="points" value="260"/>
+        <cost name="pts" typeId="points" value="275"/>
       </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="Attack Craft" id="d1de-5fad-7512-32f4" hidden="false" defaultSelectionEntryId="none">
@@ -4791,9 +4821,9 @@ this upgrade.</characteristic>
         <infoLink name="Astartes Only " id="1c30-6dcf-6fc0-1244" hidden="false" type="rule" targetId="30e9-f67d-4568-a94e"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Spatha Assault Cruiser" hidden="false" id="b4cb-48ca-c21d-49d2" publicationId="177f-36f7-517e-af3f" page="115" collective="false">
+    <selectionEntry type="unit" import="true" name="Spatha Assault Cruiser" hidden="false" id="b4cb-48ca-c21d-49d2" publicationId="177f-36f7-517e-af3f" page="123" collective="false">
       <profiles>
-        <profile name="Spatha Profile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="e434-60c5-b9de-bd6c" publicationId="177f-36f7-517e-af3f" page="114">
+        <profile name="Spatha Profile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="e434-60c5-b9de-bd6c" publicationId="177f-36f7-517e-af3f" page="123">
           <characteristics>
             <characteristic name="Type" typeId="5.479706523232345e+27">Assault Cruiser</characteristic>
             <characteristic name="Hits" typeId="4.869747323232344e+27">8</characteristic>
@@ -4806,14 +4836,14 @@ this upgrade.</characteristic>
         </profile>
         <profile name="Port Weapons Battery " typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="76c0-0a5b-1226-ba9e">
           <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">8</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
           </characteristics>
         </profile>
         <profile name="Starboard Weapons Battery " typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="91e1-83ea-b5d3-671e">
           <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">8</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
           </characteristics>
@@ -4821,15 +4851,8 @@ this upgrade.</characteristic>
         <profile name="Dorsal Bombardment Cannon" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="c324-631a-8c39-d513">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">5</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Prow Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="388f-abaa-3f69-ff7a">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Thunderhawks: 20cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4844,8 +4867,43 @@ this upgrade.</characteristic>
       <infoLinks>
         <infoLink name="Astartes Only " id="56bf-bcf6-f229-b6aa" hidden="false" type="rule" targetId="30e9-f67d-4568-a94e"/>
       </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Prow Weapon Options" id="d8a4-68db-8207-8c67" hidden="false" publicationId="177f-36f7-517e-af3f" page="122" defaultSelectionEntryId="12a3-98c3-8c68-9ae7">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Prow Launch Bays" hidden="false" id="39d0-a1dc-b6b7-bc05">
+              <profiles>
+                <profile name="Prow Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="a544-9256-eff9-127d">
+                  <characteristics>
+                    <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Thunderhawks: 20cm</characteristic>
+                    <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+                    <characteristic name="Fire Arc" typeId="4.669726520417263e+35"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Prow Torpedo Tubes" hidden="false" id="7b88-7cbc-bd1c-84e1">
+              <costs>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Prow Torpedo Tubes" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="7849-4641-8a74-3f20">
+                  <characteristics>
+                    <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+                    <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+                    <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0699-a3ae-989e-f81f" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5205-5d6a-9805-e19d" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Mageron Assault Cruiser" hidden="false" id="e246-fa69-2179-5e9c" publicationId="177f-36f7-517e-af3f" page="116" collective="false">
+    <selectionEntry type="unit" import="true" name="Mageron Assault Cruiser" hidden="false" id="e246-fa69-2179-5e9c" publicationId="177f-36f7-517e-af3f" page="121" collective="false">
       <profiles>
         <profile name="Mageron Profile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="63b4-71b4-3853-73b7" publicationId="177f-36f7-517e-af3f" page="114">
           <characteristics>
@@ -4879,13 +4937,6 @@ this upgrade.</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
           </characteristics>
         </profile>
-        <profile name="Prow Bombardment Cannon" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="2c2d-1c74-531f-b2ab">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink targetId="9008-7984-0773-6f06" id="cc5d-313d-98a6-6293" primary="true" name="Assault Cruiser"/>
@@ -4893,13 +4944,51 @@ this upgrade.</characteristic>
         <categoryLink targetId="cf79-82ee-ebe9-7ea3" id="1d29-6bda-df7b-219f" primary="false" name="Heavy Cruiser"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="255"/>
+        <cost name="pts" typeId="points" value="270"/>
       </costs>
       <infoLinks>
         <infoLink name="Astartes Only " id="3077-88df-3364-15e7" hidden="false" type="rule" targetId="30e9-f67d-4568-a94e"/>
       </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Prow Weapon Options" id="9452-f9b8-2eec-81ed" hidden="false" publicationId="177f-36f7-517e-af3f" page="122" defaultSelectionEntryId="12a3-98c3-8c68-9ae7">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Prow Plasma Scourer" hidden="false" id="6095-cc72-94df-d20d" defaultAmount="0">
+              <profiles>
+                <profile name="Prow Plasma Scourer" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="4954-697f-e7e4-23df">
+                  <characteristics>
+                    <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+                    <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+                    <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="5"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Prow Bombardment Cannon" hidden="false" id="e466-a0d5-2cc6-7a09" defaultAmount="1">
+              <costs>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Prow Bombardment Cannon" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="2c2d-1c74-531f-b2ab">
+                  <characteristics>
+                    <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+                    <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+                    <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e72e-eb06-d45b-222c" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="507a-f990-7e80-64c9" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Olympia Assault Cruiser" hidden="false" id="9c74-0700-9e07-2ac2" publicationId="177f-36f7-517e-af3f" page="117" collective="false">
+    <selectionEntry type="unit" import="true" name="Olympia Assault Cruiser" hidden="false" id="9c74-0700-9e07-2ac2" publicationId="177f-36f7-517e-af3f" page="122" collective="false">
       <profiles>
         <profile name="Olympia Profile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="ee43-2578-1ffe-1313" publicationId="177f-36f7-517e-af3f" page="117">
           <characteristics>
@@ -4926,25 +5015,25 @@ this upgrade.</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
           </characteristics>
         </profile>
-        <profile name="Dorsal Weapons Battery " typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="f613-0eb6-e88b-39f8">
+        <profile name="Port Weapons Battery " typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="28e4-a900-1dbc-e171">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Starboard Weapons Battery " typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="e2b7-28a1-06a1-0e12">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Dorsal Bombardment Cannon" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="f613-0eb6-e88b-39f8">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">3</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Prow Weapons Battery " typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="28e4-a900-1dbc-e171">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Prow Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="cab4-7649-42bb-f363">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Thunderhawks: 20cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4954,11 +5043,46 @@ this upgrade.</characteristic>
         <categoryLink targetId="cf79-82ee-ebe9-7ea3" id="4d9f-04aa-4509-d202" primary="false" name="Heavy Cruiser"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="235"/>
+        <cost name="pts" typeId="points" value="255"/>
       </costs>
       <infoLinks>
         <infoLink name="Astartes Only " id="8ca5-c552-d9f8-cad2" hidden="false" type="rule" targetId="30e9-f67d-4568-a94e"/>
       </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Prow Weapon Options" id="16d1-4f47-3bd1-f2a4" hidden="false" publicationId="177f-36f7-517e-af3f" page="122" defaultSelectionEntryId="12a3-98c3-8c68-9ae7">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Prow Launch Bays" hidden="false" id="2c49-5959-55cd-820c">
+              <profiles>
+                <profile name="Prow Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="cab4-7649-42bb-f363">
+                  <characteristics>
+                    <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Thunderhawks: 20cm</characteristic>
+                    <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+                    <characteristic name="Fire Arc" typeId="4.669726520417263e+35"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Prow Torpedo Tubes" hidden="false" id="c85a-3966-c097-f6db">
+              <costs>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Prow Torpedo Tubes" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="9b26-01b0-452c-11cb">
+                  <characteristics>
+                    <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+                    <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+                    <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5688-6614-cec9-2234" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cd39-6705-090e-4f86" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Dictator Class Cruiser" hidden="false" id="3c81-4778-2f1e-c3fd" collective="false" publicationId="177f-36f7-517e-af3f" page="119">
       <profiles>
@@ -5031,7 +5155,7 @@ Starhawks: 20cm</characteristic>
         <categoryLink name="Cruiser" hidden="false" id="3576-f406-fb41-7cc7" targetId="1042-e458-4e02-a537" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="215"/>
+        <cost name="pts" typeId="points" value="230"/>
       </costs>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Torpedo Bombers" hidden="false" id="7b7b-57c1-76c5-40aa">

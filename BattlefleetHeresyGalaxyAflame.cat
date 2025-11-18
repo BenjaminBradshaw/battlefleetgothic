@@ -3744,6 +3744,13 @@ with prow torpedoes automatically loses this special rule, as its prow must be r
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">20</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="set" value="16" field="46697265706f7765722f53747223232344415441232323">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="4799-ec4f-86db-0661" childId="85f5-138c-1774-c64a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
         <profile name="Starboard Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="3af4-4f2a-2a9d-bdd3">
           <characteristics>
@@ -3751,6 +3758,13 @@ with prow torpedoes automatically loses this special rule, as its prow must be r
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">20</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="set" value="16" field="46697265706f7765722f53747223232344415441232323">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="4799-ec4f-86db-0661" childId="85f5-138c-1774-c64a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
         <profile name="Ablative Prow Armor" typeId="5a49-6569-78e9-a35c" typeName="Special Rule" hidden="false" id="5410-b882-3ab6-1460">
           <characteristics>
@@ -3817,6 +3831,16 @@ with prow torpedoes automatically loses this special rule, as its prow must be r
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Under gunned" hidden="false" id="85f5-138c-1774-c64a" defaultAmount="0">
+          <costs>
+            <cost name="pts" typeId="points" value="-15"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4dfb-8112-b73a-5a5f"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Vindictive Class Grand Cruiser" hidden="false" id="783c-477a-8cd2-c12e" publicationId="177f-36f7-517e-af3f" page="100" collective="false">
       <profiles>

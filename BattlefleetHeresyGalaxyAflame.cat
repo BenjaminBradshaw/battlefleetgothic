@@ -2437,17 +2437,38 @@ Starhawks: 20cm</characteristic>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Adamanticlad Class Battleship" hidden="false" id="d270-2d08-4cca-443b" publicationId="177f-36f7-517e-af3f" page="85" collective="false">
+    <selectionEntry type="unit" import="true" name="Adamanticlad Class Battleship" hidden="false" id="d270-2d08-4cca-443b" publicationId="177f-36f7-517e-af3f" page="93" collective="false">
       <profiles>
-        <profile name="AdamanticladProfile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="4a4f-dc24-a9fb-5fab">
+        <profile name="AdamanticladProfile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="4a4f-dc24-a9fb-5fab" publicationId="177f-36f7-517e-af3f" page="93">
           <characteristics>
             <characteristic name="Type" typeId="5.479706523232345e+27">Battleship</characteristic>
             <characteristic name="Hits" typeId="4.869747323232344e+27">15</characteristic>
-            <characteristic name="Speed" typeId="5.370656564232324e+29">25cm</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">20cm</characteristic>
             <characteristic name="Turns" typeId="5475726e7323232344415441232323">45°</characteristic>
-            <characteristic name="Shields" typeId="536869656c647323232344415441232323">1</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323"/>
             <characteristic name="Armour" typeId="41726d6f757223232344415441232323">6+</characteristic>
             <characteristic name="Turrets" typeId="5.475727265747323e+33">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Dorsal Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="2682-68df-1cf7-55ea">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left/Front/Right</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="12" field="46697265706f7765722f53747223232344415441232323">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="d270-2d08-4cca-443b" childId="5d62-c7bc-79dc-e6fe" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Port Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="3c7f-f993-ba7d-431c">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">3</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
           </characteristics>
         </profile>
         <profile name="Starboard Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="0227-655c-7493-706b">
@@ -2457,26 +2478,19 @@ Starhawks: 20cm</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
           </characteristics>
         </profile>
-        <profile name="Dorsal Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="2682-68df-1cf7-55ea">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left/Front/Right</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Prow Plasma Scourer" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="7a3f-5502-ad88-3773">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
             <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">9</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
           </characteristics>
-        </profile>
-        <profile name="Port Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="3c7f-f993-ba7d-431c">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">3</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
-          </characteristics>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="d270-2d08-4cca-443b" childId="5d62-c7bc-79dc-e6fe" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <categoryLinks>
@@ -2486,20 +2500,29 @@ Starhawks: 20cm</characteristic>
         <entryLink import="true" name="Leadership" hidden="false" id="e437-da0a-6cf9-8b5d" collective="false" targetId="72b9-2803-264f-57f0" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="335"/>
+        <cost name="pts" typeId="points" value="310"/>
       </costs>
       <rules>
-        <rule name="Lumbering Behemoth:" id="dd65-6b28-3cd1-ada5" hidden="false">
+        <rule name="Lumbering Behemoth" id="dd65-6b28-3cd1-ada5" hidden="false">
           <description>Adamanticlad class battleships are ponderous and cannot use Burn Retros or Come to New Heading special orders, and will only add +2D6cm to its speed while on All Ahead Full special orders.</description>
         </rule>
-        <rule name="Poor Maneuverability" id="96ac-496c-4347-7661" hidden="false">
-          <description>An Adamanticlad class may turn up to 45° and only in every second movement phase</description>
-        </rule>
-        <rule name="Reinforced Hull" id="9964-7d91-28c2-8831" hidden="false">
-          <description>Adamanticlad class battleships have the Reinforced Hull refit, this has already been factored into their points
-cost and movement speed</description>
+        <rule name="Integrated refits" id="d2b0-5325-ccc4-93d2" hidden="false">
+          <description>Integrated Refits (Navigational Shields, Reinforced Hull, Power Ram) </description>
         </rule>
       </rules>
+      <infoLinks>
+        <infoLink name="Defensive Deck Layout" id="b353-5b18-d68f-ca95" hidden="false" type="rule" targetId="3aca-3b62-241a-9947"/>
+        <infoLink name="No Shields" id="8cfe-1b36-f3c7-380a" hidden="false" type="rule" targetId="fd95-b848-c5c5-0e89"/>
+        <infoLink name="Ponderous" id="c123-008f-359e-52d3" hidden="false" type="rule" targetId="eaf7-6a53-3591-9f77"/>
+        <infoLink name="Sluggish Maneuvers" id="8686-d003-f01c-eede" hidden="false" type="rule" targetId="9c20-7c64-a8d1-82e1"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="May exchange its prow plasma scourer to increase the firepower of its weapons batteries to 12 for free. " hidden="false" id="5d62-c7bc-79dc-e6fe" defaultAmount="0" publicationId="177f-36f7-517e-af3f" page="93">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="d270-2d08-4cca-443b" shared="true" id="3c6f-429d-6348-03da"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Consul Class Battle Barge" hidden="false" id="0ce1-8c79-9012-b872" publicationId="177f-36f7-517e-af3f" page="88" collective="false">
       <profiles>
@@ -7028,6 +7051,158 @@ to its Leadership value at all times (max Ld10).</characteristic>
   <sharedRules>
     <rule name="Astartes Only " id="30e9-f67d-4568-a94e" hidden="false">
       <description>Astartes Only</description>
+    </rule>
+    <rule name="Ablative Prow Armor" id="3492-ffe2-8b9a-38b0" hidden="false" publicationId="177f-36f7-517e-af3f" page="12">
+      <description> Due to their substantial armored prow, vessels with this special rule ignore all Prow Armament Damaged critical hits rather than suffering the next highest result on the Critical Damage table.</description>
+    </rule>
+    <rule name="Advanced Auspex Arrays" id="ce78-2e91-06f4-16f0" hidden="false" publicationId="177f-36f7-517e-af3f" page="12">
+      <description>Any friendly vessel not subject to the Allies of Convenience special rule within 10cm of a ship or station with advanced auspex arrays may re-roll misses when using turrets, and ignores the column shift when firing batteries at ranges above 30 cm. Advanced auspex arrays are fully functional under any special order on any ship or defence equipped with them, including Brace For Impact.</description>
+    </rule>
+    <rule name="Advanced Sensor Probes:" id="5db7-d6a7-0026-dc48" hidden="false" publicationId="177f-36f7-517e-af3f" page="12">
+      <description>Vessels with this special rule forgo with the usual armored prow and instead carry a mass of sensor probes and forward defenses, which provide a +1 bonus to its Leadership value at all times (max Ld10) so long as it has not suffered a Prow Armament Damaged critical hit.</description>
+    </rule>
+    <rule name="Astartes Only " id="95c1-b972-f37d-a6c8" hidden="false" publicationId="177f-36f7-517e-af3f" page="12">
+      <description>Vessels with this special rule must always be Legion Vessels. If a vessel with this special rule is armed with torpedoes it is also armed with Boarding Torpedoes for free. </description>
+    </rule>
+    <rule name="Cumbersome" id="0c06-7476-cab4-9ed4" hidden="false" publicationId="177f-36f7-517e-af3f" page="12">
+      <description>Vessels with this special rule have a turn radius of 45° instead of 90°. </description>
+    </rule>
+    <rule name="Defensive Deck Layout" id="3aca-3b62-241a-9947" hidden="false" publicationId="177f-36f7-517e-af3f" page="12">
+      <description>A capital ship with this special rule adds +1 to its boarding action result when defending against an enemy boarding action, due to its narrow mid-ship corridors choking the enemy advance.
+An Escort with this special rule imposes a -1 penalty to enemy Hit-and-Run attacks. </description>
+    </rule>
+    <rule name="Improved Thrusters" id="4386-98ae-36ee-6dd0" hidden="false" publicationId="177f-36f7-517e-af3f" page="12">
+      <description>Vessels with this special rule add an additional +1D6 cm to their speed when on All Ahead Full special orders.</description>
+    </rule>
+    <rule name="Inferior Thrusters" id="767e-8988-6adf-a877" hidden="false" publicationId="177f-36f7-517e-af3f" page="12">
+      <description> Vessels with this special rule roll -1D6 cm when calculating their speed on All Ahead Full special orders. </description>
+    </rule>
+    <rule name="Integrated Refits" id="dfb9-75ff-302b-4cf3" hidden="false">
+      <description> Some vessels come equipped with a refit from the Imperial Refits table as a part of their design. When this is the case the refit in question will be listed under their special rules as “Integrated Refits (X)” with X being the specific refit(s) in question. If a ship has any Integral Refits they will have already been factored into their points cost and movement speeds. (e.g. A vessel with the Integrated Refits (Navigational Shields &amp; Reinforced Hull) has both the Navigational Shields and Reinforced Hull refits)</description>
+    </rule>
+    <rule name="Mechanicum Only" id="dcb0-8a59-688b-b25b" hidden="false" publicationId="177f-36f7-517e-af3f" page="12">
+      <description>Vessels with this special rule must always be Mechanicum Vessels.</description>
+    </rule>
+    <rule name="Imperial Army Only" id="4b3e-6a88-abdd-06f5" hidden="false" publicationId="177f-36f7-517e-af3f" page="12">
+      <description> Vessels with this special rule must always be Imperial Army Vessels and are not subject to the Quantity Over Quality special rule. </description>
+    </rule>
+    <rule name="No Shields" id="fd95-b848-c5c5-0e89" hidden="false" publicationId="177f-36f7-517e-af3f" page="12">
+      <description>Vessels with this special rule have a shield strength of 0 and treat the Shields Collapse result on the critical hits table as a Fire! result instead. </description>
+    </rule>
+    <rule name="No Teleportarium" id="713c-7996-c64b-d233" hidden="false" publicationId="177f-36f7-517e-af3f" page="12">
+      <description>Vessels with this special rule may not perform teleport attacks or teleport assaults. </description>
+    </rule>
+    <rule name="Ponderous" id="eaf7-6a53-3591-9f77" hidden="false" publicationId="177f-36f7-517e-af3f" page="12">
+      <description>Vessels with this special rule cannot use Come To New Heading special orders and must move 15cm before turning.</description>
+    </rule>
+    <rule name="Poor Condition" id="a954-55e5-e078-c963" hidden="false" publicationId="177f-36f7-517e-af3f" page="13">
+      <description>At the start of the battle roll on the roll on the poor condition table for each vessel with this special rule. It suffers the corresponding effect for the duration of the battle. 
+D6 Roll Effect 
+1-3: Skeleton crew: Reduce the number of D6 rolled during the damage control step of the End Phase by -1 (to a minimum of 1). 
+4: Stuttering Voidshields: After this ship moves roll a D6, on a result of “1” place a single blast marker in contact with its base. 
+5: Shattered Defense Grid: - 1 Turret 
+6: Damaged Maneuvering Thrusters: Minimum distance to turn increased by +5 cm. </description>
+    </rule>
+    <rule name="Reconnaissance Vessel" id="0998-9d8f-e69f-3b34" hidden="false" publicationId="177f-36f7-517e-af3f" page="13">
+      <description> After setup before the first turn begins vessels with this special rule may move up to 15 cm abiding by all the normal rules and restrictions for movement. At the end of this move it must be outside your deployment zone and cannot be within 60 cm of an enemy vessel or orbital defense. </description>
+    </rule>
+    <rule name="Sluggish Maneuvers" id="9c20-7c64-a8d1-82e1" hidden="false" publicationId="177f-36f7-517e-af3f" page="13">
+      <description>Due to their excessive mass vessels with this special rule must travel an additional 5 cm before turning, even if it is on Burn Retros special orders. </description>
+    </rule>
+    <rule name="Strategic Asset" id="328b-de69-beea-a06b" hidden="false" publicationId="177f-36f7-517e-af3f" page="13">
+      <description> Due to their great strategic value vessels with this special rule are worth twice the normal amount of victory points when crippled or destroyed. </description>
+    </rule>
+    <rule name="Transport Capacity" id="fb70-bb2c-e383-becf" hidden="false" publicationId="177f-36f7-517e-af3f" page="13">
+      <description>Vessels with this special rule have a transport capacity equal to “X” (this is halved if the ship is crippled).</description>
+    </rule>
+    <rule name="Uncommon Prow Configuration" id="ce2f-2ce9-6657-9e46" hidden="false" publicationId="177f-36f7-517e-af3f" page="13">
+      <description>Ships with heavily armored prows did not begin to dominate Imperial Navy doctrine until late M.35, making them much rarer during the great crusade era. Due to the rarity of ship designs with heavily armored prows during that era for every two capital ships in your fleet can have an armour rating of 6+ prow/5+ you must have at least one that does not.</description>
+    </rule>
+    <rule name="Volatile Cargo" id="b419-ad14-2ef0-f39f" hidden="false" publicationId="177f-36f7-517e-af3f" page="13">
+      <description>Vessels with this special rule carry vast quantities of munitions or other volatiles making them far more prone to catastrophic explosions when destroyed. Capital ships with this special rule add +2 to the result when rolling on the Catastrophic Damage Table. When an escort with this special rule is destroyed, roll a D6. On a result of &quot;6&quot; it explodes as if it were a Fire Ship.</description>
+    </rule>
+    <rule name="Improved Sensor Array" id="d42d-7cac-b64d-ba6c" hidden="false" publicationId="177f-36f7-517e-af3f" page="23">
+      <description>The ship’s assayers and long range surveyors are particularly attuned to pick up energy emissions and signals from enemy Ships. The ship gains +2 Ld if any enemy ships are on special orders instead of only +1Ld. </description>
+    </rule>
+    <rule name="Secondary Reactors" id="6787-0d89-d866-9b06" hidden="false" publicationId="177f-36f7-517e-af3f" page="22">
+      <description>The ship’s additional power generators allow it to put on a tremendous burst of speed for short lengths of time. The ship adds an extra +2D6 cm to its speed when on All Ahead Full special orders </description>
+    </rule>
+    <rule name="Evasive Jets" id="b5b5-372c-309a-b1df" hidden="false" publicationId="177f-36f7-517e-af3f" page="22">
+      <description>The hull of the vessel is studded with powerful short-burn engines which allow it to drastically turn to avoid incoming fire. At the start of the enemy shooting phase, the ship may take a leadership test. If the test is passed, the ship immediately turns 45° in the direction of your choice and cannot go on special orders during its next turn.</description>
+    </rule>
+    <rule name="Maneuvering Thrusters" id="1b75-b672-96c2-8271" hidden="false" publicationId="177f-36f7-517e-af3f" page="22">
+      <description> Additional thrusters along the length of the ship allow it to turn much more quickly. The ship reduces the distance it needs to move before turning by 5 cm. </description>
+    </rule>
+    <rule name="Arrester Engines" id="abbf-ebe1-5b61-95d6" hidden="false" publicationId="177f-36f7-517e-af3f" page="22">
+      <description>The ship has a number of secondary engines mounted near its prow, which enable the vessel to reduce speed rapidly. The ship has +1 Ld while attempting to go on Burn Retros or Come to New Heading special orders. </description>
+    </rule>
+    <rule name="Auxiliary Power Relays" id="cf94-ca75-cbaf-9885" hidden="false" publicationId="177f-36f7-517e-af3f" page="22">
+      <description>The rear of the ship is criss-crossed with additional cables and pipelines, feeding more power to the engines. The ship adds +5 cm to its speed </description>
+    </rule>
+    <rule name="Navigational Shields" id="12ec-d064-bda6-c3fb" hidden="false" publicationId="177f-36f7-517e-af3f" page="22">
+      <description>The ship is enveloped in low-frequency shields designed to shunt aside debris and other impediments as the ship moves. The ship does not suffer reductions to its speed for moving through blast markers (this includes gas, dust clouds, and similar effects)</description>
+    </rule>
+    <rule name="Improved Sensor Array" id="a6b3-9b9e-9243-d656" hidden="false" publicationId="177f-36f7-517e-af3f" page="23">
+      <description>The ship’s assayers and long range surveyors are particularly attuned to pick up energy emissions and signals from enemy Ships. The ship gains +2 Ld if any enemy ships are on special orders instead of only +1Ld. </description>
+    </rule>
+    <rule name="Additional Shield Generator" id="5340-9104-537c-d132" hidden="false" publicationId="177f-36f7-517e-af3f" page="23">
+      <description> The ship has additional shield generators to deflect incoming shots. The ship adds +1 to its Shields characteristic. </description>
+    </rule>
+    <rule name="Superior Damage Control" id="e8e9-ee95-e6d2-039e" hidden="false" publicationId="177f-36f7-517e-af3f" page="23">
+      <description> The ship benefits from an improved auto-repair system, or more highly adept engineers and technicians. The ship may roll an additional D6 when attempting to repair critical damage </description>
+    </rule>
+    <rule name="Reinforced Hull" id="a13e-b907-d064-8a0b" hidden="false" publicationId="177f-36f7-517e-af3f">
+      <description>The ship’s hull is fitted with additional armour and internal bracing, increasing the maximum damage points of the ship by 25% (rounding up), but reducing its Speed characteristic by 5 cm. Escorts cannot take this refit. </description>
+    </rule>
+    <rule name="Improved Logic Engine" id="bdf6-f8f3-d668-00e3" hidden="false">
+      <description> The ship’s countless metriculators and mechanical cogitator enable the crew to perform with full effectiveness even in the midst of the fiercest battle. The ship does not suffer -1 Ld to its command checks while in contact with blast markers. </description>
+    </rule>
+    <rule name="Overloaded Shield Capacitors" id="46fb-8700-0f36-a251" hidden="false">
+      <description>Specialised power relays and generators allow the ship’s engineers to temporarily divert extra power to the shields. For each hit against the ship’s shields, roll a D6. On a roll of a 6, the hit is ignored and no Blast Marker is placed. This refit has no effect against hits that bypass shields.</description>
+    </rule>
+    <rule name="Extra Turrets" id="8ac9-b672-f50f-2936" hidden="false">
+      <description> The vessel is studded with numerous close defence weapons to shoot down enemy torpedoes and attack craft. This ship adds +1 to its Turrets value. </description>
+    </rule>
+    <rule name="Turbo Weapons" id="785c-8988-131d-056d" hidden="false">
+      <description>The ship’s weapons have been given additional punch and accuracy at long range. The ship does not suffer a right column-shift when firing its weapons at targets more than 30 cm away. </description>
+    </rule>
+    <rule name="Targeting Matrix" id="52d5-b11d-923d-ed5c" hidden="false">
+      <description>The ship’s weapon systems are linked together through a massive targeting network so that they can maximise their fire. All gunnery weapons benefit from an extra left column-shift in addition to any other column-shifts that apply. </description>
+    </rule>
+    <rule name="Auto-Loaders" id="ab9a-4b74-59e4-5a1a" hidden="false">
+      <description>The ship’s crew are aided in their task of readying torpedoes and attack craft by huge semi-automated machinery. The ship has +1 Ld while attempting command checks to go on Reload Ordnance special orders. </description>
+    </rule>
+    <rule name="Superior Fire Control" id="7ebb-00c1-7729-cc79" hidden="false">
+      <description> A powerful fire control system has been installed in the ship’s bridge, enabling the command crew to direct the ship’s firing with greater effect. The ship has +1 Ld while attempting command checks to go on Lock On special orders.</description>
+    </rule>
+    <rule name="Motion-Tracking Targeters" id="132d-898c-d7bf-40bf" hidden="false">
+      <description>A complex analytical array linked to the ship’s navigational systems enables the gun crews to fire with greater accuracy when the ship is performing special manoeuvres. If the ship is on All Ahead Full, Burn Retros, or Come to a New Heading special orders, its weapons’ effectiveness is reduced by only 25% (rounding up) rather than halved. 
+
+</description>
+    </rule>
+    <rule name="Emergency Energy Reserves" id="113e-2e73-b253-dc36" hidden="false" publicationId="177f-36f7-517e-af3f" page="24">
+      <description> When crippled, the ship only reduces turrets, shielding and weapons by 25% rather than 50%. The vessel still counts as crippled in every other respect. </description>
+    </rule>
+    <rule name="Advanced Engines" id="997e-c3aa-25f9-9f82" hidden="false" publicationId="177f-36f7-517e-af3f" page="24">
+      <description>The ship gains +5cm speed, as well as +1D6 when on All Ahead Full special orders.</description>
+    </rule>
+    <rule name="Repulsor Shielding" id="80d8-1cd0-1b1a-da0a" hidden="false" publicationId="177f-36f7-517e-af3f" page="24">
+      <description>Ignore all negative effects of having a blast marker or gas clouds in contact with the ship&apos;s base as it applies to leadership, movement and repairing critical damage. This effect goes away if the ship suffers “Shields Collapsed” critical damage.</description>
+    </rule>
+    <rule name="Fleet Defence Turrets" id="b11f-68c3-73c3-b93a" hidden="false" publicationId="177f-36f7-517e-af3f" page="24">
+      <description>Up to two turrets on the ship are exchanged for fleet defence turrets capable of protecting itself or any one other vessel within 15 cm each ordnance phase, adding +2 to the turret strength of the ship it is defending (this does not alter bomber attack rolls when used to defend another vessel). These otherwise work exactly as normal turrets do in all other respects.</description>
+    </rule>
+    <rule name="Gyro-stabilized Targeting Matrix" id="e0d3-b3ea-bcf8-ce73" hidden="false">
+      <description>Ship weapons are reduced to 75% instead of 50% when on All Ahead Full, Come To New Heading or Burn Retros special orders. Nova Cannons and Plasma Scourers still cannot fire. </description>
+    </rule>
+    <rule name="Augmented Weapon Relays" id="0bfe-5fff-a93c-c91b" hidden="false" publicationId="177f-36f7-517e-af3f" page="24">
+      <description>Weapon batteries shift left on the gunnery table before all other modifiers are applied. Lance hits count double on rolls of a 6. </description>
+    </rule>
+    <rule name="Power Ram" id="5e84-a2ed-0e60-83a7" hidden="false" publicationId="177f-36f7-517e-af3f" page="20">
+      <description>A vessel equipped with a power ram inflicts 1 automatic hit against the target when ramming an enemy ship (in addition to any other hits scored normally). Only vessels with 6+ Prow / 5+ armor can be equipped with a power ram and vessels cannot be equipped with a power ram if they are equipped with a Nova Cannon or Plasma Scourer. </description>
+    </rule>
+    <rule name="Ursus Claws" id="40d7-82be-7f9d-d942" hidden="false" publicationId="177f-36f7-517e-af3f" page="20">
+      <description>Whenever a ship equipped with Ursus Claws moves into base contact with an enemy vessel, it may immediately stop all movement, regardless of minimum speed or any other requirements. If it does so, it must declare a boarding action against the contacted enemy ship. Note that crippled vessels cannot use their Ursus Claws.  </description>
     </rule>
   </sharedRules>
   <categoryEntries>

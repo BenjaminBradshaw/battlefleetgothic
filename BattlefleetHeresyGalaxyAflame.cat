@@ -2141,7 +2141,7 @@ Sharks assault boats: 30cm</characteristic>
         <rule name="Astartes Only" id="ef29-2956-94c4-80ed" hidden="false"/>
       </rules>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Legate Class Battle Barge" hidden="false" id="cf48-f62e-a4c0-e1a5" publicationId="177f-36f7-517e-af3f" page="105" collective="false">
+    <selectionEntry type="unit" import="true" name="Legate Class Battle Barge (Space Marine Battlebarge)  " hidden="false" id="cf48-f62e-a4c0-e1a5" publicationId="177f-36f7-517e-af3f" page="105" collective="false">
       <profiles>
         <profile name="Legate Class Battle Barge" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="2e10-0e1e-1ce7-df79" publicationId="177f-36f7-517e-af3f" page="105">
           <characteristics>
@@ -2282,10 +2282,7 @@ Sharks assault boats: 30cm</characteristic>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="___________________________________________" hidden="true" id="8650-02fb-f228-5d9b">
-      <comment>_______________</comment>
-    </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Dominus Class Battle Barge" hidden="false" id="23a8-f55d-b8a2-bd37" publicationId="177f-36f7-517e-af3f" page="91" collective="false">
+    <selectionEntry type="unit" import="true" name="Dominus Class Battle Barge (Chaos Battle Barge) " hidden="false" id="23a8-f55d-b8a2-bd37" publicationId="177f-36f7-517e-af3f" page="106" collective="false">
       <profiles>
         <profile name="Dominus Class Battle Barge" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="8607-b1c8-f23c-40de" publicationId="177f-36f7-517e-af3f" page="91">
           <characteristics>
@@ -2301,11 +2298,11 @@ Sharks assault boats: 30cm</characteristic>
         <profile name="Port Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="ed06-0c1e-2687-7ba3">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Fury Fighters: 30cm Starhawk Bombers: 20cm Shark assault boats: 30cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">3</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">-</characteristic>
           </characteristics>
           <modifiers>
-            <modifier type="append" value="Torpedo Bomber: 20cm (STR 2)" field="52616e67652f537065656423232344415441232323">
+            <modifier type="append" value="Torpedo Bomber: 20cm" field="52616e67652f537065656423232344415441232323">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="23a8-f55d-b8a2-bd37" childId="9b96-46ac-919a-eed9" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </conditions>
@@ -2315,11 +2312,11 @@ Sharks assault boats: 30cm</characteristic>
         <profile name="Starboard Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="90f5-5331-ca50-9c1b">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Fury Fighters: 30cm Starhawk Bombers: 20cm Shark assault boats: 30cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">3</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">-</characteristic>
           </characteristics>
           <modifiers>
-            <modifier type="append" value="Torpedo Bomber: 20cm (STR 2)" field="52616e67652f537065656423232344415441232323">
+            <modifier type="append" value="Torpedo Bomber: 20cm" field="52616e67652f537065656423232344415441232323">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="23a8-f55d-b8a2-bd37" childId="9b96-46ac-919a-eed9" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </conditions>
@@ -2329,27 +2326,21 @@ Sharks assault boats: 30cm</characteristic>
         <profile name="Prow Launch Bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="a8d0-1de1-1b0c-dabc">
           <characteristics>
             <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Fury Fighters: 30cm Starhawk Bombers: 20cm Shark assault boats: 30cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">4</characteristic>
             <characteristic name="Fire Arc" typeId="4.669726520417263e+35">-</characteristic>
           </characteristics>
           <modifiers>
-            <modifier type="append" value="Torpedo Bomber: 20cm (STR 2)" field="52616e67652f537065656423232344415441232323">
+            <modifier type="append" value="Torpedo Bomber: 20cm" field="52616e67652f537065656423232344415441232323">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="23a8-f55d-b8a2-bd37" childId="9b96-46ac-919a-eed9" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </conditions>
             </modifier>
           </modifiers>
         </profile>
-        <profile name="Dorsal Lances" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="6f04-be5a-2abd-781b">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">3</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left/Front/Right</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="May not use the &quot;come to new heading&quot; special order" id="33dd-1a54-251d-4c5f" hidden="false" targetId="b1a1-aead-ea5a-d8d3" type="rule"/>
+        <infoLink name="Ponderous" id="aab3-26b0-d329-7294" hidden="false" type="rule" targetId="eaf7-6a53-3591-9f77"/>
+        <infoLink name="Astartes Only " id="2260-c2dc-b09b-12a0" hidden="false" type="rule" targetId="30e9-f67d-4568-a94e"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="598e-1ce0-5926-6f14" id="fb54-cf61-a744-ba9a" primary="true" name="Battle Barges"/>
@@ -2515,7 +2506,7 @@ gunships cannot purchase this upgrade</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="points" value="40"/>
+                <cost name="pts" typeId="points" value="20"/>
               </costs>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a7fe-1beb-b5c5-9a06" includeChildSelections="false"/>
@@ -2528,11 +2519,11 @@ gunships cannot purchase this upgrade</characteristic>
         <entryLink import="true" name="Leadership" hidden="false" id="0291-b410-b150-3f4c" collective="false" targetId="72b9-2803-264f-57f0" type="selectionEntryGroup" sortIndex="1"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="395"/>
+        <cost name="pts" typeId="points" value="405"/>
       </costs>
-      <rules>
-        <rule name="Astartes Only" id="bf50-590b-b7a0-4b49" hidden="false"/>
-      </rules>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="___________________________________________" hidden="true" id="8650-02fb-f228-5d9b">
+      <comment>_______________</comment>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Apocalypse Class Battleship" hidden="false" id="368e-3d59-028f-30a6" publicationId="1bc8-5968-21c3-0f27" page="12" collective="false">
       <comment>blah</comment>
@@ -7474,8 +7465,8 @@ to its Leadership value at all times (max Ld10).</characteristic>
     </profile>
   </sharedProfiles>
   <sharedRules>
-    <rule name="Astartes Only " id="30e9-f67d-4568-a94e" hidden="false">
-      <description>Astartes Only</description>
+    <rule name="Astartes Only " id="30e9-f67d-4568-a94e" hidden="false" publicationId="177f-36f7-517e-af3f" page="12">
+      <description>Vessels with this special rule must always be Legion Vessels. If a vessel with this special rule is armed with torpedoes it is also armed with Boarding Torpedoes for free.</description>
     </rule>
     <rule name="Ablative Prow Armor" id="3492-ffe2-8b9a-38b0" hidden="false" publicationId="177f-36f7-517e-af3f" page="12">
       <description>Due to their substantial armored prow, vessels with this special rule ignore all Prow Armament Damaged critical hits rather than suffering the next highest result on the Critical Damage table.</description>
@@ -7485,9 +7476,6 @@ to its Leadership value at all times (max Ld10).</characteristic>
     </rule>
     <rule name="Advanced Sensor Probes:" id="5db7-d6a7-0026-dc48" hidden="false" publicationId="177f-36f7-517e-af3f" page="12">
       <description>Vessels with this special rule forgo with the usual armored prow and instead carry a mass of sensor probes and forward defenses, which provide a +1 bonus to its Leadership value at all times (max Ld10) so long as it has not suffered a Prow Armament Damaged critical hit.</description>
-    </rule>
-    <rule name="Astartes Only " id="95c1-b972-f37d-a6c8" hidden="false" publicationId="177f-36f7-517e-af3f" page="12">
-      <description>Vessels with this special rule must always be Legion Vessels. If a vessel with this special rule is armed with torpedoes it is also armed with Boarding Torpedoes for free.</description>
     </rule>
     <rule name="Cumbersome" id="0c06-7476-cab4-9ed4" hidden="false" publicationId="177f-36f7-517e-af3f" page="12">
       <description>Vessels with this special rule have a turn radius of 45° instead of 90°.</description>

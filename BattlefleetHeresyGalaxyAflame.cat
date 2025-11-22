@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="685b-88d9-54e8-6ef7" name="Battlefleet Heresy  Galaxy Aflame" gameSystemId="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" gameSystemRevision="46" revision="6" battleScribeVersion="2.03" publicationId="137d-dbad-5653-19f2" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="685b-88d9-54e8-6ef7" name="Battlefleet Heresy  Galaxy Aflame" gameSystemId="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" gameSystemRevision="46" revision="7" battleScribeVersion="2.03" publicationId="137d-dbad-5653-19f2" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication name="Battlefleet Heresy: Galaxy Aflame" id="177f-36f7-517e-af3f" hidden="false" shortName="BH:GA" publisher="Battlefleet Heresy: Galaxy Aflame 0.98.14" publicationDate="27/10/2025"/>
   </publications>
@@ -1035,6 +1035,115 @@ Shark Assault Boards 30cm</characteristic>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="45e5-a416-a032-675b" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Dictatus Class Battleship (World Eaters Battle Barge)" hidden="false" id="069a-66dd-27c0-69b5" publicationId="177f-36f7-517e-af3f" page="96" collective="false">
+      <profiles>
+        <profile name="Dictatus Profile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="d9eb-d07d-1a8e-fca3" publicationId="11f0-17d1-e4d2-1018" page="118">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Battleship</characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">12</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">25cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">45°</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">4</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Port Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="16bd-d56b-13e4-3605">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Starboard Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="e67b-05a0-255a-7c53">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Port Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="292b-f10b-8ced-1e2a">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">14</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="45cm" field="52616e67652f537065656423232344415441232323">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="069a-66dd-27c0-69b5" childId="f66a-e9e1-2612-aa4c" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="8" field="46697265706f7765722f53747223232344415441232323">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="069a-66dd-27c0-69b5" childId="f66a-e9e1-2612-aa4c" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Starboard Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="b750-a01a-1c9e-e487">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">14</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="45cm" field="52616e67652f537065656423232344415441232323">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="069a-66dd-27c0-69b5" childId="f66a-e9e1-2612-aa4c" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="8" field="46697265706f7765722f53747223232344415441232323">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="069a-66dd-27c0-69b5" childId="f66a-e9e1-2612-aa4c" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Dorsal Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="a240-3afb-ff58-65e8">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left/Front/Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Prow Torpedos" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="a7cb-5481-9592-2a0f">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">9</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Ponderous" id="6770-ee4c-300b-0be1" hidden="false" type="rule" targetId="eaf7-6a53-3591-9f77"/>
+        <infoLink name="Improved Thrusters" id="388e-2811-1066-c69f" hidden="false" type="rule" targetId="4386-98ae-36ee-6dd0"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Battleship" hidden="false" id="4a6b-7609-8d6d-71dd" targetId="4361706974616c20536869707323232344415441232323" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Leadership" hidden="false" id="3be4-d908-f81e-fd79" collective="false" targetId="72b9-2803-264f-57f0" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="300"/>
+      </costs>
+      <rules>
+        <rule name="Melta Harpoons" id="8cbf-25e0-2052-257f" hidden="false">
+          <description>Dictatus class battleships always count as being equipped with Ursus Claws and a Power Ram.</description>
+        </rule>
+      </rules>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="May replace its port and starboard weapons batteries for range 45 cm, firepower 8 weapons batteries for -5 points." hidden="false" id="f66a-e9e1-2612-aa4c" defaultAmount="0">
+          <costs>
+            <cost name="pts" typeId="points" value="-5"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa9f-b547-a723-b4c4" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -2394,80 +2503,6 @@ Shark assault boats: 30cm</characteristic>
       <costs>
         <cost name="pts" typeId="points" value="345"/>
       </costs>
-    </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Dictatus Class Battleship (World Eaters Battle Barge)" hidden="false" id="069a-66dd-27c0-69b5" publicationId="177f-36f7-517e-af3f" page="83" collective="false">
-      <profiles>
-        <profile name="Repressor Profile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="d9eb-d07d-1a8e-fca3" publicationId="11f0-17d1-e4d2-1018" page="118">
-          <characteristics>
-            <characteristic name="Type" typeId="5.479706523232345e+27">Battleship</characteristic>
-            <characteristic name="Hits" typeId="4.869747323232344e+27">12</characteristic>
-            <characteristic name="Speed" typeId="5.370656564232324e+29">20cm</characteristic>
-            <characteristic name="Turns" typeId="5475726e7323232344415441232323">45°</characteristic>
-            <characteristic name="Shields" typeId="536869656c647323232344415441232323">4</characteristic>
-            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+</characteristic>
-            <characteristic name="Turrets" typeId="5.475727265747323e+33">4</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Port Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="292b-f10b-8ced-1e2a">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">12</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Starboard Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="e67b-05a0-255a-7c53">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">3</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Dorsal Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="a240-3afb-ff58-65e8">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">8</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left/Front/Right</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Prow Torpedos" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="a7cb-5481-9592-2a0f">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">9</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Port Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="16bd-d56b-13e4-3605">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">3</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Starboard Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="b750-a01a-1c9e-e487">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">12</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="May not use the &quot;come to new heading&quot; special order" id="e6cb-c5d0-9fef-f5f0" hidden="false" targetId="b1a1-aead-ea5a-d8d3" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink name="Battleship" hidden="false" id="4a6b-7609-8d6d-71dd" targetId="4361706974616c20536869707323232344415441232323" primary="true"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink import="true" name="Leadership" hidden="false" id="3be4-d908-f81e-fd79" collective="false" targetId="72b9-2803-264f-57f0" type="selectionEntryGroup"/>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="305"/>
-      </costs>
-      <rules>
-        <rule name="Melta Harpoons" id="8cbf-25e0-2052-257f" hidden="false">
-          <description>Dictatus class battleships always count as being equipped with Ursus Claws.</description>
-        </rule>
-      </rules>
     </selectionEntry>
     <selectionEntry type="unit" import="false" name="Goliath Class Battleship (Thousand Sons Battle Barge) " hidden="false" id="b061-b302-6412-ee1d" publicationId="177f-36f7-517e-af3f" page="84" collective="false">
       <profiles>

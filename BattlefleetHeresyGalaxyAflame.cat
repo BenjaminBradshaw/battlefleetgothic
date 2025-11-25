@@ -3274,6 +3274,402 @@ Annihilators: 20cm</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Champion (Carnage) Class Cruiser" hidden="false" id="ab11-54b5-14ef-0d8e" publicationId="177f-36f7-517e-af3f" page="125" collective="false">
+      <profiles>
+        <profile name="Champion Profile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="6c53-f12e-34fd-17a9" publicationId="177f-36f7-517e-af3f" page="111">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Cruiser</characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">8</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">25cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">45°</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">2</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Port Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="cefa-e030-489f-b0f1">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Starboard Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="fa52-02e5-ed86-aa5d">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Port Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="66d7-920a-8bb2-7621">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">4</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Starboard Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="6892-9dc1-cf84-ca48">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">4</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Prow Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="ab2f-0283-f2b8-74ff">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="1042-e458-4e02-a537" id="6eb4-8eef-6fb6-594d" primary="true" name="Cruiser"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="180"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Covenant (Inferno) Class Cruiser" hidden="false" id="fee7-85b6-d623-4c39" publicationId="177f-36f7-517e-af3f" page="126" collective="false">
+      <profiles>
+        <profile name="Covenant Profile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="e043-62bb-5f70-9a04" publicationId="177f-36f7-517e-af3f" page="125">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Cruiser</characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">8</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">25cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">45°</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">2</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Port Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="7d11-fec7-516a-5193">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Starboard Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="cfa8-fe9d-6f5e-a933">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Port Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="c972-27c3-233a-b08c">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">4</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Starboard Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="1f23-9e4a-5201-09c8">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">4</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Prow Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="9752-7dba-0ca2-778d">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="1042-e458-4e02-a537" id="2605-06a2-c0f2-4fa7" primary="true" name="Cruiser"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="180"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Decurion (Murder) Class Cruiser" hidden="false" id="5c61-b71f-3421-80e4" publicationId="177f-36f7-517e-af3f" page="127" collective="false">
+      <profiles>
+        <profile name="Decurion Profile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="2a5f-7d7b-e922-fcf7" publicationId="177f-36f7-517e-af3f" page="127">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Cruiser</characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">8</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">25cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">45°</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">2</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Port Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="e9b5-20e6-0ec8-6b5f">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">10</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="4" field="46697265706f7765722f53747223232344415441232323">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="5c61-b71f-3421-80e4" childId="c20e-0ca4-a2bf-87fd" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Starboard Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="d118-538f-1993-1c88">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">10</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="4" field="46697265706f7765722f53747223232344415441232323">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="5c61-b71f-3421-80e4" childId="c20e-0ca4-a2bf-87fd" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Port Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="true" id="cb34-7f13-0523-56f0">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="5c61-b71f-3421-80e4" childId="c20e-0ca4-a2bf-87fd" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Starboard Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="true" id="51b1-e619-cee3-4c3f">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="5c61-b71f-3421-80e4" childId="c20e-0ca4-a2bf-87fd" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Prow Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="b537-5048-40d0-f323">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="1042-e458-4e02-a537" id="1c75-2b96-d75f-a056" primary="true" name="Cruiser"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="170"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="May reduce the firepower of its port and starboard weapons batteries to 4 in exchange for port and starboard lance  batteries (Range 45cm, Strength 2) firing Left and Right respectively, for no change in cost. Due to the rarity of this refit no  more than two of this variant may be used per 750 points (or any part thereof) in a fleet. " hidden="false" id="c20e-0ca4-a2bf-87fd" defaultAmount="0">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1987-a773-2252-b97d" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Devastation Class Cruiser" hidden="false" id="0211-be51-8f12-7c24" collective="false" publicationId="177f-36f7-517e-af3f" page="128">
+      <profiles>
+        <profile name="Devastation Profile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="4e30-e8eb-d905-e899" publicationId="177f-36f7-517e-af3f" page="128">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Cruiser</characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">8</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">25cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">45°</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">2</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Port Launch bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="9958-02e0-78d2-a8a0">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Fury Fighters: 30cm 
+Starhawk Bombers: 20cm 
+Shark assault boats: 30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2 Squadrons</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="append" value="Torpedo Bomber: 20cm" field="52616e67652f537065656423232344415441232323" join="
+">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="0211-be51-8f12-7c24" childId="3e4c-6ea1-1b10-12ef" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Starboard Launch bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="624f-8325-cc03-92b2">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Fury Fighters: 30cm 
+Starhawk Bombers: 20cm 
+Shark assault boats: 30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2 Squadrons</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="append" value="Torpedo Bomber: 20cm" field="52616e67652f537065656423232344415441232323" join="
+">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="0211-be51-8f12-7c24" childId="3e4c-6ea1-1b10-12ef" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Port Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="95ce-1a23-11cd-5e04">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Starboard Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="2c5d-4871-c02c-5516">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Prow Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="268d-6c34-3303-f814">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Cruiser" hidden="false" id="b87e-4f32-c3b3-611a" targetId="1042-e458-4e02-a537" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="200"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Torpedo Bombers" hidden="false" id="3e4c-6ea1-1b10-12ef">
+          <costs>
+            <cost name="pts" typeId="points" value="20"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b6c-abd9-1d29-7a3d"/>
+          </constraints>
+          <profiles>
+            <profile name="Torpedo Bombers" typeId="5.570677261646523e+33" typeName="Upgrade" hidden="false" id="3877-ef8e-63e2-5fee">
+              <characteristics>
+                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">May equip its launch bays with torpedo bombers (Speed: 20cm) for +20 points, in addition to any other attack craft it may 
+normally launch. Devastation class cruisers that take Thunderhawk Gunships cannot purchase this upgrade. </characteristic>
+                <characteristic name="Pg." typeId="50672e23232344415441232323"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Tetsujin (Dictator) Class Cruiser" hidden="false" id="3c81-4778-2f1e-c3fd" collective="false" publicationId="177f-36f7-517e-af3f" page="129">
+      <profiles>
+        <profile name="Tetsujin Profile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="2c03-53d4-c689-a71a" publicationId="177f-36f7-517e-af3f" page="129">
+          <characteristics>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Cruiser</characteristic>
+            <characteristic name="Hits" typeId="4.869747323232344e+27">8</characteristic>
+            <characteristic name="Speed" typeId="5.370656564232324e+29">20cm</characteristic>
+            <characteristic name="Turns" typeId="5475726e7323232344415441232323">45°</characteristic>
+            <characteristic name="Shields" typeId="536869656c647323232344415441232323">2</characteristic>
+            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">6+Front/5+</characteristic>
+            <characteristic name="Turrets" typeId="5.475727265747323e+33">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Port Launch bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="ad6e-1205-3446-6df5">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">ury Fighters: 30cm 
+Starhawk Bombers: 20cm </characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="append" value="Torpedo Bomber: 20cm" field="52616e67652f537065656423232344415441232323" join="
+">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="3c81-4778-2f1e-c3fd" childId="7b7b-57c1-76c5-40aa" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Starboard Launch bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="99b5-58b9-3048-ba02">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">ury Fighters: 30cm 
+Starhawk Bombers: 20cm </characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="append" value="Torpedo Bomber: 20cm" field="52616e67652f537065656423232344415441232323" join="
+">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="3c81-4778-2f1e-c3fd" childId="7b7b-57c1-76c5-40aa" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Port Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="8121-89eb-b522-c961">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Starboard Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="ca08-6142-54d3-9d22">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Prow Torpedoes" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="95f3-f6aa-99db-e790">
+          <characteristics>
+            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
+            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
+            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Cruiser" hidden="false" id="3576-f406-fb41-7cc7" targetId="1042-e458-4e02-a537" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="215"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name=" May equip its launch bays with torpedo bombers (Speed: 20cm) for +20 points, in addition to any other attack craft it may  normally launch. Dictator class cruisers that take Thunderhawk Gunships cannot purchase this upgrade." hidden="false" id="7b7b-57c1-76c5-40aa">
+          <costs>
+            <cost name="pts" typeId="points" value="20"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="61c8-1df2-354f-d870"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name=" May equip a power ram" hidden="false" id="8c24-75b4-5301-1945">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7226-f13a-becc-721f" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Power Ram" id="80d5-cf90-851e-c844" hidden="false" type="rule" targetId="5e84-a2ed-0e60-83a7"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="5"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Uncommon Prow Configuration" id="0b18-32c8-05b5-75c9" hidden="false" type="rule" targetId="ce2f-2ce9-6657-9e46"/>
+      </infoLinks>
+    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="___________________________________________" hidden="true" id="8650-02fb-f228-5d9b">
       <comment>_______________</comment>
       <profiles>
@@ -4501,18 +4897,6 @@ gunships cannot purchase this upgrade</characteristic>
         <cost name="pts" typeId="points" value="220"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="___________________________________________" hidden="true" id="062e-95a8-09b1-10cf">
-      <comment>_______________</comment>
-      <profiles>
-        <profile name="Ablative Prow Armor" typeId="5a49-6569-78e9-a35c" typeName="Special Rule" hidden="false" id="5f6a-4687-ba28-c6fe">
-          <characteristics>
-            <characteristic name="Effects" typeId="fe13-6bab-c5cb-4f1d">Due to their substantial armored prow, Retaliator class grand cruisers ignore all Prow Armament Damaged 
-critical hits, rather than suffer the next highest result on the Critical Damage table. However, a Retaliator class grand cruiser armed 
-with prow torpedoes automatically loses this special rule, as its prow must be reconfigured to accommodate the torpedo tubes.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
     <selectionEntry type="unit" import="true" name="Acheron Class Heavy Cruiser" hidden="false" id="7d32-ac00-8f39-ecba" publicationId="177f-36f7-517e-af3f" page="112" collective="false">
       <profiles>
         <profile name="Acheron Profile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="8300-e19a-fe59-3e4b" publicationId="11f0-17d1-e4d2-1018" page="122">
@@ -4563,99 +4947,17 @@ with prow torpedoes automatically loses this special rule, as its prow must be r
         <cost name="pts" typeId="points" value="195"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Dictator Class Cruiser" hidden="false" id="3c81-4778-2f1e-c3fd" collective="false" publicationId="177f-36f7-517e-af3f" page="119">
+    <selectionEntry type="upgrade" import="true" name="___________________________________________" hidden="true" id="062e-95a8-09b1-10cf">
+      <comment>_______________</comment>
       <profiles>
-        <profile name="Dictator Profile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="2c03-53d4-c689-a71a" publicationId="177f-36f7-517e-af3f" page="119">
+        <profile name="Ablative Prow Armor" typeId="5a49-6569-78e9-a35c" typeName="Special Rule" hidden="false" id="5f6a-4687-ba28-c6fe">
           <characteristics>
-            <characteristic name="Type" typeId="5.479706523232345e+27">Cruiser</characteristic>
-            <characteristic name="Hits" typeId="4.869747323232344e+27">8</characteristic>
-            <characteristic name="Speed" typeId="5.370656564232324e+29">20cm</characteristic>
-            <characteristic name="Turns" typeId="5475726e7323232344415441232323">45°</characteristic>
-            <characteristic name="Shields" typeId="536869656c647323232344415441232323">2</characteristic>
-            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">6+Front/5+</characteristic>
-            <characteristic name="Turrets" typeId="5.475727265747323e+33">3</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Port Launch bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="ad6e-1205-3446-6df5">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Furies: 30cm
-Starhawks: 20cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2 Squadrons</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35"/>
-          </characteristics>
-          <modifiers>
-            <modifier type="append" value="Torpedo Bomber: 20cm" field="52616e67652f537065656423232344415441232323" join="
-">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="3c81-4778-2f1e-c3fd" childId="7b7b-57c1-76c5-40aa" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </profile>
-        <profile name="Starboard Launch bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="99b5-58b9-3048-ba02">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Furies: 30cm
-Starhawks: 20cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2 Squadrons</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35"/>
-          </characteristics>
-          <modifiers>
-            <modifier type="append" value="Torpedo Bomber: 20cm" field="52616e67652f537065656423232344415441232323" join="
-">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="3c81-4778-2f1e-c3fd" childId="7b7b-57c1-76c5-40aa" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </profile>
-        <profile name="Port Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="8121-89eb-b522-c961">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Starboard Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="ca08-6142-54d3-9d22">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Prow Torpedoes" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="95f3-f6aa-99db-e790">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
+            <characteristic name="Effects" typeId="fe13-6bab-c5cb-4f1d">Due to their substantial armored prow, Retaliator class grand cruisers ignore all Prow Armament Damaged 
+critical hits, rather than suffer the next highest result on the Critical Damage table. However, a Retaliator class grand cruiser armed 
+with prow torpedoes automatically loses this special rule, as its prow must be reconfigured to accommodate the torpedo tubes.</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <categoryLinks>
-        <categoryLink name="Cruiser" hidden="false" id="3576-f406-fb41-7cc7" targetId="1042-e458-4e02-a537" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="230"/>
-      </costs>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Torpedo Bombers" hidden="false" id="7b7b-57c1-76c5-40aa">
-          <costs>
-            <cost name="pts" typeId="points" value="20"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="61c8-1df2-354f-d870"/>
-          </constraints>
-          <profiles>
-            <profile name="Torpedo Bombers" typeId="5.570677261646523e+33" typeName="Upgrade" hidden="false" id="9b89-7bce-320b-3e27">
-              <characteristics>
-                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A Dictator class cruiser may equip its launch bays with torpedo bombers (Speed: 20cm) for +20 points, in 
-addition to any other attack craft it may normally launch. Dictator class cruisers that take Thunderhawk gunships cannot 
-purchase this upgrade.</characteristic>
-                <characteristic name="Pg." typeId="50672e23232344415441232323"/>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Dominator Class Cruiser" hidden="false" id="53ba-7d08-45d2-90f9" collective="false" publicationId="177f-36f7-517e-af3f" page="120">
       <profiles>
@@ -4846,306 +5148,6 @@ purchase this upgrade.</characteristic>
           <costs>
             <cost name="pts" typeId="points" value="20"/>
           </costs>
-        </selectionEntry>
-      </selectionEntries>
-    </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Devastation Class Cruiser" hidden="false" id="0211-be51-8f12-7c24" collective="false" publicationId="177f-36f7-517e-af3f" page="123">
-      <profiles>
-        <profile name="Jupiter Profile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="4e30-e8eb-d905-e899" publicationId="177f-36f7-517e-af3f" page="123">
-          <characteristics>
-            <characteristic name="Type" typeId="5.479706523232345e+27">Cruiser</characteristic>
-            <characteristic name="Hits" typeId="4.869747323232344e+27">8</characteristic>
-            <characteristic name="Speed" typeId="5.370656564232324e+29">25cm</characteristic>
-            <characteristic name="Turns" typeId="5475726e7323232344415441232323">45°</characteristic>
-            <characteristic name="Shields" typeId="536869656c647323232344415441232323">2</characteristic>
-            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+</characteristic>
-            <characteristic name="Turrets" typeId="5.475727265747323e+33">3</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Port Launch bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="9958-02e0-78d2-a8a0">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Furies: 30cm
-Starhawks: 20cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2 Squadrons</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35"/>
-          </characteristics>
-          <modifiers>
-            <modifier type="append" value="Torpedo Bomber: 20cm" field="52616e67652f537065656423232344415441232323" join="
-">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="0211-be51-8f12-7c24" childId="3e4c-6ea1-1b10-12ef" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </profile>
-        <profile name="Starboard Launch bays" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="624f-8325-cc03-92b2">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">Furies: 30cm
-Starhawks: 20cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2 Squadrons</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35"/>
-          </characteristics>
-          <modifiers>
-            <modifier type="append" value="Torpedo Bomber: 20cm" field="52616e67652f537065656423232344415441232323" join="
-">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="0211-be51-8f12-7c24" childId="3e4c-6ea1-1b10-12ef" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </profile>
-        <profile name="Port Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="95ce-1a23-11cd-5e04">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Starboard Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="2c5d-4871-c02c-5516">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Prow Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="268d-6c34-3303-f814">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink name="Cruiser" hidden="false" id="b87e-4f32-c3b3-611a" targetId="1042-e458-4e02-a537" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="200"/>
-      </costs>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Torpedo Bombers" hidden="false" id="3e4c-6ea1-1b10-12ef">
-          <costs>
-            <cost name="pts" typeId="points" value="20"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b6c-abd9-1d29-7a3d"/>
-          </constraints>
-          <profiles>
-            <profile name="Torpedo Bombers" typeId="5.570677261646523e+33" typeName="Upgrade" hidden="false" id="3877-ef8e-63e2-5fee">
-              <characteristics>
-                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A Dictator class cruiser may equip its launch bays with torpedo bombers (Speed: 20cm) for +20 points, in 
-addition to any other attack craft it may normally launch. Dictator class cruisers that take Thunderhawk gunships cannot 
-purchase this upgrade.</characteristic>
-                <characteristic name="Pg." typeId="50672e23232344415441232323"/>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-      </selectionEntries>
-    </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Champion (Carnage) Class Cruiser" hidden="false" id="ab11-54b5-14ef-0d8e" publicationId="177f-36f7-517e-af3f" page="124" collective="false">
-      <profiles>
-        <profile name="Champion Profile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="6c53-f12e-34fd-17a9" publicationId="177f-36f7-517e-af3f" page="111">
-          <characteristics>
-            <characteristic name="Type" typeId="5.479706523232345e+27">Cruiser</characteristic>
-            <characteristic name="Hits" typeId="4.869747323232344e+27">8</characteristic>
-            <characteristic name="Speed" typeId="5.370656564232324e+29">25cm</characteristic>
-            <characteristic name="Turns" typeId="5475726e7323232344415441232323">45°</characteristic>
-            <characteristic name="Shields" typeId="536869656c647323232344415441232323">2</characteristic>
-            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+</characteristic>
-            <characteristic name="Turrets" typeId="5.475727265747323e+33">2</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Port Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="cefa-e030-489f-b0f1">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Starboard Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="fa52-02e5-ed86-aa5d">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Port Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="66d7-920a-8bb2-7621">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">4</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Starboard Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="6892-9dc1-cf84-ca48">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">4</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Prow Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="ab2f-0283-f2b8-74ff">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink targetId="1042-e458-4e02-a537" id="6eb4-8eef-6fb6-594d" primary="true" name="Cruiser"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="175"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Covenant (Inferno) Class Cruiser" hidden="false" id="fee7-85b6-d623-4c39" publicationId="177f-36f7-517e-af3f" page="125" collective="false">
-      <profiles>
-        <profile name="Covenant Profile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="e043-62bb-5f70-9a04" publicationId="177f-36f7-517e-af3f" page="125">
-          <characteristics>
-            <characteristic name="Type" typeId="5.479706523232345e+27">Cruiser</characteristic>
-            <characteristic name="Hits" typeId="4.869747323232344e+27">8</characteristic>
-            <characteristic name="Speed" typeId="5.370656564232324e+29">25cm</characteristic>
-            <characteristic name="Turns" typeId="5475726e7323232344415441232323">45°</characteristic>
-            <characteristic name="Shields" typeId="536869656c647323232344415441232323">2</characteristic>
-            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+</characteristic>
-            <characteristic name="Turrets" typeId="5.475727265747323e+33">2</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Port Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="7d11-fec7-516a-5193">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Starboard Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="cfa8-fe9d-6f5e-a933">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Port Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="c972-27c3-233a-b08c">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">4</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Starboard Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="1f23-9e4a-5201-09c8">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">4</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Prow Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="9752-7dba-0ca2-778d">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">6</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left / Front / Right</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink targetId="1042-e458-4e02-a537" id="2605-06a2-c0f2-4fa7" primary="true" name="Cruiser"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="170"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Decurion (Murder) Class Cruiser" hidden="false" id="5c61-b71f-3421-80e4" publicationId="177f-36f7-517e-af3f" page="126" collective="false">
-      <profiles>
-        <profile name="Decurion Profile" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="2a5f-7d7b-e922-fcf7" publicationId="177f-36f7-517e-af3f" page="126">
-          <characteristics>
-            <characteristic name="Type" typeId="5.479706523232345e+27">Cruiser</characteristic>
-            <characteristic name="Hits" typeId="4.869747323232344e+27">8</characteristic>
-            <characteristic name="Speed" typeId="5.370656564232324e+29">25cm</characteristic>
-            <characteristic name="Turns" typeId="5475726e7323232344415441232323">45°</characteristic>
-            <characteristic name="Shields" typeId="536869656c647323232344415441232323">2</characteristic>
-            <characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+</characteristic>
-            <characteristic name="Turrets" typeId="5.475727265747323e+33">2</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Port Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="e9b5-20e6-0ec8-6b5f">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">10</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
-          </characteristics>
-          <modifiers>
-            <modifier type="set" value="4" field="46697265706f7765722f53747223232344415441232323">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="5c61-b71f-3421-80e4" childId="c20e-0ca4-a2bf-87fd" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </profile>
-        <profile name="Starboard Weapons Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="d118-538f-1993-1c88">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">10</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Right</characteristic>
-          </characteristics>
-          <modifiers>
-            <modifier type="set" value="4" field="46697265706f7765722f53747223232344415441232323">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="5c61-b71f-3421-80e4" childId="c20e-0ca4-a2bf-87fd" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </profile>
-        <profile name="Port Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="true" id="cb34-7f13-0523-56f0">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
-          </characteristics>
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="5c61-b71f-3421-80e4" childId="c20e-0ca4-a2bf-87fd" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </profile>
-        <profile name="Starboard Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="true" id="51b1-e619-cee3-4c3f">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">45cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Left</characteristic>
-          </characteristics>
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="5c61-b71f-3421-80e4" childId="c20e-0ca4-a2bf-87fd" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </profile>
-        <profile name="Prow Lance Battery" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="b537-5048-40d0-f323">
-          <characteristics>
-            <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">60cm</characteristic>
-            <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
-            <characteristic name="Fire Arc" typeId="4.669726520417263e+35">Front</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink targetId="1042-e458-4e02-a537" id="1c75-2b96-d75f-a056" primary="true" name="Cruiser"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="170"/>
-      </costs>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Special Refits: Lance" hidden="false" id="c20e-0ca4-a2bf-87fd">
-          <rules>
-            <rule name="Special Refit Lance" id="e338-6abf-d8b0-65e4" hidden="false">
-              <description>A Decurion class cruiser may reduce the firepower of its port and starboard weapons batteries to 4 in exchange 
-for port and starboard lance batteries (Range 45cm, Strength 2) firing Left and Right respectively, for no change in cost.</description>
-            </rule>
-          </rules>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>

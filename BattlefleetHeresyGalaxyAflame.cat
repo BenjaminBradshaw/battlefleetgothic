@@ -5476,6 +5476,42 @@ D6 Roll Effect 
     <rule name="Ursus Claws" id="40d7-82be-7f9d-d942" hidden="false" publicationId="177f-36f7-517e-af3f" page="20">
       <description>Whenever a ship equipped with Ursus Claws moves into base contact with an enemy vessel, it may immediately stop all movement, regardless of minimum speed or any other requirements. If it does so, it must declare a boarding action against the contacted enemy ship. Note that crippled vessels cannot use their Ursus Claws.</description>
     </rule>
+    <rule name="Short Burn Torpedoes" id="650a-2e1d-e99e-3c94" hidden="false" publicationId="177f-36f7-517e-af3f" page="16">
+      <description>Short burn torpedoes have an increased speed of 40 cm. However, to represent the chance of them burning out, roll a D6 for each salvo of short burn torpedoes after they have moved and made any attacks – on a roll of 6 the torpedoes run out of fuel and are replaced with a blast marker</description>
+    </rule>
+    <rule name="Barrage Bombs " id="39ac-782f-4ea5-03e4" hidden="false" publicationId="177f-36f7-517e-af3f" page="16">
+      <description>Barrage bombs can be launched while a ship is in low orbit, where they will move just like ordinary torpedoes in deep space (they are unaffected by the gravitic pull of the planet). Barrage bombs may also be launched in space, like ordinary torpedoes. Each salvo of barrage bombs which strikes a planet during a planetary assault scenario earns 1 assault point if it is strength 6 or less, 2 assault points if it is strength 7 or greater. Barrage bombs which attack ships do not ignore shields like other ordnance; instead they knock down shields and place blast markers for hits just like a direct fire attack (which can be pretty useful in its own right). </description>
+    </rule>
+    <rule name="Guided Torpedoes" id="b717-85cd-f112-d733" hidden="false" publicationId="177f-36f7-517e-af3f" page="16">
+      <description>Guided torpedoes can make a turn of up to 45° at the beginning of the ordnance phase, if the ship which launched them passes a Leadership test. If the Leadership test is failed, one enemy ship can attempt to give the torpedo salvo false instructions by passing a Leadership test. If the enemy ship is successful, the enemy player is allowed to turn the torpedoes instead!</description>
+    </rule>
+    <rule name="Seeking Torpedoes" id="4f39-57b2-9ab2-01f2" hidden="false" publicationId="177f-36f7-517e-af3f" page="16">
+      <description>A seeking torpedo salvo will make a turn of up to 45° at the start of the ordnance phase, so that it is pointing towards the nearest enemy ship. If several enemy ships are an equal distance away, the seeking torpedoes will turn to attack the largest enemy ship. Seeking torpedoes which move through blast markers will detonate on a D6 roll of 5 or 6, instead of a 6 as is the case with ordinary torpedoes. Unlike ordinary torpedoes, the superior logic engines on board seeking torpedoes mean they will not attack friendly ships that they move into contact with. These are one-use torpedoes. Ships will only be equipped with enough torpedoes to fire a single salvo of them in a game. </description>
+    </rule>
+    <rule name="Melta Torpedoes" id="2f15-f9c1-cb48-40be" hidden="false" publicationId="177f-36f7-517e-af3f" page="16">
+      <description>Hits from melta torpedoes inflict no damage points, instead each hit causes an automatic Fire critical. If a ship which is carrying unused melta torpedoes suffers a critical hit to its prow (or wherever the torpedoes are launched from) it suffers an extra D3 Fire criticals as the torpedoes detonate! 
+These are one-use torpedoes. Ships will only be equipped with enough torpedoes to fire a single salvo of them in a game. </description>
+    </rule>
+    <rule name="Vortex Torpedoes" id="762d-780c-250a-5275" hidden="false" publicationId="177f-36f7-517e-af3f" page="16">
+      <description>Hits inflicted by vortex torpedoes will automatically cause critical damage. If a ship which is carrying unused vortex torpedoes suffers a critical hit to its prow (or wherever the torpedoes are launched from) it suffers an extra D3 points of damage and an automatic critical hit as the torpedoes detonate! 
+These are one-use torpedoes. Ships will only be equipped with enough torpedoes to fire a single salvo of them in a game. </description>
+    </rule>
+    <rule name="Thunderhawk/Stormbird Gunships " id="4672-d297-9244-10df" hidden="false" publicationId="177f-36f7-517e-af3f" page="18">
+      <description>Thunderhawk and Stormbird gunships combine the abilities of assault boats and fighters, and move like any other attack craft, with a speed of 20 cm. A Thunderhawk counter that is intercepted by enemy fighters or moves onto an enemy ordnance marker removes the enemy as fighters would. However as they are extremely resilient, roll a dice when this happens. On a score of 4+, do not remove the Thunderhawk marker (However, Thunderhawks can only remove one enemy marker in any given ordnance phase and stop moving as soon as they intercept an enemy. Also, if a Thunderhawk marker uses its save to remain in play and comes into contact with another ordnance marker in the same ordnance phase, it is removed normally.). Note that against any attack craft which also have this ability, it is possible that you end up with neither marker being removed! 
+If this happens, either marker is free to move away in their next turn, or they can stay in place and attempt to remove their enemy again.
+When a Thunderhawk marker moves into contact with an enemy ship’s base, they are treated exactly like assault boats (with the +1 bonus to their hit-and-run attack for carrying Space Marines). Using its 4+ save does not prevent it from attacking a ship if in base contact with one when stopped. Once a Thunderhawk marker has made its hit-and-run attack, it is removed from play.</description>
+      <alias>Thunderhawk Gunships, Gunships </alias>
+    </rule>
+    <rule name="Thunderhawk/Stormbird Annihilators " id="bc08-13f0-8a45-7770" hidden="false" publicationId="177f-36f7-517e-af3f" page="19">
+      <alias>Thunderhawk Annihilators, Annihilators  </alias>
+      <description>While Thunderhawk and Stormbird gunships serve as the primary troop transports for the legions they can also eschew their troop complement to carry additional munitions making them into serviceable bombers. 
+Thunderhawk Annihilators combine the abilities of bombers and fighters, and they move like any other attack craft with a speed of 20 cm. They can no longer be used as assault boats. A Thunderhawk counter that is intercepted by enemy fighters or moves onto an enemy ordnance marker removes the enemy marker exactly the same way fighters would. However, they are extremely resilient and follow all special rules for Thunderhawks described on the previous page. 
+When a Thunderhawk Annihilator comes in contact with an enemy ship’s base, they attack it like bombers as described in the 
+ordnance section of the BFG Rulebook, even if they have used their resilience to remain in play. As they behave as both fighters and bombers, they apply a bonus to turret suppression by adding +1 attack for each marker in 
+the wave after attacks are modified by turrets – meaning each ordnance marker that survives against turrets will be able to conduct at least one attack and will not have a minimum of zero attacks. 
+When a wave of Thunderhawk Annihilators attacks a ship, you must decide beforehand if any of the markers will forgo their attack runs in favour of turret suppression. Every one that does so cannot make any attack rolls but adds an additional +1 bonus attack to any surviving Thunderhawk Annihilators when rolling their attacks. Thunderhawks used in this manner cannot contribute more bonus attacks than the defending ship actually has turrets or the number of surviving Thunderhawk Annihilators, whichever number is lower. In either case, at least one Thunderhawk Annihilator has to survive against turrets for the wave to attack in this manner. 
+Once they complete their attack, they are removed normally</description>
+    </rule>
   </sharedRules>
   <categoryEntries>
     <categoryEntry name="Light Cruiser" id="dd62-c394-a24a-7306" hidden="false"/>

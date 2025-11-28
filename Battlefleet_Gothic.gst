@@ -236,7 +236,7 @@ barge.)</comment>
             <infoLink name="*DAMAGE" id="87f0-8cfd-14f5-c422" hidden="false" targetId="b75c-180f-abe0-73bd" type="profile"/>
           </infoLinks>
         </categoryLink>
-        <categoryLink name="Rite of War" hidden="false" id="5e71-98b6-24d9-1d0a" targetId="5306-37c4-43b1-4e0d" type="categoryEntry">
+        <categoryLink name="Rite of War" hidden="false" id="5e71-98b6-24d9-1d0a" targetId="5306-37c4-43b1-4e0d">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b92-5be4-3dbb-05a3"/>
           </constraints>
@@ -3073,7 +3073,7 @@ no default</comment>
             <cost name="pts" typeId="points" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ffb3-7640-8417-0fa4" name="3.Seeking Torpedoes" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ffb3-7640-8417-0fa4" name="3.Seeking Torpedoes (single use)" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
             <infoLink id="c467-876e-9e9d-cf49" name="Seeking Torpedoes" hidden="false" targetId="f6f2-2698-196c-a550" type="profile"/>
           </infoLinks>

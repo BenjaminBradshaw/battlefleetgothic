@@ -5309,6 +5309,28 @@ points.</description>
         <cost name="pts" typeId="points" value="5"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Specialist Torpedoes 7 or more Strength" hidden="false" id="9e89-d5c7-1367-80ba" defaultAmount="0" publicationId="177f-36f7-517e-af3f" page="16">
+      <entryLinks>
+        <entryLink import="true" name="Refit Torpedoes (D6)" hidden="false" id="ea66-f37d-9006-9a6e" type="selectionEntryGroup" targetId="80dd-a34e-9d3c-9a03"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="30"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0c67-0999-4b7c-32ee" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Specialist Torpedoes up 6 Strength" hidden="false" id="f471-0ef1-ce61-a350" defaultAmount="0" publicationId="177f-36f7-517e-af3f" page="16">
+      <entryLinks>
+        <entryLink import="true" name="Refit Torpedoes (D6)" hidden="false" id="0f91-1a08-16ac-813a" type="selectionEntryGroup" targetId="80dd-a34e-9d3c-9a03"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="20"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6726-0692-5f25-3f77" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile name="Prow Nova Cannon" typeId="41726d616d656e7423232344415441232323" typeName="Armament" hidden="false" id="d16b-5aed-6a39-60a3">
